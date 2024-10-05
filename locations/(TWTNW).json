@@ -1,0 +1,42 @@
+[
+                    {
+                        "name": "(TWTNW)",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [""],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Fragment Crossing Mythril Stone",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Fragment Crossing Mythril Crystal",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Fragment Crossing AP Boost",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Fragment Crossing Orichalcum",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            }
+                        
+                            ]
+                            }
+                            ]

@@ -1,0 +1,177 @@
+[
+                    {
+                        "name": "(LoD)",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": ["SwordoftheAncestor","opt_visit_off"],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Bamboo Grove Dark Shard",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Bamboo Grove Ether",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Bamboo Grove Mythril Shard",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Bamboo Grove Encampment Area Map",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Mission 3",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Checkpoint Hi-Potion",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Checkpoint Mythril Shard",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Mountain Trail Lightning Shard",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Mountain Trail Recovery Recipe",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Mountain Trail Ether",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Mountain Trail Mythril Shard",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Village Cave Area Map",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Village Cave Dark Shard",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Village Cave AP Boost",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Village Cave Bonus: Sora Slot 1",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Ridge Frost Shard",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Ridge AP Boost",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Shan-Yu Bonus: Sora Slot 1",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": ["^$dif|easy, $any|SlideDash|FlashStep, $any|Guard|ReflectElement, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, $any|Guard|ReflectElement, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, $any|SlideDash|FlashStep, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, $any|SlideDash|FlashStep, $any|Guard|ReflectElement",
+                                "^$dif|hard, $any|Guard|ReflectElement|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+                            },
+                        
+                            {
+                                "name": "Shan-Yu Bonus: Sora Slot 2",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": ["^$dif|easy, $any|SlideDash|FlashStep, $any|Guard|ReflectElement, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, $any|Guard|ReflectElement, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, $any|SlideDash|FlashStep, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, $any|SlideDash|FlashStep, $any|Guard|ReflectElement",
+                                "^$dif|hard, $any|Guard|ReflectElement|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+                            },
+                        
+                            {
+                                "name": "Hidden Dragon",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": ["^$dif|easy, $any|SlideDash|FlashStep, $any|Guard|ReflectElement, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, $any|Guard|ReflectElement, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, $any|SlideDash|FlashStep, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, $any|SlideDash|FlashStep, $any|Guard|ReflectElement",
+                                "^$dif|hard, $any|Guard|ReflectElement|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+                            },
+                        
+                            {
+                                "name": "Shan-Yu Bonus: Goofy Slot 1",
+                                "item_count": 1,
+                                "visibility_rules": ["opt_dgstats_yes"],
+                                "access_rules": ["^$dif|easy, $any|SlideDash|FlashStep, $any|Guard|ReflectElement, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, $any|Guard|ReflectElement, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, $any|SlideDash|FlashStep, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, $any|SlideDash|FlashStep, $any|Guard|ReflectElement",
+                                "^$dif|hard, $any|Guard|ReflectElement|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+                            }
+                        
+                            ]
+                            }
+                            ]

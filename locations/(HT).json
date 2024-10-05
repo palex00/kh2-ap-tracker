@@ -1,0 +1,162 @@
+[
+                    {
+                        "name": "(HT)",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": ["BoneFist","opt_visit_off"],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Graveyard Mythril Shard",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Graveyard Serenity Gem",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Finklestein's Lab Halloween Town Map",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Town Square Mythril Stone",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Town Square Energy Shard",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Hinterlands Lightning Shard",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Hinterlands Mythril Stone",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Hinterlands AP Boost",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Candy Cane Lane Mega-Potion",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Candy Cane Lane Mythril Gem",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Candy Cane Lane Lightning Stone",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Candy Cane Lane Mythril Stone",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Santa's House Christmas Town Map",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Santa's House AP Boost",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Prison Keeper Bonus: Sora Slot 1",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|normal, $any|ReflectElement|Guard, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
+                                "^$dif|hard, $any|ReflectElement|Guard|ValorForm|WisdomForm|LimitForm|MasterForm|final|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
+                            },
+                        
+                            {
+                                "name": "Oogie Boogie Bonus: Sora Slot 1",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|normal, $any|ReflectElement|Guard, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
+                                "^$dif|hard, $any|ReflectElement|Guard|ValorForm|WisdomForm|LimitForm|MasterForm|final|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
+                            },
+                        
+                            {
+                                "name": "Oogie Boogie Magnet Element",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|normal, $any|ReflectElement|Guard, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
+                                "^$dif|hard, $any|ReflectElement|Guard|ValorForm|WisdomForm|LimitForm|MasterForm|final|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
+                            },
+                        
+                            {
+                                "name": "Prison Keeper Bonus: Donald Slot 1",
+                                "item_count": 1,
+                                "visibility_rules": ["opt_dgstats_yes"],
+                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|normal, $any|ReflectElement|Guard, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
+                                "^$dif|hard, $any|ReflectElement|Guard|ValorForm|WisdomForm|LimitForm|MasterForm|final|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
+                            },
+                        
+                            {
+                                "name": "Oogie Boogie Bonus: Goofy Slot 1",
+                                "item_count": 1,
+                                "visibility_rules": ["opt_dgstats_yes"],
+                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|normal, $any|ReflectElement|Guard, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
+                                "^$dif|hard, $any|ReflectElement|Guard|ValorForm|WisdomForm|LimitForm|MasterForm|final|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
+                            }
+                        
+                            ]
+                            }
+                            ]

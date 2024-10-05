@@ -1,0 +1,35 @@
+[
+                    {
+                        "name": "GOA",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": [" "],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Garden of Assemblage Map",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "GoA Lost Illusion",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Proof of Nonexistence Location",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            }
+                        
+                            ]
+                            }
+                            ]

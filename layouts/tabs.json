@@ -1,0 +1,354 @@
+{
+            "tabbed_maps_horizontal": {
+            "type": "tabbed",
+            "tabs": [
+            
+                {
+                    "title": "Overworld",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "Overworld"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(HT)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(HT)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(STT)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(STT)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(BC)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(BC)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(OC)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(OC)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(DC/TR)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(DC)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(AG)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(AG)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "Levels",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "Levels"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(PL)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(PL)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(HB)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(HB)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(PR)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(PR)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(SP)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(SP)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(TT)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(TT)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(CoR)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(CoR)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(100Acre)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(100Acre)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(LoD)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(LoD)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(TWTNW)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(TWTNW)"
+                        ]
+                    }
+                
+                }
+            ]
+        },
+            "tabbed_maps_vertical": {
+            "type": "tabbed",
+            "tabs": [
+            
+                {
+                    "title": "Overworld",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "Overworld"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(HT)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(HT)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(STT)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(STT)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(BC)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(BC)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(OC)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(OC)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(DC/TR)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(DC)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(AG)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(AG)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "Levels",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "Levels"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(PL)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(PL)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(HB)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(HB)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(PR)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(PR)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(SP)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(SP)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(TT)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(TT)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(CoR)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(CoR)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(100Acre)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(100Acre)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(LoD)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(LoD)"
+                        ]
+                    }
+                
+                },
+                {
+                    "title": "(TWTNW)",
+                    "content": {
+                        "type": "map",
+                        "maps": [
+                            "(TWTNW)"
+                        ]
+                    }
+                
+                }
+            ]
+        }
+    }

@@ -1,0 +1,91 @@
+[
+                    {
+                        "name": "(HB)",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": ["MembershipCard","opt_visit_off"],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Marketplace Map",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Borough Drive Recovery",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Borough AP Boost",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Borough Hi-Potion",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Borough Mythril Shard",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Borough Dark Shard",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Merlin's House Membership Card",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Merlin's House Blizzard Element",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Bailey Bonus: Sora Slot 1",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Bailey Secret Ansem Report 7",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            },
+                        
+                            {
+                                "name": "Baseball Charm",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": []
+                            }
+                        
+                            ]
+                            }
+                            ]

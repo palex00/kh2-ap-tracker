@@ -1,0 +1,95 @@
+[
+                    {
+                        "name": "(TWTNW3)",
+                        "chest_unopened_img": "/images/Items/close.png",
+                        "chest_opened_img": "/images/Items/open.png",
+                        "overlay_background": "#000000",
+                        "access_rules": ["WaytotheDawn:2","opt_visit_off"],
+                        
+
+                                        "sections": [
+                                    
+                            {
+                                "name": "Secret Ansem Report 11 (Pre-Xemnas 1)",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": ["^$dif|easy, ThunderElement, ReflectElement:2, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, LimitForm, AerialDodge:2, Glide:2, QuickRun:2, HorizontalSlash, FireElement:2, Guard, @Levels/Final level 4",
+                                "^$dif|normal, ThunderElement, ReflectElement:2, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, Guard, FireElement:2, Glide:2, AerialDodge:2, QuickRun:2, @Levels/Final level 4",
+                                "^$dif|hard, Guard, FinishingPlus, QuickRun"]
+                            },
+                        
+                            {
+                                "name": "Ruin and Creation's Passage Mythril Stone",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": ["^$dif|easy, ThunderElement, ReflectElement:2, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, LimitForm, AerialDodge:2, Glide:2, QuickRun:2, HorizontalSlash, FireElement:2, Guard, @Levels/Final level 4",
+                                "^$dif|normal, ThunderElement, ReflectElement:2, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, Guard, FireElement:2, Glide:2, AerialDodge:2, QuickRun:2, @Levels/Final level 4",
+                                "^$dif|hard, Guard, FinishingPlus, QuickRun"]
+                            },
+                        
+                            {
+                                "name": "Ruin and Creation's Passage AP Boost",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": ["^$dif|easy, ThunderElement, ReflectElement:2, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, LimitForm, AerialDodge:2, Glide:2, QuickRun:2, HorizontalSlash, FireElement:2, Guard, @Levels/Final level 4",
+                                "^$dif|normal, ThunderElement, ReflectElement:2, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, Guard, FireElement:2, Glide:2, AerialDodge:2, QuickRun:2, @Levels/Final level 4",
+                                "^$dif|hard, Guard, FinishingPlus, QuickRun"]
+                            },
+                        
+                            {
+                                "name": "Ruin and Creation's Passage Mythril Crystal",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": ["^$dif|easy, ThunderElement, ReflectElement:2, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, LimitForm, AerialDodge:2, Glide:2, QuickRun:2, HorizontalSlash, FireElement:2, Guard, @Levels/Final level 4",
+                                "^$dif|normal, ThunderElement, ReflectElement:2, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, Guard, FireElement:2, Glide:2, AerialDodge:2, QuickRun:2, @Levels/Final level 4",
+                                "^$dif|hard, Guard, FinishingPlus, QuickRun"]
+                            },
+                        
+                            {
+                                "name": "Ruin and Creation's Passage Orichalcum",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": ["^$dif|easy, ThunderElement, ReflectElement:2, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, LimitForm, AerialDodge:2, Glide:2, QuickRun:2, HorizontalSlash, FireElement:2, Guard, @Levels/Final level 4",
+                                "^$dif|normal, ThunderElement, ReflectElement:2, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, Guard, FireElement:2, Glide:2, AerialDodge:2, QuickRun:2, @Levels/Final level 4",
+                                "^$dif|hard, Guard, FinishingPlus, QuickRun"]
+                            },
+                        
+                            {
+                                "name": "Xemnas 1 Bonus: Sora Slot 1",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": ["^$dif|easy, ThunderElement, ReflectElement:2, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, LimitForm, AerialDodge:2, Glide:2, QuickRun:2, HorizontalSlash, FireElement:2, Guard, @Levels/Final level 4",
+                                "^$dif|normal, ThunderElement, ReflectElement:2, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, Guard, FireElement:2, Glide:2, AerialDodge:2, QuickRun:2, @Levels/Final level 4",
+                                "^$dif|hard, Guard, FinishingPlus, QuickRun"]
+                            },
+                        
+                            {
+                                "name": "Xemnas 1 Bonus: Sora Slot 2",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": ["^$dif|easy, ThunderElement, ReflectElement:2, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, LimitForm, AerialDodge:2, Glide:2, QuickRun:2, HorizontalSlash, FireElement:2, Guard, @Levels/Final level 4",
+                                "^$dif|normal, ThunderElement, ReflectElement:2, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, Guard, FireElement:2, Glide:2, AerialDodge:2, QuickRun:2, @Levels/Final level 4",
+                                "^$dif|hard, Guard, FinishingPlus, QuickRun"]
+                            },
+                        
+                            {
+                                "name": "Xemnas 1 Secret Ansem Report 13",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": ["^$dif|easy, ThunderElement, ReflectElement:2, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, LimitForm, AerialDodge:2, Glide:2, QuickRun:2, HorizontalSlash, FireElement:2, Guard, @Levels/Final level 4",
+                                "^$dif|normal, ThunderElement, ReflectElement:2, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, Guard, FireElement:2, Glide:2, AerialDodge:2, QuickRun:2, @Levels/Final level 4",
+                                "^$dif|hard, Guard, FinishingPlus, QuickRun"]
+                            },
+                        
+                            {
+                                "name": "Data Xemnas",
+                                "item_count": 1,
+                                "visibility_rules": [],
+                                "access_rules": ["^$dif|easy, ThunderElement, ReflectElement:3, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, LimitForm, AerialDodge:2, Glide:2, QuickRun:2, HorizontalSlash, FireElement:2, Guard, @Levels/Final level 4, @Levels/Limit level 5, ComboMaster, Slapshot, $any|Explosion|FinishingLeap, SecondChance, OnceMore, TrinityLimit",
+                                "^$dif|normal, ThunderElement, ReflectElement:3, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, Guard, FireElement:2, Glide:2, AerialDodge:2, QuickRun:2, @Levels/Final level 4, ComboMaster, Slapshot, $any|Explosion|FinishingLeap, @Levels/Limit level 5",
+                                "^$dif|hard, Guard, FinishingPlus, QuickRun, ComboMaster, Slapshot, ReflectElement:2, @Levels/Limit level 3, $any|GuardBreak|Explosion|FInishingLeap, $any|SlideDash|FlashStep"]
+                            }
+                        
+                            ]
+                            }
+                            ]

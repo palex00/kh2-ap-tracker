@@ -1,0 +1,117 @@
+[
+    {
+        "name": "(SP2)",
+        "chest_unopened_img": "/images/Items/close.png",
+        "chest_opened_img": "/images/Items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "IdentityDisk:2","opt_visit_off"
+        ],
+        "sections": [
+            {
+                "name": "Solar Sailer",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, $any|DonaldFantasia|DonaldFlareForce, $any|ReflectElement|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final", "^$dif|hard, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+            },
+            {
+                "name": "Central Computer Core AP Boost",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, $any|DonaldFantasia|DonaldFlareForce, $any|ReflectElement|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final", "^$dif|hard, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+            },
+            {
+                "name": "Central Computer Core Orichalcum+",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, $any|DonaldFantasia|DonaldFlareForce, $any|ReflectElement|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final", "^$dif|hard, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+            },
+            {
+                "name": "Central Computer Core Cosmic Arts",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, $any|DonaldFantasia|DonaldFlareForce, $any|ReflectElement|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final", "^$dif|hard, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+            },
+            {
+                "name": "Central Computer Core Map",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, $any|DonaldFantasia|DonaldFlareForce, $any|ReflectElement|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final", "^$dif|hard, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+            },
+            {
+                "name": "MCP Bonus: Sora Slot 1",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, $any|DonaldFantasia|DonaldFlareForce, $any|ReflectElement|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final", "^$dif|hard, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+            },
+            {
+                "name": "MCP Bonus: Sora Slot 2",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, $any|DonaldFantasia|DonaldFlareForce, $any|ReflectElement|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final", "^$dif|hard, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+            },
+            {
+                "name": "Larxene Bonus: Sora Slot 1",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, DonaldFantasia, DonaldFlareForce, ReflectElement:3, $any|Stitch|ChickenLittle|PeterPan|Genie, @Levels/Final level 7, FireElement:3, Guard, FlashStep, SlideDash, $multiple|2|GuardBreak|Explosion|FinishingLeap, AerialDodge:3, Glide:3, SecondChance, OnceMore",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce, ReflectElement:3, @Levels/Final level 7, FireElement:3, Guard, $any|SlideDash|FlashStep, $any|Explosion|FinishingLeap|GuardBreak, AerialDodge:3, Glide:3",
+                "^$dif|hard, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, FireElement:2, @Levels/Final level 5, $any|SlideDash|FlashStep, AerialDodge:2, Glide:2"]
+            },
+            {
+                "name": "AS Larxene",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, DonaldFantasia, DonaldFlareForce, ReflectElement:3, $any|Stitch|ChickenLittle|PeterPan|Genie, @Levels/Final level 7, FireElement:3, Guard, FlashStep, SlideDash, $multiple|2|GuardBreak|Explosion|FinishingLeap, AerialDodge:3, Glide:3, SecondChance, OnceMore",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce, ReflectElement:3, @Levels/Final level 7, FireElement:3, Guard, $any|SlideDash|FlashStep, $any|Explosion|FinishingLeap|GuardBreak, AerialDodge:3, Glide:3",
+                "^$dif|hard, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, FireElement:2, @Levels/Final level 5, $any|SlideDash|FlashStep, AerialDodge:2, Glide:2"]
+            },
+            {
+                "name": "Data Larxene",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, DonaldFantasia, DonaldFlareForce, ReflectElement:3, $any|Stitch|ChickenLittle|PeterPan|Genie, @Levels/Final level 7, FireElement:3, Guard, FlashStep, SlideDash, $multiple|2|GuardBreak|Explosion|FinishingLeap, AerialDodge:3, Glide:3, SecondChance, OnceMore",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce, ReflectElement:3, @Levels/Final level 7, FireElement:3, Guard, $any|SlideDash|FlashStep, $any|Explosion|FinishingLeap|GuardBreak, AerialDodge:3, Glide:3",
+                "^$dif|hard, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, FireElement:2, @Levels/Final level 5, $any|SlideDash|FlashStep, AerialDodge:2, Glide:2"]
+            },
+            {
+                "name": "Solar Sailer Bonus: Donald Slot 1",
+                "item_count": 1,
+                "visibility_rules": ["opt_dgstats_yes"],
+                "access_rules": ["^$dif|easy, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, $any|DonaldFantasia|DonaldFlareForce, $any|ReflectElement|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final", "^$dif|hard, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+            }
+        ]
+    }
+]
