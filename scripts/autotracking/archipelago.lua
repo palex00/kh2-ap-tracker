@@ -160,13 +160,13 @@ end
 function onLocation(location_id, location_name)
     local location_array = LOCATION_MAPPING[location_id]
     if not location_array or not location_array[1] then
-        print(string.format("onLocation: could not find location mapping for id %s", location_id))
+        -- print(string.format("onLocation: could not find location mapping for id %s", location_id))
         return
     end
 
     for _, location in pairs(location_array) do
         local location_obj = Tracker:FindObjectForCode(location)
-        -- print(location, location_obj)
+         print(location, location_obj)
         if location_obj then
             if location:sub(1, 1) == "@" then
                 location_obj.AvailableChestCount = location_obj.AvailableChestCount - 1
@@ -177,25 +177,31 @@ function onLocation(location_id, location_name)
             print(string.format("onLocation: could not find location_object for code %s", location))
         end
     end
-	
-	if string.find(location_name, "%(STT%)") and current_region == 14 then
-		print("STT switch")
-		Tracker:UiHint("ActivateTab", "(STT)")
-	elseif string.find(location_name, "%(HB%)") and current_region == 4 then
-		print("HB switch")
-		Tracker:UiHint("ActivateTab", "(HB)")
-	elseif string.find(location_name, "%(HB2%)") and current_region == 4 then
-		print("HB2 switch")
-		Tracker:UiHint("ActivateTab", "(HB)")
+	if regioninfo ~= nil then 
+		if string.find(location_name, "%(STT%)") and regioninfo == 2 then
+			-- print("STT switch")
+			Tracker:UiHint("ActivateTab", "(STT)")
+		elseif string.find(location_name, "%(HB%)") and regioninfo == 4 then
+			-- print("HB switch")
+			Tracker:UiHint("ActivateTab", "(HB)")
+		elseif string.find(location_name, "%(HB2%)") and regioninfo == 4 then
+			-- print("HB2 switch")
+			Tracker:UiHint("ActivateTab", "(HB)")
+		elseif string.find(location_name, "%(CoR%)") and regioninfo == 4 then
+			-- print("CoR switch")
+			Tracker:UiHint("ActivateTab", "(CoR)")
+		else
+			-- print("Special Case does not apply. Current Region: " .. regioninfo)
+		end
 	end
-	
 end
 
 function onChangedRegion(key, current_region, old_region)
-	print("Key: " .. key)
-	print("Current: " .. current_region)
-	print("Old:: " .. old_region)
+	regioninfo = current_region
     if (current_region ~= old_region) then
+		-- print("Key: " .. key)
+		-- print("Current: " .. current_region)
+		-- print("Old: " .. old_region)
         if TABS_MAPPING[current_region] then
             CURRENT_ROOM = TABS_MAPPING[current_region]
 			print("First Option")
