@@ -166,7 +166,7 @@ function onLocation(location_id, location_name)
 
     for _, location in pairs(location_array) do
         local location_obj = Tracker:FindObjectForCode(location)
-         print(location, location_obj)
+         -- print(location, location_obj)
         if location_obj then
             if location:sub(1, 1) == "@" then
                 location_obj.AvailableChestCount = location_obj.AvailableChestCount - 1
