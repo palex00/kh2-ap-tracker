@@ -12,8 +12,12 @@
                     "content": [
                         {
                             "type": "layout",
-                            "key": "shared_item_grid_vertical"
-                         }
+                            "key": "items_vertical"
+                        },
+                        {
+                            "type": "layout",
+                            "key": "abilities_vertical"
+                        },
                     ]
                 }
             ]
