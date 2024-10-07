@@ -2,14 +2,18 @@
 {
     "name": "Kingdom Hearts 2 Archipelago",
     "game_name": "Kingdom Hearts 2",
-    "package_version": "0.1.0",
+    "package_version": "0.2.0",
     "package_uid": "kingdom hearts 2_ap",
     "author": "Ugh_Sunlight & palex00",
     "variants": {
-        "Map Tracker": {
-            "display_name": "Map Tracker",
+        "map_vertical": {
+            "display_name": "Map Tracker (Vertical)",
+            "flags": ["ap"]
+        },
+		 "map_horizontal": {
+            "display_name": "Map Tracker (Horizontal)",
             "flags": ["ap"]
         }
     }
-    ,"versions_url": "https://github.com/palex00/kh2-ap-tracker/versions/versions.json"
+    , "versions_url": "https://raw.githubusercontent.com/palex00/kh2-ap-tracker/versions/versions.json"
 }
