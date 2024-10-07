@@ -1,4 +1,4 @@
-// This is the vertical layout
+// This is the horizontal layout
 {
     "settings_popup": {
         "type": "array",
@@ -24,25 +24,25 @@
             "content": [
                 {
                     "type": "dock",
-                    "dock": "left",
+                    "dock": "bottom",
                     "v_alignment": "stretch",
                     "content": [
                         {
                             "type": "group",
                             "header": "Important Items",
-                            "dock": "top",
+                            "dock": "left",
                             "content": {
                                 "type": "layout",
-                                "key": "items_vertical"
+                                "key": "items_horizontal"
                             }
                         },
                         {
                             "type": "group",
                             "header": "Abilities",
-                            "dock": "top",
+                            "dock": "left",
                             "content": {
                                 "type": "layout",
-                                "key": "abilities_vertical"
+                                "key": "abilities_horizontal"
                             }
                         }
                     ]

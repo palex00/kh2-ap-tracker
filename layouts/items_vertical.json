@@ -1,0 +1,150 @@
+{
+    "items_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+                            [
+                                "ProofofConnection",
+                                "ProofofNonexistence",
+                                "ProofofPeace",
+                                "PromiseCharm",
+                                "LuckyEmblem",
+                                "Bounty"
+                            ],
+                            [
+                                "NamineSketches",
+                                "DisneyCastleKey",
+                                "BattlefieldsofWar",
+                                "SwordoftheAncestor",
+                                "BeastsClaw",
+                                "BoneFist",
+                                "ProudFang"
+                            ],
+                            [
+                                "SkillandCrossbones",
+                                "Scimitar",
+                                "MembershipCard",
+                                "IceCream",
+                                "WaytotheDawn",
+                                "IdentityDisk",
+                                "TornPage"
+                            ],
+                            [
+                                "ValorForm",
+                                "WisdomForm",
+                                "LimitForm",
+                                "MasterForm",
+                                "FinalForm"
+                            ],
+                            [
+                                "FireElement",
+                                "BlizzardElement",
+                                "ThunderElement",
+                                "MagnetElement",
+                                "ReflectElement",
+                                "CureElement"
+                            ],
+                            [
+                                "Genie",
+                                "PeterPan",
+                                "Stitch",
+                                "ChickenLittle",
+                                "HadesCupTrophy",
+                                "Guard"
+                            ],
+                            [
+                                "HighJump",
+                                "QuickRun",
+                                "DodgeRoll",
+                                "AerialDodge",
+                                "Glide"
+							]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "abilities_vertical": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "0,0",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "item_v_alignment": "center",
+                        "item_height": 36,
+                        "item_width": 36,
+                        "rows": [
+							[
+                                "OnceMore",
+                                "SecondChance"
+                            ],
+                            [
+                                "ComboMaster",
+                                "ComboPlus",
+                                "AirComboPlus",
+                                "FinishingPlus",
+                                "BerserkCharge",
+                                "FormBoost"
+                            ],
+                            [
+                                "LightandDarkness",
+                                "HorizontalSlash",
+                                "FinishingLeap",
+                                "Slapshot",
+                                "FlashStep",
+                                "SlideDash"
+                            ],
+                            [
+                                "GuardBreak",
+                                "Explosion",
+                                "AerialSweep",
+                                "AerialDive",
+                                "AerialSpiral",
+                                "AerialFinish"
+                            ],
+                            [
+                                "AutoValor",
+                                "AutoWisdom",
+                                "AutoLimit",
+                                "AutoMaster",
+                                "AutoFinal"
+                            ],
+                            [
+                                "TrinityLimit",
+                                "DonaldFantasia",
+                                "DonaldFlareForce",
+                                "TornadoFusion",
+                                "Teamwork"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -4,10 +4,12 @@ Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/options.json")
 
 -- Layout
-Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/items_vertical.json")
+Tracker:AddLayouts("layouts/items_horizontal.json")
 Tracker:AddLayouts("layouts/tabs.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
+Tracker:AddLayouts("layouts/settings.json")
 
 -- Maps
 Tracker:AddMaps("maps/maps.json")  
