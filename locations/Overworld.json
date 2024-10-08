@@ -19,6 +19,11 @@
                                             "name": "(HT2) - Lock, Shock and Barrel Bonus: Sora Slot 1",
                                             "ref": "(HT2)/Lock, Shock and Barrel Bonus: Sora Slot 1"
                                         },
+
+                                        {
+                                            "name": "(HT2) - Lock, Shock and Barrel Bonus: Goofy Slot 1",
+                                            "ref": "(HT2)/Lock, Shock and Barrel Bonus: Goofy Slot 1"
+                                        },
                                     
                                         {
                                             "name": "(HT2) - Present",
@@ -34,6 +39,13 @@
                                             "name": "(HT2) - Experiment Bonus: Sora Slot 1",
                                             "ref": "(HT2)/Experiment Bonus: Sora Slot 1"
                                         },
+
+                                                                            
+                                        {
+                                            "name": "(HT2) - Experiment Bonus: Donald Slot 1",
+                                            "ref": "(HT2)/Experiment Bonus: Donald Slot 1"
+                                        },
+                                    
                                     
                                         {
                                             "name": "(HT2) - Decisive Pumpkin",
@@ -53,17 +65,9 @@
                                         {
                                             "name": "(HT2) - Data Vexen",
                                             "ref": "(HT2)/Data Vexen"
-                                        },
-                                    
-                                        {
-                                            "name": "(HT2) - Experiment Bonus: Donald Slot 1",
-                                            "ref": "(HT2)/Experiment Bonus: Donald Slot 1"
-                                        },
-                                    
-                                        {
-                                            "name": "(HT2) - Lock, Shock and Barrel Bonus: Goofy Slot 1",
-                                            "ref": "(HT2)/Lock, Shock and Barrel Bonus: Goofy Slot 1"
-                                        },
+                                        }
+
+
                                     
                                     ],
                                     "map_locations": [
@@ -158,26 +162,29 @@
                                             "name": "(HT) - Prison Keeper Bonus: Sora Slot 1",
                                             "ref": "(HT)/Prison Keeper Bonus: Sora Slot 1"
                                         },
-                                    
-                                        {
-                                            "name": "(HT) - Oogie Boogie Bonus: Sora Slot 1",
-                                            "ref": "(HT)/Oogie Boogie Bonus: Sora Slot 1"
-                                        },
-                                    
-                                        {
-                                            "name": "(HT) - Oogie Boogie Magnet Element",
-                                            "ref": "(HT)/Oogie Boogie Magnet Element"
-                                        },
-                                    
+
                                         {
                                             "name": "(HT) - Prison Keeper Bonus: Donald Slot 1",
                                             "ref": "(HT)/Prison Keeper Bonus: Donald Slot 1"
                                         },
                                     
                                         {
+                                            "name": "(HT) - Oogie Boogie Bonus: Sora Slot 1",
+                                            "ref": "(HT)/Oogie Boogie Bonus: Sora Slot 1"
+                                        },
+
+                                        {
                                             "name": "(HT) - Oogie Boogie Bonus: Goofy Slot 1",
                                             "ref": "(HT)/Oogie Boogie Bonus: Goofy Slot 1"
                                         },
+                                    
+                                        {
+                                            "name": "(HT) - Oogie Boogie Magnet Element",
+                                            "ref": "(HT)/Oogie Boogie Magnet Element"
+                                        }
+                                
+                                    
+
                                     
                                     ],
                                     "map_locations": [
@@ -336,7 +343,7 @@
                                         {
                                             "name": "(STT) - Data Roxas",
                                             "ref": "(STT)/Data Roxas"
-                                        },
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -402,10 +409,7 @@
                                             "ref": "(BC)/The West Hall Power Shard"
                                         },
                                     
-                                        {
-                                            "name": "(BC) - The West Hall AP Boost Post Dungeon",
-                                            "ref": "(BC)/The West Hall AP Boost Post Dungeon"
-                                        },
+
                                     
                                         {
                                             "name": "(BC) - The West Hall Bright Stone",
@@ -416,10 +420,20 @@
                                             "name": "(BC) - The West Hall Mythril Shard",
                                             "ref": "(BC)/The West Hall Mythril Shard"
                                         },
+
+                                        {
+                                            "name": "(BC) - The West Hall Mythril Shard 2",
+                                            "ref": "(BC)/The West Hall Mythril Shard 2"
+                                        },
                                     
                                         {
                                             "name": "(BC) - Thresholder Bonus: Sora Slot 1",
                                             "ref": "(BC)/Thresholder Bonus: Sora Slot 1"
+                                        },
+
+                                        {
+                                            "name": "(BC) - Thresholder Bonus: Donald Slot 1",
+                                            "ref": "(BC)/Thresholder Bonus: Donald Slot 1"
                                         },
                                     
                                         {
@@ -447,9 +461,10 @@
                                             "ref": "(BC)/Secret Passage Lucid Shard"
                                         },
                                     
+
                                         {
-                                            "name": "(BC) - The West Hall Mythril Shard 2",
-                                            "ref": "(BC)/The West Hall Mythril Shard 2"
+                                            "name": "(BC) - The West Hall AP Boost Post Dungeon",
+                                            "ref": "(BC)/The West Hall AP Boost Post Dungeon"
                                         },
                                     
                                         {
@@ -465,6 +480,11 @@
                                         {
                                             "name": "(BC) - Beast Bonus: Sora Slot 1",
                                             "ref": "(BC)/Beast Bonus: Sora Slot 1"
+                                        },
+
+                                        {
+                                            "name": "(BC) - Beast Bonus: Goofy Slot 1",
+                                            "ref": "(BC)/Beast Bonus: Goofy Slot 1"
                                         },
                                     
                                         {
@@ -485,17 +505,7 @@
                                         {
                                             "name": "(BC) - Dark Thorn Cure Element",
                                             "ref": "(BC)/Dark Thorn Cure Element"
-                                        },
-                                    
-                                        {
-                                            "name": "(BC) - Thresholder Bonus: Donald Slot 1",
-                                            "ref": "(BC)/Thresholder Bonus: Donald Slot 1"
-                                        },
-                                    
-                                        {
-                                            "name": "(BC) - Beast Bonus: Goofy Slot 1",
-                                            "ref": "(BC)/Beast Bonus: Goofy Slot 1"
-                                        },
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -620,6 +630,11 @@
                                             "name": "(OC) - Demyx Bonus: Sora Slot 1",
                                             "ref": "(OC)/Demyx Bonus: Sora Slot 1"
                                         },
+
+                                        {
+                                            "name": "(OC) - Demyx Bonus: Donald Slot 1",
+                                            "ref": "(OC)/Demyx Bonus: Donald Slot 1"
+                                        },
                                     
                                         {
                                             "name": "(OC) - Secret Ansem Report 5 (Demyx)",
@@ -650,6 +665,12 @@
                                             "name": "(OC) - Pete OC Bonus: Sora Slot 1",
                                             "ref": "(OC)/Pete OC Bonus: Sora Slot 1"
                                         },
+
+                                        {
+                                            "name": "(OC) - Pete Bonus: Goofy Slot 1",
+                                            "ref": "(OC)/Pete Bonus: Goofy Slot 1"
+                                        },
+                                    
                                     
                                         {
                                             "name": "(OC) - Hydra Bonus: Sora Slot 1",
@@ -709,18 +730,8 @@
                                         {
                                             "name": "(OC) - Hades Cup Trophy Paradox Cups",
                                             "ref": "(OC)/Hades Cup Trophy Paradox Cups"
-                                        },
-                                    
-                                        {
-                                            "name": "(OC) - Demyx Bonus: Donald Slot 1",
-                                            "ref": "(OC)/Demyx Bonus: Donald Slot 1"
-                                        },
-                                    
-                                        {
-                                            "name": "(OC) - Pete Bonus: Goofy Slot 1",
-                                            "ref": "(OC)/Pete Bonus: Goofy Slot 1"
-                                        },
-                                    
+                                        }
+
                                     ],
                                     "map_locations": [
                                         {
@@ -759,6 +770,11 @@
                                             "name": "(BC2) - Xaldin Bonus: Sora Slot 2",
                                             "ref": "(BC2)/Xaldin Bonus: Sora Slot 2"
                                         },
+
+                                        {
+                                            "name": "(BC2) - Xaldin Bonus: Donald Slot 1",
+                                            "ref": "(BC2)/Xaldin Bonus: Donald Slot 1"
+                                        },
                                     
                                         {
                                             "name": "(BC2) - Secret Ansem Report 4 (Xaldin)",
@@ -768,12 +784,9 @@
                                         {
                                             "name": "(BC2) - Data Xaldin",
                                             "ref": "(BC2)/Data Xaldin"
-                                        },
+                                        }
                                     
-                                        {
-                                            "name": "(BC2) - Xaldin Bonus: Donald Slot 1",
-                                            "ref": "(BC2)/Xaldin Bonus: Donald Slot 1"
-                                        },
+
                                     
                                     ],
                                     "map_locations": [
@@ -827,7 +840,7 @@
                                         {
                                             "name": "(AG2) - Data Lexaeus",
                                             "ref": "(AG2)/Data Lexaeus"
-                                        },
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -901,7 +914,7 @@
                                         {
                                             "name": "(DC) - Minnie Escort Bonus: Sora Slot 2",
                                             "ref": "(DC)/Minnie Escort Bonus: Sora Slot 2"
-                                        },
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -935,7 +948,7 @@
                                         {
                                             "name": "GOA - Proof of Nonexistence Location",
                                             "ref": "GOA/Proof of Nonexistence Location"
-                                        },
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -1065,6 +1078,11 @@
                                             "name": "(AG) - Abu Escort Bonus: Sora Slot 1",
                                             "ref": "(AG)/Abu Escort Bonus: Sora Slot 1"
                                         },
+
+                                        {
+                                            "name": "(AG) - Abu Escort Bonus: Donald Slot 1",
+                                            "ref": "(AG)/Abu Escort Bonus: Donald Slot 1"
+                                        },
                                     
                                         {
                                             "name": "(AG) - Chasm of Challenges Cave of Wonders Map",
@@ -1079,6 +1097,11 @@
                                         {
                                             "name": "(AG) - Treasure Room",
                                             "ref": "(AG)/Treasure Room"
+                                        },
+
+                                        {
+                                            "name": "(AG) - Treasure Room Heartless Bonus: Goofy Slot 1",
+                                            "ref": "(AG)/Treasure Room Heartless Bonus: Goofy Slot 1"
                                         },
                                     
                                         {
@@ -1099,18 +1122,7 @@
                                         {
                                             "name": "(AG) - Lamp Charm",
                                             "ref": "(AG)/Lamp Charm"
-                                        },
-                                    
-                                        {
-                                            "name": "(AG) - Abu Escort Bonus: Donald Slot 1",
-                                            "ref": "(AG)/Abu Escort Bonus: Donald Slot 1"
-                                        },
-                                    
-                                        {
-                                            "name": "(AG) - Treasure Room Heartless Bonus: Goofy Slot 1",
-                                            "ref": "(AG)/Treasure Room Heartless Bonus: Goofy Slot 1"
-                                        },
-                                    
+                                        }
                                     ],
                                     "map_locations": [
                                         {
@@ -1204,6 +1216,11 @@
                                             "name": "(HB2) - Demyx Bonus: Sora Slot 2",
                                             "ref": "(HB2)/Demyx Bonus: Sora Slot 2"
                                         },
+
+                                        {
+                                            "name": "(HB2) - Demyx Bonus: Donald Slot 1",
+                                            "ref": "(HB2)/Demyx Bonus: Donald Slot 1"
+                                        },
                                     
                                         {
                                             "name": "(HB2) - FF Fights Cure Element",
@@ -1283,12 +1300,9 @@
                                         {
                                             "name": "(HB2) - Data Demyx",
                                             "ref": "(HB2)/Data Demyx"
-                                        },
+                                        }
                                     
-                                        {
-                                            "name": "(HB2) - Demyx Bonus: Donald Slot 1",
-                                            "ref": "(HB2)/Demyx Bonus: Donald Slot 1"
-                                        },
+
                                     
                                     ],
                                     "map_locations": [
@@ -1797,7 +1811,7 @@
                                         {
                                             "name": "Levels - Level 99",
                                             "ref": "Levels/Level 99"
-                                        },
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -1952,26 +1966,27 @@
                                             "name": "(PL) - Hyenas 1 Bonus: Sora Slot 1",
                                             "ref": "(PL)/Hyenas 1 Bonus: Sora Slot 1"
                                         },
+
+                                        {
+                                            "name": "(PL) - Hyenas 1 Bonus: Goofy Slot 1",
+                                            "ref": "(PL)/Hyenas 1 Bonus: Goofy Slot 1"
+                                        },
                                     
                                         {
                                             "name": "(PL) - Scar Bonus: Sora Slot 1",
                                             "ref": "(PL)/Scar Bonus: Sora Slot 1"
                                         },
-                                    
-                                        {
-                                            "name": "(PL) - Scar Fire Element",
-                                            "ref": "(PL)/Scar Fire Element"
-                                        },
-                                    
+
                                         {
                                             "name": "(PL) - Scar Bonus: Donald Slot 1",
                                             "ref": "(PL)/Scar Bonus: Donald Slot 1"
                                         },
                                     
                                         {
-                                            "name": "(PL) - Hyenas 1 Bonus: Goofy Slot 1",
-                                            "ref": "(PL)/Hyenas 1 Bonus: Goofy Slot 1"
-                                        },
+                                            "name": "(PL) - Scar Fire Element",
+                                            "ref": "(PL)/Scar Fire Element"
+                                        }
+
                                     
                                     ],
                                     "map_locations": [
@@ -2045,7 +2060,7 @@
                                         {
                                             "name": "(HB) - Baseball Charm",
                                             "ref": "(HB)/Baseball Charm"
-                                        },
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -2110,6 +2125,16 @@
                                             "name": "(TR) - Boat Pete Bonus: Sora Slot 1",
                                             "ref": "(TR)/Boat Pete Bonus: Sora Slot 1"
                                         },
+
+                                        {
+                                            "name": "(TR) - Boat Pete Bonus: Donald Slot 1",
+                                            "ref": "(TR)/Boat Pete Bonus: Donald Slot 1"
+                                        },
+                                    
+                                        {
+                                            "name": "(TR) - Boat Pete Bonus: Donald Slot 2",
+                                            "ref": "(TR)/Boat Pete Bonus: Donald Slot 2"
+                                        },
                                     
                                         {
                                             "name": "(TR) - Future Pete Bonus: Sora Slot 1",
@@ -2119,6 +2144,11 @@
                                         {
                                             "name": "(TR) - Future Pete Bonus: Sora Slot 2",
                                             "ref": "(TR)/Future Pete Bonus: Sora Slot 2"
+                                        },
+
+                                        {
+                                            "name": "(TR) - Future Pete Bonus: Goofy Slot 1",
+                                            "ref": "(TR)/Future Pete Bonus: Goofy Slot 1"
                                         },
                                     
                                         {
@@ -2159,22 +2189,7 @@
                                         {
                                             "name": "(TR) - Lingering Will Manifest Illusion",
                                             "ref": "(TR)/Lingering Will Manifest Illusion"
-                                        },
-                                    
-                                        {
-                                            "name": "(TR) - Boat Pete Bonus: Donald Slot 1",
-                                            "ref": "(TR)/Boat Pete Bonus: Donald Slot 1"
-                                        },
-                                    
-                                        {
-                                            "name": "(TR) - Boat Pete Bonus: Donald Slot 2",
-                                            "ref": "(TR)/Boat Pete Bonus: Donald Slot 2"
-                                        },
-                                    
-                                        {
-                                            "name": "(TR) - Future Pete Bonus: Goofy Slot 1",
-                                            "ref": "(TR)/Future Pete Bonus: Goofy Slot 1"
-                                        },
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -2249,10 +2264,20 @@
                                             "name": "(PR) - Boat Fight Bonus: Sora Slot 1",
                                             "ref": "(PR)/Boat Fight Bonus: Sora Slot 1"
                                         },
+
+                                        {
+                                            "name": "(PR) - Boat Fight Bonus: Donald Slot 1",
+                                            "ref": "(PR)/Boat Fight Bonus: Donald Slot 1"
+                                        },
                                     
                                         {
                                             "name": "(PR) - Interceptor Barrels Bonus: Sora Slot 1",
                                             "ref": "(PR)/Interceptor Barrels Bonus: Sora Slot 1"
+                                        },
+
+                                        {
+                                            "name": "(PR) - Interceptor Barrels Bonus: Goofy Slot 1",
+                                            "ref": "(PR)/Interceptor Barrels Bonus: Goofy Slot 1"
                                         },
                                     
                                         {
@@ -2289,17 +2314,7 @@
                                             "name": "(PR) - Barbossa Bonus: Sora Slot 2",
                                             "ref": "(PR)/Barbossa Bonus: Sora Slot 2"
                                         },
-                                    
-                                        {
-                                            "name": "(PR) - Follow the Wind",
-                                            "ref": "(PR)/Follow the Wind"
-                                        },
-                                    
-                                        {
-                                            "name": "(PR) - Boat Fight Bonus: Donald Slot 1",
-                                            "ref": "(PR)/Boat Fight Bonus: Donald Slot 1"
-                                        },
-                                    
+
                                         {
                                             "name": "(PR) - Barbossa Bonus: Goofy Slot 1",
                                             "ref": "(PR)/Barbossa Bonus: Goofy Slot 1"
@@ -2311,9 +2326,9 @@
                                         },
                                     
                                         {
-                                            "name": "(PR) - Interceptor Barrels Bonus: Goofy Slot 1",
-                                            "ref": "(PR)/Interceptor Barrels Bonus: Goofy Slot 1"
-                                        },
+                                            "name": "(PR) - Follow the Wind",
+                                            "ref": "(PR)/Follow the Wind"
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -2452,7 +2467,7 @@
                                         {
                                             "name": "(TWTNW2) - Saix Secret Ansem Report 12",
                                             "ref": "(TWTNW2)/Saix Secret Ansem Report 12"
-                                        },
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -2476,6 +2491,11 @@
                                         {
                                             "name": "(SP2) - Solar Sailer",
                                             "ref": "(SP2)/Solar Sailer"
+                                        },
+
+                                        {
+                                            "name": "(SP2) - Solar Sailer Bonus: Donald Slot 1",
+                                            "ref": "(SP2)/Solar Sailer Bonus: Donald Slot 1"
                                         },
                                     
                                         {
@@ -2521,12 +2541,9 @@
                                         {
                                             "name": "(SP2) - Data Larxene",
                                             "ref": "(SP2)/Data Larxene"
-                                        },
+                                        }
                                     
-                                        {
-                                            "name": "(SP2) - Solar Sailer Bonus: Donald Slot 1",
-                                            "ref": "(SP2)/Solar Sailer Bonus: Donald Slot 1"
-                                        },
+
                                     
                                     ],
                                     "map_locations": [
@@ -2586,6 +2603,11 @@
                                             "name": "(SP) - Screens Bonus: Sora Slot 1",
                                             "ref": "(SP)/Screens Bonus: Sora Slot 1"
                                         },
+
+                                        {
+                                            "name": "(SP) - Screens Bonus: Donald Slot 1",
+                                            "ref": "(SP)/Screens Bonus: Donald Slot 1"
+                                        },
                                     
                                         {
                                             "name": "(SP) - Hallway Power Crystal",
@@ -2611,22 +2633,17 @@
                                             "name": "(SP) - Hostile Program Bonus: Sora Slot 2",
                                             "ref": "(SP)/Hostile Program Bonus: Sora Slot 2"
                                         },
-                                    
-                                        {
-                                            "name": "(SP) - Photon Debugger",
-                                            "ref": "(SP)/Photon Debugger"
-                                        },
-                                    
-                                        {
-                                            "name": "(SP) - Screens Bonus: Donald Slot 1",
-                                            "ref": "(SP)/Screens Bonus: Donald Slot 1"
-                                        },
-                                    
+
                                         {
                                             "name": "(SP) - Hostile Program Bonus: Goofy Slot 1",
                                             "ref": "(SP)/Hostile Program Bonus: Goofy Slot 1"
                                         },
                                     
+                                        {
+                                            "name": "(SP) - Photon Debugger",
+                                            "ref": "(SP)/Photon Debugger"
+                                        }
+  
                                     ],
                                     "map_locations": [
                                         {
@@ -2659,7 +2676,7 @@
                                         {
                                             "name": "(TT2) - Limit Form",
                                             "ref": "(TT2)/Limit Form"
-                                        },
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -2813,7 +2830,7 @@
                                         {
                                             "name": "(TT) - Valor Form",
                                             "ref": "(TT)/Valor Form"
-                                        },
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -2942,7 +2959,7 @@
                                         {
                                             "name": "(CoR) - Transport to Remembrance",
                                             "ref": "(CoR)/Transport to Remembrance"
-                                        },
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -2987,6 +3004,11 @@
                                             "name": "(OC2) - Zexion Bonus: Sora Slot 1",
                                             "ref": "(OC2)/Zexion Bonus: Sora Slot 1"
                                         },
+
+                                        {
+                                            "name": "(OC2) - Zexion Bonus: Goofy Slot 1",
+                                            "ref": "(OC2)/Zexion Bonus: Goofy Slot 1"
+                                        },
                                     
                                         {
                                             "name": "(OC2) - AS Zexion",
@@ -2996,12 +3018,9 @@
                                         {
                                             "name": "(OC2) - Data Zexion",
                                             "ref": "(OC2)/Data Zexion"
-                                        },
+                                        }
                                     
-                                        {
-                                            "name": "(OC2) - Zexion Bonus: Goofy Slot 1",
-                                            "ref": "(OC2)/Zexion Bonus: Goofy Slot 1"
-                                        },
+
                                     
                                     ],
                                     "map_locations": [
@@ -3040,7 +3059,7 @@
                                         {
                                             "name": "(AT) - Musical Orichalcum+",
                                             "ref": "(AT)/Musical Orichalcum+"
-                                        },
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -3115,6 +3134,11 @@
                                             "name": "(TT3) - Mansion Nobodies Bonus: Sora Slot 1",
                                             "ref": "(TT3)/Mansion Nobodies Bonus: Sora Slot 1"
                                         },
+
+                                        {
+                                            "name": "(TT3) - Mansion Nobodies Bonus: Donald Slot 1",
+                                            "ref": "(TT3)/Mansion Nobodies Bonus: Donald Slot 1"
+                                        },
                                     
                                         {
                                             "name": "(TT3) - Mansion Foyer Mythril Crystal",
@@ -3169,12 +3193,9 @@
                                         {
                                             "name": "(TT3) - Data Axel",
                                             "ref": "(TT3)/Data Axel"
-                                        },
+                                        }
                                     
-                                        {
-                                            "name": "(TT3) - Mansion Nobodies Bonus: Donald Slot 1",
-                                            "ref": "(TT3)/Mansion Nobodies Bonus: Donald Slot 1"
-                                        },
+
                                     
                                     ],
                                     "map_locations": [
@@ -3238,7 +3259,7 @@
                                         {
                                             "name": "(TWTNW3) - Data Xemnas",
                                             "ref": "(TWTNW3)/Data Xemnas"
-                                        },
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -3377,7 +3398,7 @@
                                         {
                                             "name": "(100Acre) - Starry Hill Orichalcum+",
                                             "ref": "(100Acre)/Starry Hill Orichalcum+"
-                                        },
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -3442,16 +3463,18 @@
                                             "name": "(LoD2) - Storm Rider Bonus: Sora Slot 1",
                                             "ref": "(LoD2)/Storm Rider Bonus: Sora Slot 1"
                                         },
-                                    
-                                        {
-                                            "name": "(LoD2) - Data Xigbar",
-                                            "ref": "(LoD2)/Data Xigbar"
-                                        },
-                                    
+
                                         {
                                             "name": "(LoD2) - Storm Rider Bonus: Goofy Slot 1",
                                             "ref": "(LoD2)/Storm Rider Bonus: Goofy Slot 1"
                                         },
+                                    
+                                        {
+                                            "name": "(LoD2) - Data Xigbar",
+                                            "ref": "(LoD2)/Data Xigbar"
+                                        }
+                                    
+
                                     
                                     ],
                                     "map_locations": [
@@ -3476,6 +3499,11 @@
                                             "name": "(PL2) - Hyenas 2 Bonus: Sora Slot 1",
                                             "ref": "(PL2)/Hyenas 2 Bonus: Sora Slot 1"
                                         },
+
+                                        {
+                                            "name": "(PL2) - Hyenas 2 Bonus: Goofy Slot 1",
+                                            "ref": "(PL2)/Hyenas 2 Bonus: Goofy Slot 1"
+                                        },
                                     
                                         {
                                             "name": "(PL2) - Groundshaker Bonus: Sora Slot 1",
@@ -3490,12 +3518,9 @@
                                         {
                                             "name": "(PL2) - Data Saix",
                                             "ref": "(PL2)/Data Saix"
-                                        },
+                                        }
                                     
-                                        {
-                                            "name": "(PL2) - Hyenas 2 Bonus: Goofy Slot 1",
-                                            "ref": "(PL2)/Hyenas 2 Bonus: Goofy Slot 1"
-                                        },
+
                                     
                                     ],
                                     "map_locations": [
@@ -3519,6 +3544,11 @@
                                         {
                                             "name": "(PR2) - Grim Reaper 1 Bonus: Sora Slot 1",
                                             "ref": "(PR2)/Grim Reaper 1 Bonus: Sora Slot 1"
+                                        },
+
+                                        {
+                                            "name": "(PR2) - Grim Reaper 1 Bonus: Goofy Slot 1",
+                                            "ref": "(PR2)/Grim Reaper 1 Bonus: Goofy Slot 1"
                                         },
                                     
                                         {
@@ -3570,6 +3600,11 @@
                                             "name": "(PR2) - Grim Reaper 2 Bonus: Sora Slot 1",
                                             "ref": "(PR2)/Grim Reaper 2 Bonus: Sora Slot 1"
                                         },
+
+                                        {
+                                            "name": "(PR2) - Grim Reaper 2 Bonus: Donald Slot 1",
+                                            "ref": "(PR2)/Grim Reaper 2 Bonus: Donald Slot 1"
+                                        },
                                     
                                         {
                                             "name": "(PR2) - Secret Ansem Report 6 (Grim Reaper 2)",
@@ -3579,17 +3614,7 @@
                                         {
                                             "name": "(PR2) - Data Luxord",
                                             "ref": "(PR2)/Data Luxord"
-                                        },
-                                    
-                                        {
-                                            "name": "(PR2) - Grim Reaper 2 Bonus: Donald Slot 1",
-                                            "ref": "(PR2)/Grim Reaper 2 Bonus: Donald Slot 1"
-                                        },
-                                    
-                                        {
-                                            "name": "(PR2) - Grim Reaper 1 Bonus: Goofy Slot 1",
-                                            "ref": "(PR2)/Grim Reaper 1 Bonus: Goofy Slot 1"
-                                        },
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -3704,16 +3729,18 @@
                                             "name": "(LoD) - Shan-Yu Bonus: Sora Slot 2",
                                             "ref": "(LoD)/Shan-Yu Bonus: Sora Slot 2"
                                         },
-                                    
-                                        {
-                                            "name": "(LoD) - Hidden Dragon",
-                                            "ref": "(LoD)/Hidden Dragon"
-                                        },
-                                    
+
                                         {
                                             "name": "(LoD) - Shan-Yu Bonus: Goofy Slot 1",
                                             "ref": "(LoD)/Shan-Yu Bonus: Goofy Slot 1"
                                         },
+                                    
+                                        {
+                                            "name": "(LoD) - Hidden Dragon",
+                                            "ref": "(LoD)/Hidden Dragon"
+                                        }
+                                    
+
                                     
                                     ],
                                     "map_locations": [
@@ -3752,7 +3779,7 @@
                                         {
                                             "name": "(TWTNW) - Fragment Crossing Orichalcum",
                                             "ref": "(TWTNW)/Fragment Crossing Orichalcum"
-                                        },
+                                        }
                                     
                                     ],
                                     "map_locations": [
@@ -3763,7 +3790,7 @@
                                             "size": 20
                                         }
                                     ]
-                                    },
+                                    }
                                     
                                 ]
                 }
