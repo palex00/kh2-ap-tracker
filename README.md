@@ -1,3 +1,4 @@
+# Kingdom Hearts 2 Poptracker Pack
 A [Poptracker Pack](https://github.com/black-sliver/PopTracker/tree/master) for the [Archipelago](https://archipelago.gg/) integration of [Kingdom Hearts 2](https://store.steampowered.com/app/2552430/KINGDOM_HEARTS_HD_1525_ReMIX/)
 
 This is a co-project by @palex00 and @Ugh-Sunlight. You can report issues to us on Discord on the AP Server or in the Issues-Tab of this project.
