@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.1.1",
+			"download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.1.1.zip",
+			"sha256": "A5D54111A008BBB69DB710EEAC8FD4424BD7D717D111483B80EA26E2433BB481",
+			"changelog": ["Layout Update + Bugfixes"]
+		},
+		{
 			"package_version": "0.1.0",
 			"download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.1.0.zip",
 			"sha256": "569E33DB12A3A5EC5DEB47243E27D579A97E461D48340DF6E688A58E72DC19F4",
