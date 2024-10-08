@@ -364,121 +364,121 @@
             },
             {
                 "name": "Level 61",
-                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|18|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
             {
                 "name": "Level 62",
-                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|18|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
             {
                 "name": "Level 63",
-                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|18|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
             {
                 "name": "Level 64",
-                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|18|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
             {
                 "name": "Level 65",
-                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|18|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity","opt_leveldepth_99"],
                 "item_count": 1
             },
             {
                 "name": "Level 66",
-                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|18|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
             {
                 "name": "Level 67",
-                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|18|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
             {
                 "name": "Level 68",
-                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|18|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
             {
                 "name": "Level 69",
-                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|18|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
             {
                 "name": "Level 70",
-                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|18|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
             {
                 "name": "Level 71",
-                "access_rules": ["$multiple|24|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
             {
                 "name": "Level 72",
-                "access_rules": ["$multiple|24|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
             {
                 "name": "Level 73",
-                "access_rules": ["$multiple|24|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity","opt_leveldepth_99"],
                 "item_count": 1
             },
             {
                 "name": "Level 74",
-                "access_rules": ["$multiple|24|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
             {
                 "name": "Level 75",
-                "access_rules": ["$multiple|24|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
             {
                 "name": "Level 76",
-                "access_rules": ["$multiple|24|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
             {
                 "name": "Level 77",
-                "access_rules": ["$multiple|24|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
             {
                 "name": "Level 78",
-                "access_rules": ["$multiple|24|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
             {
                 "name": "Level 79",
-                "access_rules": ["$multiple|24|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
             {
                 "name": "Level 80",
-                "access_rules": ["$multiple|24|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
+                "access_rules": ["$multiple|21|NamineSketches|DisneyCastleKey|BattlefieldsofWar|SwordoftheAncestor|BeastsClaw|BoneFist|ProudFang|SkillandCrossbones|Scimitar|MembershipCard|IceCream|WaytotheDawn|IdentityDisk"],
                 "visibility_rules": ["opt_leveldepth_99sanity"],
                 "item_count": 1
             },
