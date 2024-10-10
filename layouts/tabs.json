@@ -12,11 +12,11 @@
                 }
             },
             {
-                "title": "(HT)",
+                "title": "Levels",
                 "content": {
                     "type": "map",
                     "maps": [
-                        "(HT)"
+                        "Levels"
                     ]
                 }
             },
@@ -26,6 +26,42 @@
                     "type": "map",
                     "maps": [
                         "(STT)"
+                    ]
+                }
+            },
+            {
+                "title": "(TT)",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "(TT)"
+                    ]
+                }
+            },
+            {
+                "title": "(HB)",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "(HB)"
+                    ]
+                }
+            },
+            {
+                "title": "(CoR)",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "(CoR)"
+                    ]
+                }
+            },
+            {
+                "title": "(LoD)",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "(LoD)"
                     ]
                 }
             },
@@ -57,6 +93,15 @@
                 }
             },
             {
+                "title": "(PR)",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "(PR)"
+                    ]
+                }
+            },
+            {
                 "title": "(AG)",
                 "content": {
                     "type": "map",
@@ -66,11 +111,11 @@
                 }
             },
             {
-                "title": "Levels",
+                "title": "(HT)",
                 "content": {
                     "type": "map",
                     "maps": [
-                        "Levels"
+                        "(HT)"
                     ]
                 }
             },
@@ -84,24 +129,6 @@
                 }
             },
             {
-                "title": "(HB)",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "(HB)"
-                    ]
-                }
-            },
-            {
-                "title": "(PR)",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "(PR)"
-                    ]
-                }
-            },
-            {
                 "title": "(SP)",
                 "content": {
                     "type": "map",
@@ -111,20 +138,11 @@
                 }
             },
             {
-                "title": "(TT)",
+                "title": "(TWTNW)",
                 "content": {
                     "type": "map",
                     "maps": [
-                        "(TT)"
-                    ]
-                }
-            },
-            {
-                "title": "(CoR)",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "(CoR)"
+                        "(TWTNW)"
                     ]
                 }
             },
@@ -134,24 +152,6 @@
                     "type": "map",
                     "maps": [
                         "(100Acre)"
-                    ]
-                }
-            },
-            {
-                "title": "(LoD)",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "(LoD)"
-                    ]
-                }
-            },
-            {
-                "title": "(TWTNW)",
-                "content": {
-                    "type": "map",
-                    "maps": [
-                        "(TWTNW)"
                     ]
                 }
             }
