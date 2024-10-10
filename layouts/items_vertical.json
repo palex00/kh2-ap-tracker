@@ -64,8 +64,7 @@
                                 "PeterPan",
                                 "Stitch",
                                 "ChickenLittle",
-                                "HadesCupTrophy",
-                                "Guard"
+                                "HadesCupTrophy"
                             ],
                             [
                                 "HighJump",
@@ -100,8 +99,9 @@
                         "item_width": 36,
                         "rows": [
 							[
+                                "SecondChance",
                                 "OnceMore",
-                                "SecondChance"
+                                "Guard"
                             ],
                             [
                                 "ComboMaster",
