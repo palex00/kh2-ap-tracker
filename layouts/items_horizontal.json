@@ -65,10 +65,7 @@
                                 "QuickRun",
                                 "DodgeRoll",
                                 "AerialDodge",
-                                "Glide",
-                                "OnceMore",
-                                "SecondChance",
-                                "Guard"
+                                "Glide"
                             ]
                         ]
                     }
@@ -96,16 +93,20 @@
                         "item_width": 36,
                         "rows": [
                             [
+                                "SecondChance",
+                                "OnceMore",
+                                "Guard",
                                 "ComboMaster",
                                 "ComboPlus",
                                 "AirComboPlus",
                                 "FinishingPlus",
                                 "BerserkCharge",
-                                "FormBoost",
-								"LightandDarkness",
-								"HorizontalSlash",
+                                "FormBoost"
+								
+
 							],
 							[
+                                "HorizontalSlash",
                                 "FinishingLeap",
                                 "Slapshot",
                                 "FlashStep",
@@ -114,8 +115,10 @@
                                 "Explosion",
                                 "AerialSweep",
                                 "AerialDive"
+                                
 							],
 							[
+                            
                                 "AerialSpiral",
                                 "AerialFinish",
                                 "AutoValor",
@@ -123,6 +126,7 @@
                                 "AutoLimit",
                                 "AutoMaster",
                                 "AutoFinal",
+                                "LightandDarkness",
                                 "TrinityLimit"
 							],
 							[
