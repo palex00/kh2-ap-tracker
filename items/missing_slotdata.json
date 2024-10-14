@@ -1,0 +1,38 @@
+[
+                    {
+                        "name": "",
+                        "type": "toggle",
+                        "img": "/images/items/invisible.png",
+                        "codes": "missing_FightLogic"
+                    },
+                    {
+                        "name": "",
+                        "type": "toggle",
+                        "img": "/images/items/invisible.png",
+                        "codes": "missing_FinalFormLogic"
+                    },
+                    {
+                        "name": "",
+                        "type": "toggle",
+                        "img": "/images/items/invisible.png",
+                        "codes": "missing_AutoFormLogic"
+                    },
+                    {
+                        "name": "",
+                        "type": "toggle",
+                        "img": "/images/items/invisible.png",
+                        "codes": "missing_LevelDepth"
+                    },
+                    {
+                        "name": "",
+                        "type": "toggle",
+                        "img": "/images/items/invisible.png",
+                        "codes": "missing_DonaldGoofyStatsanity"
+                    },
+                    {
+                        "name": "",
+                        "type": "toggle",
+                        "img": "/images/items/invisible.png",
+                        "codes": "missing_CorSkipToggle"
+                    }
+]

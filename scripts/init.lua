@@ -54,5 +54,9 @@ Tracker:AddLocations("locations/(TWTNW).json")
 Tracker:AddLocations("locations/Overworld.json")
 Tracker:AddLocations("locations/Submaps.json")
 
+-- Missing Slot Data Helpers
+Tracker:AddLocations("locations/missing_setting_slotdata.json")
+Tracker:AddItems("items/missing_slotdata.json")
+
 -- AutoTracking for Poptracker
 ScriptHost:LoadScript("scripts/autotracking.lua")
