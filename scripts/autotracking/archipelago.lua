@@ -214,6 +214,10 @@ function onChangedRegion(key, current_region, old_region)
     end
 end
 
+function scoutable()
+	return AccessibilityLevel.Inspect
+end
+
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
