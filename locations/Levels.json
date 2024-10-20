@@ -730,7 +730,7 @@
             },
             {
                 "name": "Master level 6",
-                "access_rules": ["MasterForm, $multiple|4|ValorForm|WisdomForm|LimitForm|final", "opt_autoform_yes, AutoMaster, $multiple|4|ValorForm|WisdomForm|LimitForm|final"],
+                "access_rules": ["MasterForm, $multiple|3|ValorForm|WisdomForm|LimitForm|final", "opt_autoform_yes, AutoMaster, $multiple|4|ValorForm|WisdomForm|LimitForm|final"],
                 "visibility_rules": [],
                 "item_count": 1
             },
