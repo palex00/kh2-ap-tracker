@@ -21,8 +21,8 @@ function final()
 		-- print("Final: Forced")
         return normal
     elseif stage == 1 then
-		if Tracker:FindObjectForCode('LightandDarkness').Active then
-			-- print("Final: LAD & You have it")
+		if Tracker:FindObjectForCode('LightandDarkness').Active or Tracker:FindObjectForCode('FinalForm').Active then
+			-- print("Final: LAD & You have it or you have Final Form itself")
 			return normal
 		else
 			-- print("Final: LAD & but you don't have it")
