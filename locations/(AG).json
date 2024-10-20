@@ -202,24 +202,24 @@
                                 "name": "Elemental Lords Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|Guard|ReflectElement, $any|FireElement|BlizzardElement|ThunderElement, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|Guard|ReflectElement, $any|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement, $any|FireElement|BlizzardElement|ThunderElement, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|Guard|ReflectElement|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|hard, $any|Guard|ReflectElement, $any|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|hard, $any|FireElement|BlizzardElement|ThunderElement, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|hard, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|hard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
                             },
                         
                             {
                                 "name": "Lamp Charm",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|Guard|ReflectElement, $any|FireElement|BlizzardElement|ThunderElement, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|Guard|ReflectElement, $any|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement, $any|FireElement|BlizzardElement|ThunderElement, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|Guard|ReflectElement|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|hard, $any|Guard|ReflectElement, $any|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|hard, $any|FireElement|BlizzardElement|ThunderElement, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|hard, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|hard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
                             },
                         
                             {

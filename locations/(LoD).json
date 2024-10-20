@@ -132,44 +132,44 @@
                                 "name": "Shan-Yu Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|SlideDash|FlashStep, $any|Guard|ReflectElement, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                                "^$dif|normal, $any|Guard|ReflectElement, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                                "^$dif|normal, $any|SlideDash|FlashStep, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                                "^$dif|normal, $any|SlideDash|FlashStep, $any|Guard|ReflectElement",
-                                "^$dif|hard, $any|Guard|ReflectElement|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+                                "access_rules": ["^$dif|easy, ^$any|SlideDash|FlashStep, ^$any|Guard|ReflectElement, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, ^$any|Guard|ReflectElement, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, ^$any|SlideDash|FlashStep, ^$any|Guard|ReflectElement",
+                                "^$dif|hard, ^$any|Guard|ReflectElement|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
                             },
                         
                             {
                                 "name": "Shan-Yu Bonus: Sora Slot 2",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|SlideDash|FlashStep, $any|Guard|ReflectElement, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                                "^$dif|normal, $any|Guard|ReflectElement, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                                "^$dif|normal, $any|SlideDash|FlashStep, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                                "^$dif|normal, $any|SlideDash|FlashStep, $any|Guard|ReflectElement",
-                                "^$dif|hard, $any|Guard|ReflectElement|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+                                "access_rules": ["^$dif|easy, ^$any|SlideDash|FlashStep, ^$any|Guard|ReflectElement, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, ^$any|Guard|ReflectElement, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, ^$any|SlideDash|FlashStep, ^$any|Guard|ReflectElement",
+                                "^$dif|hard, ^$any|Guard|ReflectElement|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
                             },
                         
                             {
                                 "name": "Hidden Dragon",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|SlideDash|FlashStep, $any|Guard|ReflectElement, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                                "^$dif|normal, $any|Guard|ReflectElement, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                                "^$dif|normal, $any|SlideDash|FlashStep, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                                "^$dif|normal, $any|SlideDash|FlashStep, $any|Guard|ReflectElement",
-                                "^$dif|hard, $any|Guard|ReflectElement|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+                                "access_rules": ["^$dif|easy, ^$any|SlideDash|FlashStep, ^$any|Guard|ReflectElement, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, ^$any|Guard|ReflectElement, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, ^$any|SlideDash|FlashStep, ^$any|Guard|ReflectElement",
+                                "^$dif|hard, ^$any|Guard|ReflectElement|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
                             },
                         
                             {
                                 "name": "Shan-Yu Bonus: Goofy Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": ["^$dif|easy, $any|SlideDash|FlashStep, $any|Guard|ReflectElement, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                                "^$dif|normal, $any|Guard|ReflectElement, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                                "^$dif|normal, $any|SlideDash|FlashStep, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                                "^$dif|normal, $any|SlideDash|FlashStep, $any|Guard|ReflectElement",
-                                "^$dif|hard, $any|Guard|ReflectElement|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+                                "access_rules": ["^$dif|easy, ^$any|SlideDash|FlashStep, ^$any|Guard|ReflectElement, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, ^$any|Guard|ReflectElement, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                                "^$dif|normal, ^$any|SlideDash|FlashStep, ^$any|Guard|ReflectElement",
+                                "^$dif|hard, ^$any|Guard|ReflectElement|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
                             }
                         
                             ]

@@ -78,31 +78,31 @@
                 "name": "Hostile Program Bonus: Sora Slot 1",
                 "item_count": 1,
                 "visibility_rules": [],
-                "access_rules": ["^$dif|easy, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                "^$dif|hard, $any|DonaldFantasia|DonaldFlareForce, $any|ReflectElement|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                "^$dif|hard, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final", "^$dif|hard, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+                "access_rules": ["^$dif|easy, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, ^$any|Stitch|ChickenLittle|PeterPan|Genie, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, ^$any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, ^$any|DonaldFantasia|DonaldFlareForce|ReflectElement, ^$any|Stitch|ChickenLittle|PeterPan|Genie, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, ^$any|DonaldFantasia|DonaldFlareForce, ^$any|ReflectElement|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, ReflectElement, ^$any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final", "^$dif|hard, ^$any|Stitch|ChickenLittle|PeterPan|Genie, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
             },
             {
                 "name": "Hostile Program Bonus: Sora Slot 2",
                 "item_count": 1,
                 "visibility_rules": [],
-                "access_rules": ["^$dif|easy, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                "^$dif|hard, $any|DonaldFantasia|DonaldFlareForce, $any|ReflectElement|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                "^$dif|hard, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final", "^$dif|hard, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+                "access_rules": ["^$dif|easy, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, ^$any|Stitch|ChickenLittle|PeterPan|Genie, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, ^$any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, ^$any|DonaldFantasia|DonaldFlareForce|ReflectElement, ^$any|Stitch|ChickenLittle|PeterPan|Genie, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, ^$any|DonaldFantasia|DonaldFlareForce, ^$any|ReflectElement|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, ReflectElement, ^$any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final", "^$dif|hard, ^$any|Stitch|ChickenLittle|PeterPan|Genie, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
             },
             {
                 "name": "Photon Debugger",
                 "item_count": 1,
                 "visibility_rules": [],
-                "access_rules": ["^$dif|easy, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                "^$dif|hard, $any|DonaldFantasia|DonaldFlareForce, $any|ReflectElement|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                "^$dif|hard, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final", "^$dif|hard, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+                "access_rules": ["^$dif|easy, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, ^$any|Stitch|ChickenLittle|PeterPan|Genie, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, ^$any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, ^$any|DonaldFantasia|DonaldFlareForce|ReflectElement, ^$any|Stitch|ChickenLittle|PeterPan|Genie, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, ^$any|DonaldFantasia|DonaldFlareForce, ^$any|ReflectElement|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, ReflectElement, ^$any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final", "^$dif|hard, ^$any|Stitch|ChickenLittle|PeterPan|Genie, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
             },
             {
                 "name": "Screens Bonus: Donald Slot 1",
@@ -114,11 +114,11 @@
                 "name": "Hostile Program Bonus: Goofy Slot 1",
                 "item_count": 1,
                 "visibility_rules": ["opt_dgstats_yes"],
-                "access_rules": ["^$dif|easy, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                "^$dif|hard, $any|DonaldFantasia|DonaldFlareForce, $any|ReflectElement|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
-                "^$dif|hard, ReflectElement, $any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final", "^$dif|hard, $any|Stitch|ChickenLittle|PeterPan|Genie, $any|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
+                "access_rules": ["^$dif|easy, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, ^$any|Stitch|ChickenLittle|PeterPan|Genie, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, ^$any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|normal, ^$any|DonaldFantasia|DonaldFlareForce|ReflectElement, ^$any|Stitch|ChickenLittle|PeterPan|Genie, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, ^$any|DonaldFantasia|DonaldFlareForce, ^$any|ReflectElement|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final",
+                "^$dif|hard, ReflectElement, ^$any|Stitch|ChickenLittle|PeterPan|Genie|ValorForm|WisdomForm|MasterForm|LimitForm|final", "^$dif|hard, ^$any|Stitch|ChickenLittle|PeterPan|Genie, ^$any|ValorForm|WisdomForm|MasterForm|LimitForm|final"]
             }
         ]
     }

@@ -76,67 +76,67 @@
                                 "name": "Future Pete Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|SlideDash|FlashStep, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
-                                "^$dif|normal, $any|ReflectElement|Guard|SlideDash|FlashStep, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|SlideDash|FlashStep",
-                                "^$dif|hard, $any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                                "^$dif|normal, ^$any|ReflectElement|Guard|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep",
+                                "^$dif|hard, ^$any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final"]
                             },
                         
                             {
                                 "name": "Future Pete Bonus: Sora Slot 2",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|SlideDash|FlashStep, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
-                                "^$dif|normal, $any|ReflectElement|Guard|SlideDash|FlashStep, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|SlideDash|FlashStep",
-                                "^$dif|hard, $any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                                "^$dif|normal, ^$any|ReflectElement|Guard|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep",
+                                "^$dif|hard, ^$any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final"]
                             },
                         
                             {
                                 "name": "Monochrome",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|SlideDash|FlashStep, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
-                                "^$dif|normal, $any|ReflectElement|Guard|SlideDash|FlashStep, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|SlideDash|FlashStep",
-                                "^$dif|hard, $any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                                "^$dif|normal, ^$any|ReflectElement|Guard|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep",
+                                "^$dif|hard, ^$any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final"]
                             },
                         
                             {
                                 "name": "Wisdom Form",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|SlideDash|FlashStep, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
-                                "^$dif|normal, $any|ReflectElement|Guard|SlideDash|FlashStep, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|SlideDash|FlashStep",
-                                "^$dif|hard, $any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                                "^$dif|normal, ^$any|ReflectElement|Guard|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep",
+                                "^$dif|hard, ^$any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final"]
                             },
                         
                             {
                                 "name": "Marluxia Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, $any|DonaldFantasia|DonaldFlareForce",
-                                "^$dif|normal, ReflectElement, Guard, $any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:2, $any|DonaldFantasia|DonaldFlareForce", 
-                                "^$dif|hard, $any|ReflectElement|Guard, $any|SlideDash|FlashStep"]
+                                "access_rules": ["^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce",
+                                "^$dif|normal, ReflectElement, Guard, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:2, ^$any|DonaldFantasia|DonaldFlareForce", 
+                                "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep"]
                             },
                         
                             {
                                 "name": "AS Marluxia",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, $any|DonaldFantasia|DonaldFlareForce",
-                                "^$dif|normal, ReflectElement, Guard, $any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:2, $any|DonaldFantasia|DonaldFlareForce", 
-                                "^$dif|hard, $any|ReflectElement|Guard, $any|SlideDash|FlashStep"]
+                                "access_rules": ["^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce",
+                                "^$dif|normal, ReflectElement, Guard, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:2, ^$any|DonaldFantasia|DonaldFlareForce", 
+                                "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep"]
                             },
                         
                             {
                                 "name": "Data Marluxia",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, $any|DonaldFantasia|DonaldFlareForce",
-                                "^$dif|normal, ReflectElement, Guard, $any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:2, $any|DonaldFantasia|DonaldFlareForce", 
-                                "^$dif|hard, $any|ReflectElement|Guard, $any|SlideDash|FlashStep"]
+                                "access_rules": ["^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce",
+                                "^$dif|normal, ReflectElement, Guard, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:2, ^$any|DonaldFantasia|DonaldFlareForce", 
+                                "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep"]
                             },
                         
                             {
@@ -144,8 +144,8 @@
                                 "item_count": 1,
                                 "visibility_rules": [],
                                 "access_rules": ["^$dif|easy, ProofofConnection, ReflectElement, Guard, SlideDash, FlashStep, Explosion, ComboPlus:2, DodgeRoll:3, AerialDodge:3, Glide:3, DonaldFlareForce, DonaldFantasia, @Levels/Final level 7, FireElement:3, SecondChance, OnceMore",
-                                "^$dif|normal, ProofofConnection, Guard, Explosion, ComboPlus:2, SlideDash, FlashStep, DodgeRoll:2, AerialDodge:2, Glide:2, $any|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, ProofofConnection, Guard, $any|SlideDash|FlashStep, Explosion, ComboPlus:2, DodgeRoll:2, AerialDodge:2, Glide:2"]
+                                "^$dif|normal, ProofofConnection, Guard, Explosion, ComboPlus:2, SlideDash, FlashStep, DodgeRoll:2, AerialDodge:2, Glide:2, ^$any|DonaldFlareForce|DonaldFantasia",
+                                "^$dif|hard, ProofofConnection, Guard, ^$any|SlideDash|FlashStep, Explosion, ComboPlus:2, DodgeRoll:2, AerialDodge:2, Glide:2"]
                             },
                         
                             {
@@ -153,8 +153,8 @@
                                 "item_count": 1,
                                 "visibility_rules": [],
                                 "access_rules": ["^$dif|easy, ProofofConnection, ReflectElement, Guard, SlideDash, FlashStep, Explosion, ComboPlus:2, DodgeRoll:3, AerialDodge:3, Glide:3, DonaldFlareForce, DonaldFantasia, @Levels/Final level 7, FireElement:3, SecondChance, OnceMore",
-                                "^$dif|normal, ProofofConnection, Guard, Explosion, ComboPlus:2, SlideDash, FlashStep, DodgeRoll:2, AerialDodge:2, Glide:2, $any|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, ProofofConnection, Guard, $any|SlideDash|FlashStep, Explosion, ComboPlus:2, DodgeRoll:2, AerialDodge:2, Glide:2"]
+                                "^$dif|normal, ProofofConnection, Guard, Explosion, ComboPlus:2, SlideDash, FlashStep, DodgeRoll:2, AerialDodge:2, Glide:2, ^$any|DonaldFlareForce|DonaldFantasia",
+                                "^$dif|hard, ProofofConnection, Guard, ^$any|SlideDash|FlashStep, Explosion, ComboPlus:2, DodgeRoll:2, AerialDodge:2, Glide:2"]
                             },
                         
                             {
@@ -162,8 +162,8 @@
                                 "item_count": 1,
                                 "visibility_rules": [],
                                 "access_rules": ["^$dif|easy, ProofofConnection, ReflectElement, Guard, SlideDash, FlashStep, Explosion, ComboPlus:2, DodgeRoll:3, AerialDodge:3, Glide:3, DonaldFlareForce, DonaldFantasia, @Levels/Final level 7, FireElement:3, SecondChance, OnceMore",
-                                "^$dif|normal, ProofofConnection, Guard, Explosion, ComboPlus:2, SlideDash, FlashStep, DodgeRoll:2, AerialDodge:2, Glide:2, $any|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, ProofofConnection, Guard, $any|SlideDash|FlashStep, Explosion, ComboPlus:2, DodgeRoll:2, AerialDodge:2, Glide:2"]
+                                "^$dif|normal, ProofofConnection, Guard, Explosion, ComboPlus:2, SlideDash, FlashStep, DodgeRoll:2, AerialDodge:2, Glide:2, ^$any|DonaldFlareForce|DonaldFantasia",
+                                "^$dif|hard, ProofofConnection, Guard, ^$any|SlideDash|FlashStep, Explosion, ComboPlus:2, DodgeRoll:2, AerialDodge:2, Glide:2"]
                             },
                         
                             {
@@ -184,10 +184,10 @@
                                 "name": "Future Pete Bonus: Goofy Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|SlideDash|FlashStep, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
-                                "^$dif|normal, $any|ReflectElement|Guard|SlideDash|FlashStep, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|SlideDash|FlashStep",
-                                "^$dif|hard, $any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                                "^$dif|normal, ^$any|ReflectElement|Guard|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep",
+                                "^$dif|hard, ^$any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final"]
                             }
                         
                             ]

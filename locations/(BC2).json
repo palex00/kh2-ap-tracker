@@ -13,26 +13,26 @@
                                 "name": "Rumbling Rose",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard, $any|SlideDash|FlashStep", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Castle Walls Map",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard, $any|SlideDash|FlashStep", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Xaldin Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, Guard, $any|SlideDash|FlashStep, $multiple|2|AerialDive|AerialSpiral|HorizontalSlash|AerialSweep|AerialFinish", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, Guard, $any|AerialDive|AerialSpiral|HorizontalSlash|AerialSweep|AerialFinish",
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, Guard, ^$any|SlideDash|FlashStep, ^$multiple|2|AerialDive|AerialSpiral|HorizontalSlash|AerialSweep|AerialFinish", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, Guard, ^$any|AerialDive|AerialSpiral|HorizontalSlash|AerialSweep|AerialFinish",
                                 "^$dif|hard, Guard"]
                             },
                         
@@ -40,8 +40,8 @@
                                 "name": "Xaldin Bonus: Sora Slot 2",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, Guard, $any|SlideDash|FlashStep, $multiple|2|AerialDive|AerialSpiral|HorizontalSlash|AerialSweep|AerialFinish", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, Guard, $any|AerialDive|AerialSpiral|HorizontalSlash|AerialSweep|AerialFinish",
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, Guard, ^$any|SlideDash|FlashStep, ^$multiple|2|AerialDive|AerialSpiral|HorizontalSlash|AerialSweep|AerialFinish", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, Guard, ^$any|AerialDive|AerialSpiral|HorizontalSlash|AerialSweep|AerialFinish",
                                 "^$dif|hard, Guard"]
                             },
                         
@@ -49,8 +49,8 @@
                                 "name": "Secret Ansem Report 4 (Xaldin)",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, Guard, $any|SlideDash|FlashStep, $multiple|2|AerialDive|AerialSpiral|HorizontalSlash|AerialSweep|AerialFinish", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, Guard, $any|AerialDive|AerialSpiral|HorizontalSlash|AerialSweep|AerialFinish",
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, Guard, ^$any|SlideDash|FlashStep, ^$multiple|2|AerialDive|AerialSpiral|HorizontalSlash|AerialSweep|AerialFinish", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, Guard, ^$any|AerialDive|AerialSpiral|HorizontalSlash|AerialSweep|AerialFinish",
                                 "^$dif|hard, Guard"]
                             },
                         
@@ -58,17 +58,17 @@
                                 "name": "Data Xaldin",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, FinishingPlus, Guard, MagnetElement, AerialDive, @Levels/Final level 7, FireElement:3, ReflectElement:3, $any|DonaldFantasia|DonaldFlareForce, HighJump:3, AerialDodge:3, Glide:3, AerialSpiral, HorizontalSlash, BerserkCharge, AirComboPlus:2",
-                                "^$dif|normal, FinishingPlus, Guard, MagnetElement, AerialDive, @Levels/Final level 7, FireElement:3, ReflectElement:3, $any|DonaldFantasia|DonaldFlareForce, HighJump:3, AerialDodge:3, Glide:3, AerialSpiral, HorizontalSlash",
-                                "^$dif|hard, FinishingPlus, Guard, MagnetElement, AerialDive, @Levels/Final level 5, FireElement:2, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, HighJump:2, AerialDodge:2, Glide:2"]
+                                "access_rules": ["^$dif|easy, FinishingPlus, Guard, MagnetElement, AerialDive, @Levels/Final level 7, FireElement:3, ReflectElement:3, ^$any|DonaldFantasia|DonaldFlareForce, HighJump:3, AerialDodge:3, Glide:3, AerialSpiral, HorizontalSlash, BerserkCharge, AirComboPlus:2",
+                                "^$dif|normal, FinishingPlus, Guard, MagnetElement, AerialDive, @Levels/Final level 7, FireElement:3, ReflectElement:3, ^$any|DonaldFantasia|DonaldFlareForce, HighJump:3, AerialDodge:3, Glide:3, AerialSpiral, HorizontalSlash",
+                                "^$dif|hard, FinishingPlus, Guard, MagnetElement, AerialDive, @Levels/Final level 5, FireElement:2, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, HighJump:2, AerialDodge:2, Glide:2"]
                             },
                         
                             {
                                 "name": "Xaldin Bonus: Donald Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, Guard, $any|SlideDash|FlashStep, $multiple|2|AerialDive|AerialSpiral|HorizontalSlash|AerialSweep|AerialFinish", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, Guard, $any|AerialDive|AerialSpiral|HorizontalSlash|AerialSweep|AerialFinish",
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, Guard, ^$any|SlideDash|FlashStep, ^$multiple|2|AerialDive|AerialSpiral|HorizontalSlash|AerialSweep|AerialFinish", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, Guard, ^$any|AerialDive|AerialSpiral|HorizontalSlash|AerialSweep|AerialFinish",
                                 "^$dif|hard, Guard"]
                             }
                         

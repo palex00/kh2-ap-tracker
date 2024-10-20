@@ -132,24 +132,24 @@
                                 "name": "Barbossa Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, BlizzardElement:2, $any|ReflectElement|Guard", "^$dif|easy, ThunderElement:2, $any|ReflectElement|Guard", "^$dif|easy, BlizzardElement, ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|BlizzardElement|ThunderElement, $any|Guard|ReflectElement", "^$dif|hard, $any|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, BlizzardElement:2, ^$any|ReflectElement|Guard", "^$dif|easy, ThunderElement:2, ^$any|ReflectElement|Guard", "^$dif|easy, BlizzardElement, ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|BlizzardElement|ThunderElement, ^$any|Guard|ReflectElement", "^$dif|hard, ^$any|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Barbossa Bonus: Sora Slot 2",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, BlizzardElement:2, $any|ReflectElement|Guard", "^$dif|easy, ThunderElement:2, $any|ReflectElement|Guard", "^$dif|easy, BlizzardElement, ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|BlizzardElement|ThunderElement, $any|Guard|ReflectElement", "^$dif|hard, $any|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, BlizzardElement:2, ^$any|ReflectElement|Guard", "^$dif|easy, ThunderElement:2, ^$any|ReflectElement|Guard", "^$dif|easy, BlizzardElement, ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|BlizzardElement|ThunderElement, ^$any|Guard|ReflectElement", "^$dif|hard, ^$any|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Follow the Wind",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, BlizzardElement:2, $any|ReflectElement|Guard", "^$dif|easy, ThunderElement:2, $any|ReflectElement|Guard", "^$dif|easy, BlizzardElement, ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|BlizzardElement|ThunderElement, $any|Guard|ReflectElement", "^$dif|hard, $any|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, BlizzardElement:2, ^$any|ReflectElement|Guard", "^$dif|easy, ThunderElement:2, ^$any|ReflectElement|Guard", "^$dif|easy, BlizzardElement, ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|BlizzardElement|ThunderElement, ^$any|Guard|ReflectElement", "^$dif|hard, ^$any|ReflectElement|Guard"]
                             },
                         
                             {
@@ -163,16 +163,16 @@
                                 "name": "Barbossa Bonus: Goofy Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": ["^$dif|easy, BlizzardElement:2, $any|ReflectElement|Guard", "^$dif|easy, ThunderElement:2, $any|ReflectElement|Guard", "^$dif|easy, BlizzardElement, ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|BlizzardElement|ThunderElement, $any|Guard|ReflectElement", "^$dif|hard, $any|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, BlizzardElement:2, ^$any|ReflectElement|Guard", "^$dif|easy, ThunderElement:2, ^$any|ReflectElement|Guard", "^$dif|easy, BlizzardElement, ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|BlizzardElement|ThunderElement, ^$any|Guard|ReflectElement", "^$dif|hard, ^$any|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Barbossa Bonus: Goofy Slot 2",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": ["^$dif|easy, BlizzardElement:2, $any|ReflectElement|Guard", "^$dif|easy, ThunderElement:2, $any|ReflectElement|Guard", "^$dif|easy, BlizzardElement, ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|BlizzardElement|ThunderElement, $any|Guard|ReflectElement", "^$dif|hard, $any|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, BlizzardElement:2, ^$any|ReflectElement|Guard", "^$dif|easy, ThunderElement:2, ^$any|ReflectElement|Guard", "^$dif|easy, BlizzardElement, ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|BlizzardElement|ThunderElement, ^$any|Guard|ReflectElement", "^$dif|hard, ^$any|ReflectElement|Guard"]
                             },
                         
                             {

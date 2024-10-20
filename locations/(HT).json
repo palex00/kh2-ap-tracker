@@ -111,50 +111,50 @@
                                 "name": "Prison Keeper Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|normal, $any|ReflectElement|Guard, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
-                                "^$dif|hard, $any|ReflectElement|Guard|ValorForm|WisdomForm|LimitForm|MasterForm|final|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
+                                "^$dif|hard, ^$any|ReflectElement|Guard|ValorForm|WisdomForm|LimitForm|MasterForm|final|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
                             },
                         
                             {
                                 "name": "Oogie Boogie Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|normal, $any|ReflectElement|Guard, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
-                                "^$dif|hard, $any|ReflectElement|Guard|ValorForm|WisdomForm|LimitForm|MasterForm|final|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
+                                "^$dif|hard, ^$any|ReflectElement|Guard|ValorForm|WisdomForm|LimitForm|MasterForm|final|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
                             },
                         
                             {
                                 "name": "Oogie Boogie Magnet Element",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|normal, $any|ReflectElement|Guard, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
-                                "^$dif|hard, $any|ReflectElement|Guard|ValorForm|WisdomForm|LimitForm|MasterForm|final|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
+                                "^$dif|hard, ^$any|ReflectElement|Guard|ValorForm|WisdomForm|LimitForm|MasterForm|final|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
                             },
                         
                             {
                                 "name": "Prison Keeper Bonus: Donald Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|normal, $any|ReflectElement|Guard, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
-                                "^$dif|hard, $any|ReflectElement|Guard|ValorForm|WisdomForm|LimitForm|MasterForm|final|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
+                                "^$dif|hard, ^$any|ReflectElement|Guard|ValorForm|WisdomForm|LimitForm|MasterForm|final|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
                             },
                         
                             {
                                 "name": "Oogie Boogie Bonus: Goofy Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|normal, $any|ReflectElement|Guard, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, $any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
-                                "^$dif|hard, $any|ReflectElement|Guard|ValorForm|WisdomForm|LimitForm|MasterForm|final|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                                "^$dif|normal, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
+                                "^$dif|hard, ^$any|ReflectElement|Guard|ValorForm|WisdomForm|LimitForm|MasterForm|final|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
                             }
                         
                             ]

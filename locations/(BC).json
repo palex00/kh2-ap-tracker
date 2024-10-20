@@ -76,11 +76,11 @@
                                 "name": "The West Hall AP Boost Post Dungeon",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             },
                         
                             {
@@ -101,66 +101,66 @@
                                 "name": "Thresholder Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Dungeon Basement Map",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Dungeon AP Boost",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Secret Passage Mythril Shard",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Secret Passage Hi-Potion",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Secret Passage Lucid Shard",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             },
                         
                             {
@@ -174,93 +174,93 @@
                                 "name": "The West Wing Mythril Shard",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "The West Wing Tent",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Beast Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "The Beast's Room Blazing Shard",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Dark Thorn Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard, $any|SlideDash|FlashStep", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Dark Thorn Bonus: Sora Slot 2",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard, $any|SlideDash|FlashStep", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Dark Thorn Cure Element",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard, $any|SlideDash|FlashStep", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Thresholder Bonus: Donald Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Beast Bonus: Goofy Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": ["^$dif|easy, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|FireElement|BlizzardElement|ThunderElement", 
-                                "^$dif|normal, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|ReflectElement|Guard",
-                                "^$dif|normal, $any|FireElement|BlizzardElement|ThunderElement, $any|ReflectElement|Guard",
-                                "^$dif|hard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|FireElement|BlizzardElement|ThunderElement", 
+                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ReflectElement|Guard",
+                                "^$dif|normal, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|ReflectElement|Guard",
+                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|ReflectElement|Guard"]
                             }
                         
                             ]

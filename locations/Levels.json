@@ -604,26 +604,26 @@
             },
             {
                 "name": "Valor level 3",
-                "access_rules": ["ValorForm","opt_autoform_yes, AutoValor, $any|WisdomForm|LimitForm|MasterForm|final"],
+                "access_rules": ["ValorForm","opt_autoform_yes, AutoValor, ^$any|WisdomForm|LimitForm|MasterForm|final"],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Valor level 4",
-                "access_rules": ["ValorForm, $any|WisdomForm|LimitForm|MasterForm|final", "opt_autoform_yes, AutoValor, $multiple|2|WisdomForm|LimitForm|MasterForm|final"],
+                "access_rules": ["ValorForm, ^$any|WisdomForm|LimitForm|MasterForm|final", "opt_autoform_yes, AutoValor, ^$multiple|2|WisdomForm|LimitForm|MasterForm|final"],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Valor level 5",
-                "access_rules": ["ValorForm, $multiple|2|WisdomForm|LimitForm|MasterForm|final", "opt_autoform_yes, AutoValor, $multiple|3|WisdomForm|LimitForm|MasterForm|final"],
+                "access_rules": ["ValorForm, ^$multiple|2|WisdomForm|LimitForm|MasterForm|final", "opt_autoform_yes, AutoValor, ^$multiple|3|WisdomForm|LimitForm|MasterForm|final"],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Valor level 6",
                 "access_rules": [],
-                "visibility_rules": ["ValorForm, $multiple|3|WisdomForm|LimitForm|MasterForm|final", "opt_autoform_yes, AutoValor, WisdomForm, LimitForm, MasterForm, ^$final"],
+                "visibility_rules": ["ValorForm, ^$multiple|3|WisdomForm|LimitForm|MasterForm|final", "opt_autoform_yes, AutoValor, WisdomForm, LimitForm, MasterForm, ^$final"],
                 "item_count": 1
             },
             {
@@ -640,25 +640,25 @@
             },
             {
                 "name": "Wisdom level 3",
-                "access_rules": ["WisdomForm", "opt_autoform_yes, AutoWisdom, $any|ValorForm|LimitForm|MasterForm|final"],
+                "access_rules": ["WisdomForm", "opt_autoform_yes, AutoWisdom, ^$any|ValorForm|LimitForm|MasterForm|final"],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Wisdom level 4",
-                "access_rules": ["WisdomForm, $any|ValorForm|LimitForm|MasterForm|final", "opt_autoform_yes, AutoWisdom, $multiple|2|ValorForm|LimitForm|MasterForm|final"],
+                "access_rules": ["WisdomForm, ^$any|ValorForm|LimitForm|MasterForm|final", "opt_autoform_yes, AutoWisdom, ^$multiple|2|ValorForm|LimitForm|MasterForm|final"],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Wisdom level 5",
-                "access_rules": ["WisdomForm, $multiple|2|ValorForm|LimitForm|MasterForm|final", "opt_autoform_yes, AutoWisdom, $multiple|3|ValorForm|LimitForm|MasterForm|final"],
+                "access_rules": ["WisdomForm, ^$multiple|2|ValorForm|LimitForm|MasterForm|final", "opt_autoform_yes, AutoWisdom, ^$multiple|3|ValorForm|LimitForm|MasterForm|final"],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Wisdom level 6",
-                "access_rules": ["WisdomForm, $multiple|3|ValorForm|LimitForm|MasterForm|final", "opt_autoform_yes, AutoWisdom, ValorForm, LimitForm, MasterForm, ^$final"],
+                "access_rules": ["WisdomForm, ^$multiple|3|ValorForm|LimitForm|MasterForm|final", "opt_autoform_yes, AutoWisdom, ValorForm, LimitForm, MasterForm, ^$final"],
                 "visibility_rules": [],
                 "item_count": 1
             },
@@ -676,25 +676,25 @@
             },
             {
                 "name": "Limit level 3",
-                "access_rules": ["LimitForm", "opt_autoform_yes, AutoLimit, $any|ValorForm|WisdomForm|MasterForm|final"],
+                "access_rules": ["LimitForm", "opt_autoform_yes, AutoLimit, ^$any|ValorForm|WisdomForm|MasterForm|final"],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Limit level 4",
-                "access_rules": ["LimitForm, $any|ValorForm|WisdomForm|MasterForm|final", "opt_autoform_yes, AutoLimit, $multiple|2|ValorForm|WisdomForm|MasterForm|final"],
+                "access_rules": ["LimitForm, ^$any|ValorForm|WisdomForm|MasterForm|final", "opt_autoform_yes, AutoLimit, ^$multiple|2|ValorForm|WisdomForm|MasterForm|final"],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Limit level 5",
-                "access_rules": ["LimitForm, $multiple|2|ValorForm|WisdomForm|MasterForm|final", "opt_autoform_yes, AutoLimit, $multiple|3|ValorForm|WisdomForm|MasterForm|final"],
+                "access_rules": ["LimitForm, ^$multiple|2|ValorForm|WisdomForm|MasterForm|final", "opt_autoform_yes, AutoLimit, ^$multiple|3|ValorForm|WisdomForm|MasterForm|final"],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Limit level 6",
-                "access_rules": ["LimitForm, $multiple|3|ValorForm|WisdomForm|MasterForm|final", "opt_autoform_yes, AutoLimit, ValorForm, WisdomForm, MasterForm, ^$final"],
+                "access_rules": ["LimitForm, ^$multiple|3|ValorForm|WisdomForm|MasterForm|final", "opt_autoform_yes, AutoLimit, ValorForm, WisdomForm, MasterForm, ^$final"],
                 "visibility_rules": [],
                 "item_count": 1
             },
@@ -712,25 +712,25 @@
             },
             {
                 "name": "Master level 3",
-                "access_rules": ["MasterForm", "opt_autoform_yes, AutoMaster, $any|ValorForm|WisdomForm|LimitForm|final"],
+                "access_rules": ["MasterForm", "opt_autoform_yes, AutoMaster, ^$any|ValorForm|WisdomForm|LimitForm|final"],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Master level 4",
-                "access_rules": ["MasterForm, $any|ValorForm|WisdomForm|LimitForm|final", "opt_autoform_yes, AutoMaster, $multiple|2|ValorForm|WisdomForm|LimitForm|final"],
+                "access_rules": ["MasterForm, ^$any|ValorForm|WisdomForm|LimitForm|final", "opt_autoform_yes, AutoMaster, ^$multiple|2|ValorForm|WisdomForm|LimitForm|final"],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Master level 5",
-                "access_rules": ["MasterForm, $multiple|2|ValorForm|WisdomForm|LimitForm|final", "opt_autoform_yes, AutoMaster, $multiple|3|ValorForm|WisdomForm|LimitForm|final"],
+                "access_rules": ["MasterForm, ^$multiple|2|ValorForm|WisdomForm|LimitForm|final", "opt_autoform_yes, AutoMaster, ^$multiple|3|ValorForm|WisdomForm|LimitForm|final"],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Master level 6",
-                "access_rules": ["MasterForm, $multiple|3|ValorForm|WisdomForm|LimitForm|final", "opt_autoform_yes, AutoMaster, $multiple|4|ValorForm|WisdomForm|LimitForm|final"],
+                "access_rules": ["MasterForm, ^$multiple|3|ValorForm|WisdomForm|LimitForm|final", "opt_autoform_yes, AutoMaster, ^$multiple|4|ValorForm|WisdomForm|LimitForm|final"],
                 "visibility_rules": [],
                 "item_count": 1
             },
@@ -751,48 +751,48 @@
             },
             {
                 "name": "Final level 3",
-                "access_rules": ["^$final, @(TT3)","opt_autoform_yes, AutoFinal, $any|ValorForm|WisdomForm|LimitForm|MasterForm, @(TT3)",
-                                "^$final, @(TWTNW2)/Roxas Bonus: Sora Slot 1", "opt_autoform_yes, AutoFInal, $any|ValorForm|WisdomForm|LimitForm|MasterForm, @(TWTNW2)/Roxas Bonus: Sora Slot 1",
-                                "^$final, @(LoD2), @(LoD)/Hidden Dragon", "opt_autoform_yes, AutoFinal, $any|ValorForm|WisdomForm|LimitForm|MasterForm, @(LoD2), @(LoD)/Hidden Dragon",
-                                "^$final, @(BC2)/Rumbling Rose", "opt_autoform_yes, $any|ValorForm|WisdomForm|LimitForm|MasterForm, AutoFinal, @(BC2)/Rumbling Rose"],
+                "access_rules": ["^$final, @(TT3)","opt_autoform_yes, AutoFinal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm, @(TT3)",
+                                "^$final, @(TWTNW2)/Roxas Bonus: Sora Slot 1", "opt_autoform_yes, AutoFInal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm, @(TWTNW2)/Roxas Bonus: Sora Slot 1",
+                                "^$final, @(LoD2), @(LoD)/Hidden Dragon", "opt_autoform_yes, AutoFinal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm, @(LoD2), @(LoD)/Hidden Dragon",
+                                "^$final, @(BC2)/Rumbling Rose", "opt_autoform_yes, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm, AutoFinal, @(BC2)/Rumbling Rose"],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Final level 4",
-                "access_rules": ["^$final, $any|ValorForm|WisdomForm|LimitForm|MasterForm, @(TT3)",
-                                "opt_autoform_yes, AutoFinal, $multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm, @(TT3)",
-                                "^$final, $any|ValorForm|WisdomForm|LimitForm|MasterForm, @(TWTNW2)/Roxas Bonus: Sora Slot 1", 
-                                "opt_autoform_yes, AutoFInal, $multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm, @(TWTNW2)/Roxas Bonus: Sora Slot 1",
-                                "^$final, $any|ValorForm|WisdomForm|LimitForm|MasterForm, @(LoD2), @(LoD)/Hidden Dragon", 
-                                "opt_autoform_yes, AutoFinal, $multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm, @(LoD2), @(LoD)/Hidden Dragon",
-                                "^$final, $any|ValorForm|WisdomForm|LimitForm|MasterForm, @(BC2)/Rumbling Rose", 
-                                "opt_autoform_yes, $multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm, AutoFinal, @(BC2)/Rumbling Rose"],
+                "access_rules": ["^$final, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm, @(TT3)",
+                                "opt_autoform_yes, AutoFinal, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm, @(TT3)",
+                                "^$final, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm, @(TWTNW2)/Roxas Bonus: Sora Slot 1", 
+                                "opt_autoform_yes, AutoFInal, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm, @(TWTNW2)/Roxas Bonus: Sora Slot 1",
+                                "^$final, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm, @(LoD2), @(LoD)/Hidden Dragon", 
+                                "opt_autoform_yes, AutoFinal, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm, @(LoD2), @(LoD)/Hidden Dragon",
+                                "^$final, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm, @(BC2)/Rumbling Rose", 
+                                "opt_autoform_yes, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm, AutoFinal, @(BC2)/Rumbling Rose"],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Final level 5",
-                "access_rules": ["^$final, $multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm, @(TT3)",
-                                "opt_autoform_yes, AutoFinal, $multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm, @(TT3)",
-                                "^$final, $multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm, @(TWTNW2)/Roxas Bonus: Sora Slot 1", 
-                                "opt_autoform_yes, AutoFInal, $multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm, @(TWTNW2)/Roxas Bonus: Sora Slot 1",
-                                "^$final, $multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm, @(LoD2), @(LoD)/Hidden Dragon", 
-                                "opt_autoform_yes, AutoFinal, $multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm, @(LoD2), @(LoD)/Hidden Dragon",
-                                "^$final, $multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm, @(BC2)/Rumbling Rose", 
-                                "opt_autoform_yes, $multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm, AutoFinal, @(BC2)/Rumbling Rose"],
+                "access_rules": ["^$final, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm, @(TT3)",
+                                "opt_autoform_yes, AutoFinal, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm, @(TT3)",
+                                "^$final, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm, @(TWTNW2)/Roxas Bonus: Sora Slot 1", 
+                                "opt_autoform_yes, AutoFInal, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm, @(TWTNW2)/Roxas Bonus: Sora Slot 1",
+                                "^$final, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm, @(LoD2), @(LoD)/Hidden Dragon", 
+                                "opt_autoform_yes, AutoFinal, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm, @(LoD2), @(LoD)/Hidden Dragon",
+                                "^$final, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm, @(BC2)/Rumbling Rose", 
+                                "opt_autoform_yes, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm, AutoFinal, @(BC2)/Rumbling Rose"],
                 "visibility_rules": [],
                 "item_count": 1
             },
             {
                 "name": "Final level 6",
-                "access_rules": ["^$final, $multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm, @(TT3)",
+                "access_rules": ["^$final, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm, @(TT3)",
                                 "opt_autoform_yes, AutoFinal, ValorForm, WisdomForm, LimitForm, MasterForm, @(TT3)",
-                                "^$final, $multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm, @(TWTNW2)/Roxas Bonus: Sora Slot 1", 
+                                "^$final, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm, @(TWTNW2)/Roxas Bonus: Sora Slot 1", 
                                 "opt_autoform_yes, AutoFInal, ValorForm, WisdomForm, LimitForm, MasterForm, @(TWTNW2)/Roxas Bonus: Sora Slot 1",
-                                "^$final, $multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm, @(LoD2), @(LoD)/Hidden Dragon", 
+                                "^$final, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm, @(LoD2), @(LoD)/Hidden Dragon", 
                                 "opt_autoform_yes, AutoFinal, ValorForm, WisdomForm, LimitForm, MasterForm, @(LoD2), @(LoD)/Hidden Dragon",
-                                "^$final, $multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm, @(BC2)/Rumbling Rose", 
+                                "^$final, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm, @(BC2)/Rumbling Rose", 
                                 "opt_autoform_yes, ValorForm, WisdomForm, LimitForm, MasterForm, AutoFinal, @(BC2)/Rumbling Rose"],
                 "visibility_rules": [],
                 "item_count": 1

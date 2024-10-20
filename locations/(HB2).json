@@ -104,63 +104,63 @@
                                 "name": "Demyx Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork",
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|hard, $any|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork",
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|hard, ^$any|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Demyx Bonus: Sora Slot 2",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork",
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|hard, $any|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork",
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|hard, ^$any|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "FF Fights Cure Element",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork",
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|hard, $any|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork",
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|hard, ^$any|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Crystal Fissure Torn Pages",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork",
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|hard, $any|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork",
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|hard, ^$any|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Crystal Fissure The Great Maw Map",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork",
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|hard, $any|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork",
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|hard, ^$any|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Crystal Fissure Energy Crystal",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork",
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|hard, $any|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork",
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|hard, ^$any|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "Crystal Fissure AP Boost",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork",
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|hard, $any|ReflectElement|Guard"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork",
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|hard, ^$any|ReflectElement|Guard"]
                             },
                         
                             {
                                 "name": "1000 Heartless",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, Guard, LimitForm, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
+                                "access_rules": ["^$dif|easy, Guard, LimitForm, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
                                 "^$dif|normal, Guard, LimitForm", "^$dif|hard, Guard"]
                             },
                         
@@ -168,7 +168,7 @@
                                 "name": "1000 Heartless Secret Ansem Report 1",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, Guard, LimitForm, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
+                                "access_rules": ["^$dif|easy, Guard, LimitForm, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
                                 "^$dif|normal, Guard, LimitForm", "^$dif|hard, Guard"]
                             },
                         
@@ -176,7 +176,7 @@
                                 "name": "1000 Heartless Ice Cream",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, Guard, LimitForm, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
+                                "access_rules": ["^$dif|easy, Guard, LimitForm, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
                                 "^$dif|normal, Guard, LimitForm", "^$dif|hard, Guard"]
                             },
                         
@@ -184,7 +184,7 @@
                                 "name": "1000 Heartless Picture",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, Guard, LimitForm, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
+                                "access_rules": ["^$dif|easy, Guard, LimitForm, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
                                 "^$dif|normal, Guard, LimitForm", "^$dif|hard, Guard"]
                             },
                         
@@ -192,7 +192,7 @@
                                 "name": "Postern Gull Wing",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, Guard, LimitForm, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
+                                "access_rules": ["^$dif|easy, Guard, LimitForm, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
                                 "^$dif|normal, Guard, LimitForm", "^$dif|hard, Guard"]
                             },
                         
@@ -200,7 +200,7 @@
                                 "name": "Heartless Manufactory Cosmic Chain",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, Guard, LimitForm, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
+                                "access_rules": ["^$dif|easy, Guard, LimitForm, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
                                 "^$dif|normal, Guard, LimitForm", "^$dif|hard, Guard"]
                             },
                         
@@ -208,25 +208,25 @@
                                 "name": "Sephiroth Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, Guard, @Levels/Limit level 5, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2, FinishingPlus, ReflectElement:3, SlideDash, FlashStep, GuardBreak, Explosion, DodgeRoll:3",
+                                "access_rules": ["^$dif|easy, Guard, @Levels/Limit level 5, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2, FinishingPlus, ReflectElement:3, SlideDash, FlashStep, GuardBreak, Explosion, DodgeRoll:3",
                                 "^$dif|normal, Guard, @Levels/Limit level 5, FinishingPlus, ReflectElement:2, FlashStep, SlideDash, GuardBreak, Explosion, DodgeRoll:3", 
-                                "^$dif|hard, Guard, FinishingPlus, ReflectElement, $any|SlideDash|FlashStep, $any|GuardBreak|Explosion, DodgeRoll:2"]
+                                "^$dif|hard, Guard, FinishingPlus, ReflectElement, ^$any|SlideDash|FlashStep, ^$any|GuardBreak|Explosion, DodgeRoll:2"]
                             },
                         
                             {
                                 "name": "Sephiroth Fenrir",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, Guard, @Levels/Limit level 5, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2, FinishingPlus, ReflectElement:3, SlideDash, FlashStep, GuardBreak, Explosion, DodgeRoll:3",
+                                "access_rules": ["^$dif|easy, Guard, @Levels/Limit level 5, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2, FinishingPlus, ReflectElement:3, SlideDash, FlashStep, GuardBreak, Explosion, DodgeRoll:3",
                                 "^$dif|normal, Guard, @Levels/Limit level 5, FinishingPlus, ReflectElement:2, FlashStep, SlideDash, GuardBreak, Explosion, DodgeRoll:3", 
-                                "^$dif|hard, Guard, FinishingPlus, ReflectElement, $any|SlideDash|FlashStep, $any|GuardBreak|Explosion, DodgeRoll:2"]
+                                "^$dif|hard, Guard, FinishingPlus, ReflectElement, ^$any|SlideDash|FlashStep, ^$any|GuardBreak|Explosion, DodgeRoll:2"]
                             },
                         
                             {
                                 "name": "Winner's Proof",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ProofofPeace, Guard, LimitForm, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
+                                "access_rules": ["^$dif|easy, ProofofPeace, Guard, LimitForm, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
                                 "^$dif|normal, ProofofPeace, Guard, LimitForm", "^$dif|hard, ProofofPeace, Guard"]
                             },
                         
@@ -234,7 +234,7 @@
                                 "name": "Proof of Peace",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ProofofPeace, Guard, LimitForm, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
+                                "access_rules": ["^$dif|easy, ProofofPeace, Guard, LimitForm, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
                                 "^$dif|normal, ProofofPeace, Guard, LimitForm", "^$dif|hard, ProofofPeace, Guard"]
                             },
                         
@@ -251,8 +251,8 @@
                                 "name": "Demyx Bonus: Donald Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": ["^$dif|easy, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final, $any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork",
-                                "^$dif|normal, $any|ReflectElement|Guard, $any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|hard, $any|ReflectElement|Guard,"]
+                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork",
+                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", "^$dif|hard, ^$any|ReflectElement|Guard,"]
                             }
                         
                             ]
