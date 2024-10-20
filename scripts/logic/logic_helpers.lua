@@ -77,12 +77,13 @@ function multiple(neededcount, ...)
     for i, item in ipairs(args) do
             if item ~= "final" then
 				local trackerItem = Tracker:FindObjectForCode(item)
-					if trackerItem then
-						local count = trackerItem.AcquiredCount or 0
-						if trackerItem.Active then
+					if trackerItem ~= nil then
+						local count = trackerItem.AcquiredCount
+						if trackerItem.Active == true then
 							totalItems = totalItems + 1
-						else
-							totalItems = totalItems + count
+							if trackerItem.AcquiredCount >= 2 then
+								totalItems = totalItems + count - 1
+							end
 						end
 					end
 			elseif item == "final" then
@@ -100,6 +101,7 @@ function multiple(neededcount, ...)
 					print("Error: Function", item, "not found")
 				end
 			end
+	print(totalItems)
     end    
 	
 	if totalItems >= neededcount then
