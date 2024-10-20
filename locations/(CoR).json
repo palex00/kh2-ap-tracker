@@ -1,356 +1,356 @@
 [
-                    {
-                        "name": "(CoR)",
-                        "chest_unopened_img": "/images/Items/close.png",
-                        "chest_opened_img": "/images/Items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": ["MembershipCard:2","opt_visit_off"],
-                        
+    {
+        "name": "(CoR)",
+        "chest_unopened_img": "/images/Items/close.png",
+        "chest_opened_img": "/images/Items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": ["MembershipCard:2","opt_visit_off"],
+        
 
-                                        "sections": [
-                                    
-                            {
-                                "name": "Depths AP Boost",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Depths Power Crystal",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Depths Frost Crystal",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Depths Manifest Illusion",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Depths AP Boost 2",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Mineshaft Lower Level Depths of Remembrance Map",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Mineshaft Lower Level AP Boost",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Depths Upper Level Remembrance Gem",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, QuickRun:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:1, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, @Levels/Wisdom level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|hard, QuickRun, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
-                                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3", "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, ^$final, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ReflectElement|ComboMaster"]
-                            },
-                        
-                            {
-                                "name": "Mining Area Serenity Gem",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, QuickRun:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:1, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, @Levels/Wisdom level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|hard, QuickRun, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
-                                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3", "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, ^$final, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ReflectElement|ComboMaster"]
-                            },
-                        
-                            {
-                                "name": "Mining Area AP Boost",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, QuickRun:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:1, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, @Levels/Wisdom level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|hard, QuickRun, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
-                                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3", "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, ^$final, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ReflectElement|ComboMaster"]
-                            },
-                        
-                            {
-                                "name": "Mining Area Serenity Crystal",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, QuickRun:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:1, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, @Levels/Wisdom level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|hard, QuickRun, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
-                                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ReflectElement|ComboMaster"]
-                            },
-                        
-                            {
-                                "name": "Mining Area Manifest Illusion",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, QuickRun:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:1, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, @Levels/Wisdom level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|hard, QuickRun, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
-                                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ReflectElement|ComboMaster"]
-                            },
-                        
-                            {
-                                "name": "Mining Area Serenity Gem 2",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, QuickRun:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:1, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, @Levels/Wisdom level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|hard, QuickRun, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
-                                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ReflectElement|ComboMaster"]
-                            },
-                        
-                            {
-                                "name": "Mining Area Dark Remembrance Map",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, QuickRun:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:1, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, @Levels/Wisdom level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|hard, QuickRun, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
-                                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ReflectElement|ComboMaster"]
-                            },
-                        
-                            {
-                                "name": "Mineshaft Mid Level Power Boost",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, QuickRun:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:1, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, @Levels/Wisdom level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|hard, QuickRun, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
-                                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ReflectElement|ComboMaster"]
-                            },
-                        
-                            {
-                                "name": "Engine Chamber Serenity Crystal",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, QuickRun:3, AerialDodge:3 $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, QuickRun:2, AerialDodge:3 $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, QuickRun:3, @Levels/Master level 5 $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:2, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:1, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|hard, QuickRun, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, QuickRun, AerialDodge, @Levels/Master level 3, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, @Levels/Master level 3, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
-                                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ComboMaster", "^$dif|hard, opt_corskip_yes, MasterForm, ReflectElement, BlizzardElement"]
-                            },
-                        
-                            {
-                                "name": "Engine Chamber Remembrance Crystal",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, QuickRun:3, AerialDodge:3 $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, QuickRun:2, AerialDodge:3 $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, QuickRun:3, @Levels/Master level 5 $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:2, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:1, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|hard, QuickRun, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, QuickRun, AerialDodge, @Levels/Master level 3, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, @Levels/Master level 3, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
-                                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ComboMaster", "^$dif|hard, opt_corskip_yes, MasterForm, ReflectElement, BlizzardElement"]
-                            },
-                        
-                            {
-                                "name": "Engine Chamber AP Boost",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, QuickRun:3, AerialDodge:3 $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, QuickRun:2, AerialDodge:3 $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, QuickRun:3, @Levels/Master level 5 $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:2, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:1, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|hard, QuickRun, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, QuickRun, AerialDodge, @Levels/Master level 3, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, @Levels/Master level 3, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
-                                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ComboMaster", "^$dif|hard, opt_corskip_yes, MasterForm, ReflectElement, BlizzardElement"]
-                            },
-                        
-                            {
-                                "name": "Engine Chamber Manifest Illusion",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, QuickRun:3, AerialDodge:3 $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, QuickRun:2, AerialDodge:3 $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, QuickRun:3, @Levels/Master level 5 $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:2, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:1, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|hard, QuickRun, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, QuickRun, AerialDodge, @Levels/Master level 3, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, @Levels/Master level 3, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
-                                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ComboMaster", "^$dif|hard, opt_corskip_yes, MasterForm, ReflectElement, BlizzardElement"]
-                            },
-                        
-                            {
-                                "name": "Mineshaft Upper Level Magic Boost",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, QuickRun:3, AerialDodge:3 $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, QuickRun:2, AerialDodge:3 $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, QuickRun:3, @Levels/Master level 5 $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:2, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:1, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|hard, QuickRun, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, QuickRun, AerialDodge, @Levels/Master level 3, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, @Levels/Master level 3, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
-                                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
-                                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ComboMaster", "^$dif|hard, opt_corskip_yes, MasterForm, ReflectElement, BlizzardElement"]
-                            },
-                        
-                            {
-                                "name": "Mineshaft Upper Level AP Boost",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, QuickRun:3, AerialDodge:3, HighJump:3, Glide:3 $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, QuickRun:2, AerialDodge:3, HighJump:3, Glide:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|easy, @Levels/Wisdom level 5, @Levels/Master level 5, AerialDodge:3, HighJump:3, Glide:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, QuickRun:2, AerialDodge:2, HighJump:2, Glide:3, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|normal, @Levels/Wisdom level 5, @Levels/Master level 5, AerialDodge:2, HighJump:2, Glide:3, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
-                                "^$dif|hard, HighJump:2, QuickRun, AerialDodge, Glide:2, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, HighJump, QuickRun, AerialDodge:3, Glide:2, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, HighJump, QuickRun, AerialDodge, Glide:3, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, QuickRun, AerialDodge, @Levels/Master level 3, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, HighJump:2, WisdomForm, AerialDodge, Glide:2, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, HighJump, WisdomForm, AerialDodge:3, Glide:2, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, HighJump, WisdomForm, AerialDodge, Glide:3, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, MasterForm AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
-                                "^$dif|hard, WisdomForm, @Levels/Master level 3, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final"]
-                            },
-                        
-                            {
-                                "name": "Transport to Remembrance",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, QuickRun:3, AerialDodge:3, HighJump:3, Glide:3, ReflectElement:3, ChickenLittle, Stitch, ^$final, MagnetElement:2, Explosion, ThunderElement:3, FinishingLeap, DonaldFlareForce, DonaldFantasia",
-                                "^$dif|easy, @Levels/Wisdom level 5, QuickRun:2, AerialDodge:3, HighJump:3, Glide:3, ReflectElement:3, ChickenLittle, Stitch, ^$final, MagnetElement:2, Explosion, ThunderElement:3, FinishingLeap, DonaldFlareForce, DonaldFantasia",
-                                "^$dif|easy, @Levels/Wisdom level 5, @Levels/Master level 5, AerialDodge:3, HighJump:3, Glide:3, ReflectElement:3, ChickenLittle, Stitch, ^$final, MagnetElement:2, Explosion, ThunderElement:3, FinishingLeap, DonaldFlareForce, DonaldFantasia",
-                                "^$dif|normal, QuickRun:2, AerialDodge:2, HighJump:2, Glide:3, $multiple|7|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|normal, @Levels/Wisdom level 5, @Levels/Master level 5, AerialDodge:2, HighJump:2, Glide:3, $multiple|7|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, HighJump:2, QuickRun, AerialDodge, Glide:2, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, HighJump, QuickRun, AerialDodge:3, Glide:2, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, HighJump, QuickRun, AerialDodge, Glide:3, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, QuickRun, AerialDodge, @Levels/Master level 3, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, HighJump:2, WisdomForm, AerialDodge, Glide:2, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, HighJump, WisdomForm, AerialDodge:3, Glide:2, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, HighJump, WisdomForm, AerialDodge, Glide:3, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, WisdomForm, MasterForm AerialDodge, Glide, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, WisdomForm, @Levels/Master level 3, AerialDodge, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia"]
-                            }
-                        
-                            ]
-                            }
-                            ]
+                        "sections": [
+                    
+            {
+                "name": "Depths AP Boost",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+        
+            {
+                "name": "Depths Power Crystal",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+        
+            {
+                "name": "Depths Frost Crystal",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+        
+            {
+                "name": "Depths Manifest Illusion",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+        
+            {
+                "name": "Depths AP Boost 2",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+        
+            {
+                "name": "Mineshaft Lower Level Depths of Remembrance Map",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+        
+            {
+                "name": "Mineshaft Lower Level AP Boost",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+        
+            {
+                "name": "Depths Upper Level Remembrance Gem",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, QuickRun:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:1, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, @Levels/Wisdom level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|hard, QuickRun, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
+                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3", "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, ^$final, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
+                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ReflectElement|ComboMaster"]
+            },
+        
+            {
+                "name": "Mining Area Serenity Gem",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, QuickRun:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:1, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, @Levels/Wisdom level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|hard, QuickRun, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
+                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3", "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, ^$final, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
+                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ReflectElement|ComboMaster"]
+            },
+        
+            {
+                "name": "Mining Area AP Boost",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, QuickRun:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:1, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, @Levels/Wisdom level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|hard, QuickRun, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
+                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3", "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, ^$final, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
+                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ReflectElement|ComboMaster"]
+            },
+        
+            {
+                "name": "Mining Area Serenity Crystal",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, QuickRun:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:1, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, @Levels/Wisdom level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|hard, QuickRun, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
+                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
+                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ReflectElement|ComboMaster"]
+            },
+        
+            {
+                "name": "Mining Area Manifest Illusion",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, QuickRun:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:1, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, @Levels/Wisdom level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|hard, QuickRun, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
+                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
+                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ReflectElement|ComboMaster"]
+            },
+        
+            {
+                "name": "Mining Area Serenity Gem 2",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, QuickRun:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:1, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, @Levels/Wisdom level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|hard, QuickRun, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
+                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
+                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ReflectElement|ComboMaster"]
+            },
+        
+            {
+                "name": "Mining Area Dark Remembrance Map",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, QuickRun:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:1, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, @Levels/Wisdom level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|hard, QuickRun, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
+                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
+                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ReflectElement|ComboMaster"]
+            },
+        
+            {
+                "name": "Mineshaft Mid Level Power Boost",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, QuickRun:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:1, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, @Levels/Wisdom level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|hard, QuickRun, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
+                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
+                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ReflectElement|ComboMaster"]
+            },
+        
+            {
+                "name": "Engine Chamber Serenity Crystal",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, QuickRun:3, AerialDodge:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, QuickRun:2, AerialDodge:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, QuickRun:3, @Levels/Master level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:2, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:1, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|hard, QuickRun, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, QuickRun, AerialDodge, @Levels/Master level 3, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, @Levels/Master level 3, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
+                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
+                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ComboMaster", "^$dif|hard, opt_corskip_yes, MasterForm, ReflectElement, BlizzardElement"]
+            },
+        
+            {
+                "name": "Engine Chamber Remembrance Crystal",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, QuickRun:3, AerialDodge:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, QuickRun:2, AerialDodge:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, QuickRun:3, @Levels/Master level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:2, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:1, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|hard, QuickRun, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, QuickRun, AerialDodge, @Levels/Master level 3, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, @Levels/Master level 3, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
+                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
+                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ComboMaster", "^$dif|hard, opt_corskip_yes, MasterForm, ReflectElement, BlizzardElement"]
+            },
+        
+            {
+                "name": "Engine Chamber AP Boost",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, QuickRun:3, AerialDodge:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, QuickRun:2, AerialDodge:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, QuickRun:3, @Levels/Master level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:2, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:1, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|hard, QuickRun, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, QuickRun, AerialDodge, @Levels/Master level 3, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, @Levels/Master level 3, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
+                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
+                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ComboMaster", "^$dif|hard, opt_corskip_yes, MasterForm, ReflectElement, BlizzardElement"]
+            },
+        
+            {
+                "name": "Engine Chamber Manifest Illusion",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, QuickRun:3, AerialDodge:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, QuickRun:2, AerialDodge:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, QuickRun:3, @Levels/Master level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:2, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:1, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|hard, QuickRun, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, QuickRun, AerialDodge, @Levels/Master level 3, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, @Levels/Master level 3, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
+                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
+                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ComboMaster", "^$dif|hard, opt_corskip_yes, MasterForm, ReflectElement, BlizzardElement"]
+            },
+        
+            {
+                "name": "Mineshaft Upper Level Magic Boost",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, QuickRun:3, AerialDodge:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, QuickRun:2, AerialDodge:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, QuickRun:3, @Levels/Master level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:2, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:1, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, @Levels/Wisdom level 5, @Levels/Master level 5, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|hard, QuickRun, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, QuickRun, AerialDodge, @Levels/Master level 3, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, @Levels/Master level 3, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|easy, opt_corskip_yes, AerialDodge:3, MasterForm, FireElement", "^$dif|normal, opt_corskip_yes, AerialDodge:2, MasterForm, FireElement",
+                "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, Glide:2", "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3, @Levels/Final level 3",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
+                "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, $any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
+                "^$dif|hard, opt_corskip_yes, MasterForm, $any|FireElement|ThunderElement|ComboMaster", "^$dif|hard, opt_corskip_yes, MasterForm, ReflectElement, BlizzardElement"]
+            },
+        
+            {
+                "name": "Mineshaft Upper Level AP Boost",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, QuickRun:3, AerialDodge:3, HighJump:3, Glide:3 $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, QuickRun:2, AerialDodge:3, HighJump:3, Glide:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|easy, @Levels/Wisdom level 5, @Levels/Master level 5, AerialDodge:3, HighJump:3, Glide:3, $multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, QuickRun:2, AerialDodge:2, HighJump:2, Glide:3, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|normal, @Levels/Wisdom level 5, @Levels/Master level 5, AerialDodge:2, HighJump:2, Glide:3, $multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                "^$dif|hard, HighJump:2, QuickRun, AerialDodge, Glide:2, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, HighJump, QuickRun, AerialDodge:3, Glide:2, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, HighJump, QuickRun, AerialDodge, Glide:3, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, QuickRun, AerialDodge, @Levels/Master level 3, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, HighJump:2, WisdomForm, AerialDodge, Glide:2, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, HighJump, WisdomForm, AerialDodge:3, Glide:2, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, HighJump, WisdomForm, AerialDodge, Glide:3, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, MasterForm AerialDodge, Glide, ReflectElement, $any|ChickenLittle|Stitch, ^$final",
+                "^$dif|hard, WisdomForm, @Levels/Master level 3, AerialDodge, ReflectElement, $any|ChickenLittle|Stitch, ^$final"]
+            },
+        
+            {
+                "name": "Transport to Remembrance",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": ["^$dif|easy, QuickRun:3, AerialDodge:3, HighJump:3, Glide:3, ReflectElement:3, ChickenLittle, Stitch, ^$final, MagnetElement:2, Explosion, ThunderElement:3, FinishingLeap, DonaldFlareForce, DonaldFantasia",
+                "^$dif|easy, @Levels/Wisdom level 5, QuickRun:2, AerialDodge:3, HighJump:3, Glide:3, ReflectElement:3, ChickenLittle, Stitch, ^$final, MagnetElement:2, Explosion, ThunderElement:3, FinishingLeap, DonaldFlareForce, DonaldFantasia",
+                "^$dif|easy, @Levels/Wisdom level 5, @Levels/Master level 5, AerialDodge:3, HighJump:3, Glide:3, ReflectElement:3, ChickenLittle, Stitch, ^$final, MagnetElement:2, Explosion, ThunderElement:3, FinishingLeap, DonaldFlareForce, DonaldFantasia",
+                "^$dif|normal, QuickRun:2, AerialDodge:2, HighJump:2, Glide:3, $multiple|7|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
+                "^$dif|normal, @Levels/Wisdom level 5, @Levels/Master level 5, AerialDodge:2, HighJump:2, Glide:3, $multiple|7|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
+                "^$dif|hard, HighJump:2, QuickRun, AerialDodge, Glide:2, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
+                "^$dif|hard, HighJump, QuickRun, AerialDodge:3, Glide:2, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
+                "^$dif|hard, HighJump, QuickRun, AerialDodge, Glide:3, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
+                "^$dif|hard, QuickRun, AerialDodge, @Levels/Master level 3, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
+                "^$dif|hard, HighJump:2, WisdomForm, AerialDodge, Glide:2, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
+                "^$dif|hard, HighJump, WisdomForm, AerialDodge:3, Glide:2, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
+                "^$dif|hard, HighJump, WisdomForm, AerialDodge, Glide:3, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
+                "^$dif|hard, WisdomForm, MasterForm AerialDodge, Glide, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
+                "^$dif|hard, WisdomForm, @Levels/Master level 3, AerialDodge, ReflectElement, ^$final, $multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia"]
+            }
+        
+            ]
+            }
+            ]
