@@ -56,6 +56,17 @@ function has(item, amount)
     return AccessibilityLevel.None
 end
 
+function has_req(item, amount)
+	local count = Tracker:ProviderCountForCode(item)
+	local amount = tonumber(amount)
+	if not amount then
+        return count
+	elseif count >= amount then
+        return 1
+	end
+    return 0
+end
+
 function any(...)
     local args = { ... }
     local wrapped_args = {}
@@ -69,27 +80,23 @@ end
 
 function multiple(neededcount, ...)
     local args = { ... }
-    neededcount = tonumber(neededcount)  -- Ensure neededcount is a number
+    neededcount = tonumber(neededcount)
     
     local totalItems = 0
 	local maybeItems = 0
 
     for i, item in ipairs(args) do
             if item ~= "final" then
-				local trackerItem = Tracker:FindObjectForCode(item)
-					if trackerItem ~= nil then
-						local count = trackerItem.AcquiredCount
-						if trackerItem.Active == true then
-							totalItems = totalItems + 1
-							if trackerItem.AcquiredCount >= 2 then
-								totalItems = totalItems + count - 1
-							end
-						end
-					end
+				if string.find(item, ":") then
+					local A, B = item:match("([^:]+):([^:]+)")
+					totalItems = totalItems + has_req(A, B)
+				else
+					totalItems = totalItems + has_req(item)
+				end
 			elseif item == "final" then
-				local func = _G[item]  -- Get the function from the global environment
+				local func = _G[item]
 				if type(func) == "function" then
-					local result = func()  -- Execute the function
+					local result = func()
 					-- print("Result of function call:", result)
 					if result == 6 then
 						totalItems = totalItems + 1
