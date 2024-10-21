@@ -101,7 +101,6 @@ function multiple(neededcount, ...)
 					print("Error: Function", item, "not found")
 				end
 			end
-	print(totalItems)
     end    
 	
 	if totalItems >= neededcount then
