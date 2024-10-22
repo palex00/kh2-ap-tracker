@@ -622,8 +622,8 @@
             },
             {
                 "name": "Valor level 6",
-                "access_rules": [],
-                "visibility_rules": ["ValorForm, ^$multiple|3|WisdomForm|LimitForm|MasterForm|final", "opt_autoform_yes, AutoValor, WisdomForm, LimitForm, MasterForm, ^$final"],
+                "access_rules": ["ValorForm, ^$multiple|3|WisdomForm|LimitForm|MasterForm|final", "opt_autoform_yes, AutoValor, WisdomForm, LimitForm, MasterForm, ^$final"],
+                "visibility_rules": [],
                 "item_count": 1
             },
             {
