@@ -29,19 +29,31 @@ function has_any(...)
     local args = { ... }
     local max = AccessibilityLevel.None
     for i, v in ipairs(args) do
-        if type(v) == "boolean" then
-            v = A(v)
-        end
-        if tonumber(v) > tonumber(max) then
-            if tonumber(v) == AccessibilityLevel.Normal then
+        if v == "final" then
+            local result = final()
+            if result == 6 and tonumber(AccessibilityLevel.Normal) > tonumber(max) then
                 return AccessibilityLevel.Normal
-            else
-                max = tonumber(v)
+            elseif result == 5 and tonumber(AccessibilityLevel.SequenceBreak) > tonumber(max) then
+                max = AccessibilityLevel.SequenceBreak
+            elseif result == 0 and tonumber(AccessibilityLevel.None) > tonumber(max) then
+                max = AccessibilityLevel.None
+            end
+        else
+            if type(v) == "boolean" then
+                v = A(v)
+            end
+            if tonumber(v) > tonumber(max) then
+                if tonumber(v) == AccessibilityLevel.Normal then
+                    return AccessibilityLevel.Normal
+                else
+                    max = tonumber(v)
+                end
             end
         end
     end
     return max
 end
+
 
 function has(item, amount)
 	local count = Tracker:ProviderCountForCode(item)
@@ -72,11 +84,16 @@ function any(...)
     local wrapped_args = {}
 
     for i, v in ipairs(args) do
-        table.insert(wrapped_args, has(v))
+        if v == "final" then
+            table.insert(wrapped_args, v)  -- Pass "final" directly to has_any
+        else
+            table.insert(wrapped_args, has(v))
+        end
     end
 
     return has_any(table.unpack(wrapped_args))
 end
+
 
 function multiple(neededcount, ...)
     local args = { ... }
