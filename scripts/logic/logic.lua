@@ -19,7 +19,9 @@ function final()
 
     if stage == 2 then
 		-- print("Final: Forced")
-        return normal
+		if Tracker:FindObjectForCode('ValorForm').Active or Tracker:FindObjectForCode('WisdomForm').Active or Tracker:FindObjectForCode('LimitForm').Active or Tracker:FindObjectForCode('MasterForm').Active then
+			return normal
+		end
     elseif stage == 1 then
 		if Tracker:FindObjectForCode('LightandDarkness').Active or Tracker:FindObjectForCode('FinalForm').Active then
 			-- print("Final: LAD & You have it or you have Final Form itself")
