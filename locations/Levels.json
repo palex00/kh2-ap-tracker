@@ -752,7 +752,7 @@
             {
                 "name": "Final level 3",
                 "access_rules": ["^$final, @(TT3)","opt_autoform_yes, AutoFinal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm, @(TT3)",
-                                "^$final, @(TWTNW2)/Roxas Bonus: Sora Slot 1", "opt_autoform_yes, AutoFInal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm, @(TWTNW2)/Roxas Bonus: Sora Slot 1",
+                                "^$final, @(TWTNW2)/Roxas Bonus: Sora Slot 1", "opt_autoform_yes, AutoFinal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm, @(TWTNW2)/Roxas Bonus: Sora Slot 1",
                                 "^$final, @(LoD2), @(LoD)/Hidden Dragon", "opt_autoform_yes, AutoFinal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm, @(LoD2), @(LoD)/Hidden Dragon",
                                 "^$final, @(BC2)/Rumbling Rose", "opt_autoform_yes, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm, AutoFinal, @(BC2)/Rumbling Rose"],
                 "visibility_rules": [],
