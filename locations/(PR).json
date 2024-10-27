@@ -13,7 +13,7 @@
                                 "name": "Rampart Naval Map",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["$final"]
+                                "access_rules": []
                             },
                         
                             {
