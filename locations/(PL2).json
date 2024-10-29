@@ -13,7 +13,7 @@
                                 "name": "Hyenas 2 Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ReflectElement, FireElement, ThunderElement", "$dif|normal, ReflectElement, FireElement", "$dif|hard, ReflectElement"]
+                                "access_rules": ["^$dif|easy, ReflectElement, FireElement, ThunderElement", "^$dif|normal, ReflectElement, FireElement", "^$dif|hard, ReflectElement"]
                             },
                         
                             {
@@ -21,8 +21,8 @@
                                 "item_count": 1,
                                 "visibility_rules": [],
                                 "access_rules": ["^$dif|easy, ReflectElement, FireElement, ThunderElement, BerserkCharge, CureElement, AirComboPlus:2", 
-                                "$dif|normal, ReflectElement, FireElement, BerserkCharge, CureElement", 
-                                "$dif|hard, ReflectElement, BerserkCharge", "$dif|hard, ReflectElement, AirComboPlus:2"]
+                                "^$dif|normal, ReflectElement, FireElement, BerserkCharge, CureElement", 
+                                "^$dif|hard, ReflectElement, BerserkCharge", "^$dif|hard, ReflectElement, AirComboPlus:2"]
                             },
                         
                             {
@@ -30,8 +30,8 @@
                                 "item_count": 1,
                                 "visibility_rules": [],
                                 "access_rules": ["^$dif|easy, ReflectElement, FireElement, ThunderElement, BerserkCharge, CureElement, AirComboPlus:2", 
-                                "$dif|normal, ReflectElement, FireElement, BerserkCharge, CureElement", 
-                                "$dif|hard, ReflectElement, BerserkCharge", "$dif|hard, ReflectElement, AirComboPlus:2"]
+                                "^$dif|normal, ReflectElement, FireElement, BerserkCharge, CureElement", 
+                                "^$dif|hard, ReflectElement, BerserkCharge", "^$dif|hard, ReflectElement, AirComboPlus:2"]
                             },
                         
                             {
@@ -39,15 +39,15 @@
                                 "item_count": 1,
                                 "visibility_rules": [],
                                 "access_rules": ["^$dif|easy, ReflectElement:3, FireElement:3, ThunderElement, BerserkCharge, CureElement, AirComboPlus:2, Guard, BlizzardElement, AerialDodge:3, Glide:3, SlideDash, FlashStep, DonaldFantasia, DonaldFlareForce, @Levels/Final level 7, SecondChance, OnceMore, ^$multiple|2|GuardBreak|Explosion|FinishingLeap", 
-                                "$dif|normal, ReflectElement:3, FireElement:3, BerserkCharge, CureElement, Guard, BlizzardElement, AerialDodge:3, Glide:3, ^$any|SlideDash|FlashStep, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce, ^$any|Explosion|GuardBreak|FinishingLeap, @Levels/Final level 7", 
-                                "$dif|hard, ReflectElement, BerserkCharge, Guard, BlizzardElement, AerialDodge:3, Glide:3, ^$any|SlideDash|FlashStep, ^$any|Explosion|FinishingLeap|GuardBreak", "$dif|hard, ReflectElement, AirComboPlus:2, Guard, BlizzardElement, AerialDodge:3, Glide:3, ^$any|SlideDash|FlashStep, ^$any|Explosion|FinishingLeap|GuardBreak"]
+                                "^$dif|normal, ReflectElement:3, FireElement:3, BerserkCharge, CureElement, Guard, BlizzardElement, AerialDodge:3, Glide:3, ^$any|SlideDash|FlashStep, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce, ^$any|Explosion|GuardBreak|FinishingLeap, @Levels/Final level 7", 
+                                "^$dif|hard, ReflectElement, BerserkCharge, Guard, BlizzardElement, AerialDodge:3, Glide:3, ^$any|SlideDash|FlashStep, ^$any|Explosion|FinishingLeap|GuardBreak", "^$dif|hard, ReflectElement, AirComboPlus:2, Guard, BlizzardElement, AerialDodge:3, Glide:3, ^$any|SlideDash|FlashStep, ^$any|Explosion|FinishingLeap|GuardBreak"]
                             },
                         
                             {
                                 "name": "Hyenas 2 Bonus: Goofy Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": ["^$dif|easy, ReflectElement, FireElement, ThunderElement", "$dif|normal, ReflectElement, FireElement", "$dif|hard, ReflectElement"]
+                                "access_rules": ["^$dif|easy, ReflectElement, FireElement, ThunderElement", "^$dif|normal, ReflectElement, FireElement", "^$dif|hard, ReflectElement"]
                             }
                         
                             ]

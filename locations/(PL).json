@@ -202,21 +202,21 @@
                                 "name": "Scar Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ReflectElement, FireElement, ThunderElement", "$dif|normal, ReflectElement, FireElement", "$dif|hard, ReflectElement"]
+                                "access_rules": ["^$dif|easy, ReflectElement, FireElement, ThunderElement", "^$dif|normal, ReflectElement, FireElement", "^$dif|hard, ReflectElement"]
                             },
                         
                             {
                                 "name": "Scar Fire Element",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ReflectElement, FireElement, ThunderElement", "$dif|normal, ReflectElement, FireElement", "$dif|hard, ReflectElement"]
+                                "access_rules": ["^$dif|easy, ReflectElement, FireElement, ThunderElement", "^$dif|normal, ReflectElement, FireElement", "^$dif|hard, ReflectElement"]
                             },
                         
                             {
                                 "name": "Scar Bonus: Donald Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": ["^$dif|easy, ReflectElement, FireElement, ThunderElement", "$dif|normal, ReflectElement, FireElement", "$dif|hard, ReflectElement"]
+                                "access_rules": ["^$dif|easy, ReflectElement, FireElement, ThunderElement", "^$dif|normal, ReflectElement, FireElement", "^$dif|hard, ReflectElement"]
                             },
                         
                             {
