@@ -315,8 +315,8 @@
                                 "visibility_rules": [],
                                 "access_rules": ["^$dif|easy, @(OC2)/Guardian Soul, PeterPan, Stitch, Genie, ChickenLittle, ReflectElement:2",
                                 "^$dif|easy, @(OC)/Hero's Crest, HadesCupTrophy, PeterPan, Stitch, Genie, ChickenLittle, ReflectElement:2",
-                                "^$dif|normal, @(OC2)/Guardian Soul, PeterPan, Stitch, Genie, ChickenLittle, ReflectElement:2",
-                                "^$dif|normal, @(OC)/Hero's Crest, HadesCupTrophy, PeterPan, Stitch, Genie, ChickenLittle, ReflectElement:2",
+                                "^$dif|normal, @(OC2)/Guardian Soul, ^$multiple|3|PeterPan|Stitch|Genie|ChickenLittle, ReflectElement:2",
+                                "^$dif|normal, @(OC)/Hero's Crest, HadesCupTrophy, ^$multiple|3|PeterPan|Stitch|Genie|ChickenLittle, ReflectElement:2",
                                 "^$dif|hard, @(OC2)/Guardian Soul, ^$multiple|2|PeterPan|Stitch|Genie|ChickenLittle, ReflectElement:2", 
                                 "^$dif|hard, @(OC)/Hero's Crest, ^$multiple|2|PeterPan|Stitch|Genie|ChickenLittle, HadesCupTrophy, ReflectElement:2"]
                             },
@@ -327,8 +327,8 @@
                                 "visibility_rules": [],
                                 "access_rules": ["^$dif|easy, @(OC2)/Guardian Soul, PeterPan, Stitch, Genie, ChickenLittle, ReflectElement:2",
                                 "^$dif|easy, @(OC)/Hero's Crest, HadesCupTrophy, PeterPan, Stitch, Genie, ChickenLittle, ReflectElement:2",
-                                "^$dif|normal, @(OC2)/Guardian Soul, PeterPan, Stitch, Genie, ChickenLittle, ReflectElement:2",
-                                "^$dif|normal, @(OC)/Hero's Crest, HadesCupTrophy, PeterPan, Stitch, Genie, ChickenLittle, ReflectElement:2",
+                                "^$dif|normal, @(OC2)/Guardian Soul, ^$multiple|3|PeterPan|Stitch|Genie|ChickenLittle, ReflectElement:2",
+                                "^$dif|normal, @(OC)/Hero's Crest, HadesCupTrophy, ^$multiple|3|PeterPan|Stitch|Genie|ChickenLittle, ReflectElement:2",
                                 "^$dif|hard, @(OC2)/Guardian Soul, ^$multiple|2|PeterPan|Stitch|Genie|ChickenLittle, ReflectElement:2", 
                                 "^$dif|hard, @(OC)/Hero's Crest, ^$multiple|2|PeterPan|Stitch|Genie|ChickenLittle, HadesCupTrophy, ReflectElement:2"]
                             },
@@ -340,7 +340,7 @@
                                 "access_rules": ["^$dif|easy, @(OC)/Protect Belt Pain and Panic Cup, @(OC)/Rising Dragon Cerberus Cup, @(OC)/Genji Shield Titan Cup, @(TWTNW3)/Xemnas 1 Bonus: Sora Slot 1",
                                 "^$dif|easy, @(OC)/Hero's Crest, HadesCupTrophy, PeterPan, Stitch, Genie, ChickenLittle, ^$multiple|2|DonaldFlareForce|DonaldFantasia|TornadoFusion|Teamwork, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement:2",
                                 "^$dif|normal, @(OC)/Protect Belt Pain and Panic Cup, @(OC)/Rising Dragon Cerberus Cup, @(OC)/Genji Shield Titan Cup, @(TWTNW3)/Xemnas 1 Bonus: Sora Slot 1",
-                                "^$dif|normal, @(OC)/Hero's Crest, HadesCupTrophy, PeterPan, Stitch, Genie, ChickenLittle, ^$any|DonaldFlareForce|DonaldFantasia|TornadoFusion|Teamwork, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement:2",
+                                "^$dif|normal, @(OC)/Hero's Crest, HadesCupTrophy, ^$multiple|3|PeterPan|Stitch|Genie|ChickenLittle, ^$any|DonaldFlareForce|DonaldFantasia|TornadoFusion|Teamwork, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement:2",
                                 "^$dif|hard, @(OC)/Protect Belt Pain and Panic Cup, @(OC)/Rising Dragon Cerberus Cup, @(OC)/Genji Shield Titan Cup, @(TWTNW3)/Xemnas 1 Bonus: Sora Slot 1", 
                                 "^$dif|hard, @(OC)/Hero's Crest, ^$multiple|2|PeterPan|Stitch|Genie|ChickenLittle, HadesCupTrophy, ReflectElement:2"]
                             },
@@ -352,7 +352,7 @@
                                 "access_rules": ["^$dif|easy, @(OC)/Protect Belt Pain and Panic Cup, @(OC)/Rising Dragon Cerberus Cup, @(OC)/Genji Shield Titan Cup, @(TWTNW3)/Xemnas 1 Bonus: Sora Slot 1",
                                 "^$dif|easy, @(OC)/Hero's Crest, HadesCupTrophy, PeterPan, Stitch, Genie, ChickenLittle, ^$multiple|2|DonaldFlareForce|DonaldFantasia|TornadoFusion|Teamwork, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement:2",
                                 "^$dif|normal, @(OC)/Protect Belt Pain and Panic Cup, @(OC)/Rising Dragon Cerberus Cup, @(OC)/Genji Shield Titan Cup, @(TWTNW3)/Xemnas 1 Bonus: Sora Slot 1",
-                                "^$dif|normal, @(OC)/Hero's Crest, HadesCupTrophy, PeterPan, Stitch, Genie, ChickenLittle, ^$any|DonaldFlareForce|DonaldFantasia|TornadoFusion|Teamwork, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement:2",
+                                "^$dif|normal, @(OC)/Hero's Crest, HadesCupTrophy, ^$multiple|3|PeterPan|Stitch|Genie|ChickenLittle, ^$any|DonaldFlareForce|DonaldFantasia|TornadoFusion|Teamwork, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement:2",
                                 "^$dif|hard, @(OC)/Protect Belt Pain and Panic Cup, @(OC)/Rising Dragon Cerberus Cup, @(OC)/Genji Shield Titan Cup, @(TWTNW3)/Xemnas 1 Bonus: Sora Slot 1", 
                                 "^$dif|hard, @(OC)/Hero's Crest, ^$multiple|2|PeterPan|Stitch|Genie|ChickenLittle, HadesCupTrophy, ReflectElement:2"]
                             },
@@ -364,7 +364,7 @@
                                 "access_rules": ["^$dif|easy, @(OC)/Fatal Crest Goddess of Fate Cup",
                                 "^$dif|easy, @(OC)/Hero's Crest, HadesCupTrophy, PeterPan, Stitch, Genie, ChickenLittle, ^$multiple|2|DonaldFlareForce|DonaldFantasia|TornadoFusion|Teamwork, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement:2",
                                 "^$dif|normal, Fatal Crest Goddess of Fate Cup",
-                                "^$dif|normal, @(OC)/Hero's Crest, HadesCupTrophy, PeterPan, Stitch, Genie, ChickenLittle, ^$any|DonaldFlareForce|DonaldFantasia|TornadoFusion|Teamwork, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement:2",
+                                "^$dif|normal, @(OC)/Hero's Crest, HadesCupTrophy, ^$mutliple|3|PeterPan|Stitch|Genie|ChickenLittle, ^$any|DonaldFlareForce|DonaldFantasia|TornadoFusion|Teamwork, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement:2",
                                 "^$dif|hard, Fatal Crest Goddess of Fate Cup", 
                                 "^$dif|hard, @(OC)/Hero's Crest, ^$multiple|2|PeterPan|Stitch|Genie|ChickenLittle, HadesCupTrophy, ReflectElement:2"]
                             },
