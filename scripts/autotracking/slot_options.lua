@@ -24,13 +24,13 @@ function get_slot_options(slot_data)
 	
 	goalmode = Tracker:FindObjectForCode('opt_goal').CurrentStage
 	
-    if slot_data["BountyRequired"] ~= nil and (goalmode == 3 or goalmode == 4) then
+    if slot_data["BountyRequired"] ~= nil and (goalmode == 2 or goalmode == 3) then
 		Tracker:FindObjectForCode('opt_bounty').AcquiredCount = slot_data["BountyRequired"]
 	else
 		Tracker:FindObjectForCode('opt_bounty').AcquiredCount = 0
 	end
 	
-    if slot_data["LuckyEmblemsRequired"] ~= nil and (goalmode == 3 or goalmode == 4) then
+    if slot_data["LuckyEmblemsRequired"] ~= nil and (goalmode == 1 or goalmode == 3) then
 		Tracker:FindObjectForCode('opt_emblem').AcquiredCount = slot_data["LuckyEmblemsRequired"]
 	else
 		Tracker:FindObjectForCode('opt_emblem').AcquiredCount = 0
