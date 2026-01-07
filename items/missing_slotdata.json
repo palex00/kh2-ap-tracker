@@ -34,5 +34,24 @@
                         "type": "toggle",
                         "img": "/images/items/invisible.png",
                         "codes": "missing_CorSkipToggle"
+                    },
+                    {
+                        "name": "",
+                        "type": "toggle",
+                        "img": "/images/items/invisible.png",
+                        "codes": "missing_Superbosses"
+                    },
+                    {
+                        "name": "",
+                        "type": "toggle",
+                        "img": "/images/items/invisible.png",
+                        "codes": "missing_Cups"
+                    },
+                    {
+                        "name": "",
+                        "type": "toggle",
+                        "img": "/images/items/invisible.png",
+                        "codes": "missing_AtlanticaToggle"
                     }
+
 ]
