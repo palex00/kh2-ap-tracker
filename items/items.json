@@ -36,16 +36,16 @@
                     
 
                     {
-                        "name": "Royal Summons",
+                        "name": "Disney Castle Key",
                         "type": "consumable",
                         "allow_disabled": true,
                         "min_quantity": 0,
                         "max_quantity": 2,
                         "increment": 1,
                         "initial_quantity": 0,
-                        "img": "/images/Items/RoyalSummons.png",
+                        "img": "/images/Items/DisneyCastleKey.png",
                         "overlay_background": "#000000",
-                        "codes": "RoyalSummons"
+                        "codes": "DisneyCastleKey"
                     },
                     {
                         "name": "Battlefields of War",
