@@ -51,7 +51,7 @@
                             {
                                 "name": "Zexion Bonus: Sora Slot 1",
                                 "item_count": 1,
-                                "visibility_rules": [],
+                                "visibility_rules": ["opt_superbosses_yes"],
                                 "access_rules": ["^$dif|easy, ReflectElement:3, Guard, FireElement:3, SlideDash, FlashStep, @Levels/Final level 7, ^$any|Stitch|Genie|ChickenLittle|PeterPan, DonaldFlareForce, DonaldFantasia, QuickRun:3, SecondChance, OnceMore",
                                 "^$dif|normal, ReflectElement:3, Guard, FireElement:3, ^$any|SlideDash|FlashStep, @Levels/Final level 7, QuickRun:3, ^$any|DonaldFlareForce|DonaldFantasia",
                                 "^$dif|hard, ReflectElement, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FIreElement:2, ^$any|DonaldFlareForce|DonaldFantasia, QuickRun:2"]
@@ -60,7 +60,7 @@
                             {
                                 "name": "AS Zexion",
                                 "item_count": 1,
-                                "visibility_rules": [],
+                                "visibility_rules": ["opt_superbosses_yes"],
                                 "access_rules": ["^$dif|easy, ReflectElement:3, Guard, FireElement:3, SlideDash, FlashStep, @Levels/Final level 7, ^$any|Stitch|Genie|ChickenLittle|PeterPan, DonaldFlareForce, DonaldFantasia, QuickRun:3, SecondChance, OnceMore",
                                 "^$dif|normal, ReflectElement:3, Guard, FireElement:3, ^$any|SlideDash|FlashStep, @Levels/Final level 7, QuickRun:3, ^$any|DonaldFlareForce|DonaldFantasia",
                                 "^$dif|hard, ReflectElement, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FIreElement:2, ^$any|DonaldFlareForce|DonaldFantasia, QuickRun:2"]
@@ -69,7 +69,7 @@
                             {
                                 "name": "Data Zexion",
                                 "item_count": 1,
-                                "visibility_rules": [],
+                                "visibility_rules": ["opt_superbosses_yes"],
                                 "access_rules": ["^$dif|easy, ReflectElement:3, Guard, FireElement:3, SlideDash, FlashStep, @Levels/Final level 7, ^$any|Stitch|Genie|ChickenLittle|PeterPan, DonaldFlareForce, DonaldFantasia, QuickRun:3, SecondChance, OnceMore",
                                 "^$dif|normal, ReflectElement:3, Guard, FireElement:3, ^$any|SlideDash|FlashStep, @Levels/Final level 7, QuickRun:3, ^$any|DonaldFlareForce|DonaldFantasia",
                                 "^$dif|hard, ReflectElement, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FIreElement:2, ^$any|DonaldFlareForce|DonaldFantasia, QuickRun:2"]
@@ -78,7 +78,7 @@
                             {
                                 "name": "Zexion Bonus: Goofy Slot 1",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_dgstats_yes"],
+                                "visibility_rules": ["opt_dgstats_yes", "opt_superbosses_yes"],
                                 "access_rules": ["^$dif|easy, ReflectElement:3, Guard, FireElement:3, SlideDash, FlashStep, @Levels/Final level 7, ^$any|Stitch|Genie|ChickenLittle|PeterPan, DonaldFlareForce, DonaldFantasia, QuickRun:3, SecondChance, OnceMore",
                                 "^$dif|normal, ReflectElement:3, Guard, FireElement:3, ^$any|SlideDash|FlashStep, @Levels/Final level 7, QuickRun:3, ^$any|DonaldFlareForce|DonaldFantasia",
                                 "^$dif|hard, ReflectElement, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FIreElement:2, ^$any|DonaldFlareForce|DonaldFantasia, QuickRun:2"]

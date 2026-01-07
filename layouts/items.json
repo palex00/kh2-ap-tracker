@@ -29,7 +29,7 @@
 ]
 ,[
 "NamineSketches",
-"DisneyCastleKey",
+"RoyalSummons",
 "BattlefieldsofWar",
 "SwordoftheAncestor",
 "BeastsClaw",
@@ -256,6 +256,8 @@
 "opt_goal",
 "opt_xemnas",
 "opt_fightlogic"
+"opt_superbosses"
+"opt_cups"
 ]
 ,[
 "opt_finalform",
@@ -263,6 +265,7 @@
 "opt_leveldepth",
 "opt_dgstats",
 "opt_corskip"
+"opt_atlantica"
 ]
                 ]
             }

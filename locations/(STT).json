@@ -201,7 +201,7 @@
                             {
                                 "name": "Data Roxas",
                                 "item_count": 1,
-                                "visibility_rules": [],
+                                "visibility_rules": ["opt_superbosses_yes"],
                                 "access_rules": ["^$dif|easy, Guard, FinishingPlus, ReflectElement:3, @Levels/Limit level 5, FlashStep, SlideDash, GuardBreak, Explosion, DodgeRoll:3, SecondChance, OnceMore",
                                 "^$dif|normal, Guard, FinishingPlus, ReflectElement:2, @Levels/Limit level 5, FlashStep, SlideDash, GuardBreak, Explosion, DodgeRoll:3",
                             "^$dif|hard, Guard, FinishingPlus, ReflectElement, ^$any|FlashStep|SlideDash, ^$any|Explosion|GuardBreak|FinishingLeap, DodgeRoll:2"]

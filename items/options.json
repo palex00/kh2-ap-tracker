@@ -224,5 +224,71 @@
                 "inherit_codes": false
             }
         ]
+	},	
+    {
+        "name": "Atlantica",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Atlantica: No",
+                "img": "images/items/Atlantica.png",
+                "img_mods": "@disabled",
+                "codes": "opt_atlantica,opt_atlantica_no"
+            },
+            {
+                "name": "Atlantica: Yes",
+                "img": "images/items/Atlantica.png",
+                "codes": "opt_atlantica,opt_atlantica_yes",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Superbosses",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Superbosses: No",
+                "img": "images/items/Data.png",
+                "img_mods": "@disabled",
+                "codes": "opt_superbosses,opt_superbosses_no"
+            },
+            {
+                "name": "Superbosses: Yes",
+                "img": "images/items/Data.png",
+                "codes": "opt_superbosses,opt_superbosses_yes",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Cups",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Cups: No",
+                "img": "images/items/Cups.png",
+                "img_mods": "@disabled",
+                "codes": "opt_cups,opt_cups_no"
+            },
+            {
+                "name": "Cups: Yes",
+                "img": "images/items/Cups.png",
+                "codes": "opt_cups,opt_cups_yes",
+                "inherit_codes": false
+            },
+            {
+                "name": "Cups: Paradox",
+                "img": "images/items/Cups.png",
+                "codes": "opt_cups,opt_cups_paradox",
+                "inherit_codes": false
+            }
+        ]
     }
 ]

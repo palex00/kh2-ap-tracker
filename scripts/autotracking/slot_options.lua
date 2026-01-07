@@ -138,8 +138,8 @@ function get_slot_options(slot_data)
 	if slot_data["Cups"] ~= nil then
 		local obj = Tracker:FindObjectForCode("opt_cups")
 		local stage = slot_data["Cups"]
-		if stage >= 1 then
-			stage = 1
+		if stage >= 2 then
+			stage = 2
 		end
 		if obj then
 			obj.CurrentStage = stage

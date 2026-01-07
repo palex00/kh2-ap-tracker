@@ -57,7 +57,7 @@
                             {
                                 "name": "Data Xaldin",
                                 "item_count": 1,
-                                "visibility_rules": [],
+                                "visibility_rules": ["opt_superbosses_yes"],
                                 "access_rules": ["^$dif|easy, FinishingPlus, Guard, MagnetElement, AerialDive, @Levels/Final level 7, FireElement:3, ReflectElement:3, ^$any|DonaldFantasia|DonaldFlareForce, HighJump:3, AerialDodge:3, Glide:3, AerialSpiral, HorizontalSlash, BerserkCharge, AirComboPlus:2",
                                 "^$dif|normal, FinishingPlus, Guard, MagnetElement, AerialDive, @Levels/Final level 7, FireElement:3, ReflectElement:3, ^$any|DonaldFantasia|DonaldFlareForce, HighJump:3, AerialDodge:3, Glide:3, AerialSpiral, HorizontalSlash",
                                 "^$dif|hard, FinishingPlus, Guard, MagnetElement, AerialDive, @Levels/Final level 5, FireElement:2, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, HighJump:2, AerialDodge:2, Glide:2"]
