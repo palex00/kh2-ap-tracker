@@ -5,7 +5,7 @@
         "chest_opened_img": "/images/items/invisible.png",
         "overlay_background": "#000000",
         "visibility_rules": [
-            "missing_FightLogic", "missing_FinalFormLogic", "missing_AutoFormLogic", "missing_LevelDepth", "missing_DonaldGoofyStatsanity", "missing_CorSkipToggle" 
+            "missing_FightLogic", "missing_FinalFormLogic", "missing_AutoFormLogic", "missing_LevelDepth", "missing_DonaldGoofyStatsanity", "missing_CorSkipToggle", "missing_Superbosses", "missing_Cups", "missing_AtlanticaToggle"
         ],
         "children": [
             {
@@ -59,4 +59,5 @@
             }
         ]
     }
+
 ]
