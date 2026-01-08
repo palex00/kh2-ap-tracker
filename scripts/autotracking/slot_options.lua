@@ -162,5 +162,19 @@ function get_slot_options(slot_data)
 		print("The apworld this was generated with did not include slot data neccessary to fill certain options. Double check options please.")
 		Tracker:FindObjectForCode("missing_AtlanticaToggle").Active = true
 	end
+	
+	if slot_data["SummonLevelLocationToggle"] ~= nil then
+		local obj = Tracker:FindObjectForCode("opt_summon")
+		local stage = slot_data["SummonLevelLocationToggle"]
+		if stage >= 1 then
+			stage = 1
+		end
+		if obj then
+			obj.CurrentStage = stage
+		end
+	else
+		print("The apworld this was generated with did not include slot data neccessary to fill certain options. Double check options please.")
+		Tracker:FindObjectForCode("missing_SummonLevelLocationToggle").Active = true
+	end
 end
 

@@ -1825,6 +1825,251 @@
                                     },
                                     
                                 {
+                                    "name": "Valor Form",
+                                    "chest_unopened_img": "/images/Items/close.png",
+                                    "chest_opened_img": "/images/Items/open.png",
+                                    "overlay_background": "#000000",
+                                    "access_rules": [" "],
+                                    "sections": [
+                                    
+                                        {
+                                            "name": "Valor level 2", 
+											"ref": "Levels/Valor level 2"                                            
+                                        },
+										
+										{
+                                            "name": "Valor level 3", 
+											"ref": "Levels/Valor level 3"                                            
+                                        },
+										
+										{
+                                            "name": "Valor level 4", 
+											"ref": "Levels/Valor level 4"                                            
+                                        },
+										
+										{
+                                            "name": "Valor level 5", 
+											"ref": "Levels/Valor level 5"                                            
+                                        },
+										
+										{
+                                            "name": "Valor level 6", 
+											"ref": "Levels/Valor level 6"                                            
+                                        },
+										
+										{
+                                            "name": "Valor level 7", 
+											"ref": "Levels/Valor level 7"                                            
+                                        },
+                                    
+                                    ],
+                                    "map_locations": [
+                                        {
+                                            "map": "Overworld",
+                                            "x": 163,
+                                            "y": 500,
+                                            "size": 20
+                                        }
+                                    ]
+                                    },
+                                    
+                                {
+                                    "name": "Wisdom Form",
+                                    "chest_unopened_img": "/images/Items/close.png",
+                                    "chest_opened_img": "/images/Items/open.png",
+                                    "overlay_background": "#000000",
+                                    "access_rules": [" "],
+                                    "sections": [
+                                    
+                                        {
+                                            "name": "Wisdom level 2", 
+											"ref": "Levels/Wisdom level 2"                                            
+                                        },
+										
+										{
+                                            "name": "Wisdom level 3", 
+											"ref": "Levels/Wisdom level 3"                                            
+                                        },
+										
+										{
+                                            "name": "Wisdom level 4", 
+											"ref": "Levels/Wisdom level 4"                                            
+                                        },
+										
+										{
+                                            "name": "Wisdom level 5", 
+											"ref": "Levels/Wisdom level 5"                                            
+                                        },
+										
+										{
+                                            "name": "Wisdom level 6", 
+											"ref": "Levels/Wisdom level 6"                                            
+                                        },
+										
+										{
+                                            "name": "Wisdom level 7", 
+											"ref": "Levels/Wisdom level 7"                                            
+                                        },
+                                    
+                                    ],
+                                    "map_locations": [
+                                        {
+                                            "map": "Overworld",
+                                            "x": 203,
+                                            "y": 500,
+                                            "size": 20
+                                        }
+                                    ]
+                                    },
+                                    
+                                {
+                                    "name": "Limit Form",
+                                    "chest_unopened_img": "/images/Items/close.png",
+                                    "chest_opened_img": "/images/Items/open.png",
+                                    "overlay_background": "#000000",
+                                    "access_rules": [" "],
+                                    "sections": [
+                                    
+                                        {
+                                            "name": "Limit level 2", 
+											"ref": "Levels/Limit level 2"                                            
+                                        },
+										
+										{
+                                            "name": "Limit level 3", 
+											"ref": "Levels/Limit level 3"                                            
+                                        },
+										
+										{
+                                            "name": "Limit level 4", 
+											"ref": "Levels/Limit level 4"                                            
+                                        },
+										
+										{
+                                            "name": "Limit level 5", 
+											"ref": "Levels/Limit level 5"                                            
+                                        },
+										
+										{
+                                            "name": "Limit level 6", 
+											"ref": "Levels/Limit level 6"                                            
+                                        },
+										
+										{
+                                            "name": "Limit level 7", 
+											"ref": "Levels/Limit level 7"                                            
+                                        },
+                                    
+                                    ],
+                                    "map_locations": [
+                                        {
+                                            "map": "Overworld",
+                                            "x": 243,
+                                            "y": 500,
+                                            "size": 20
+                                        }
+                                    ]
+                                    },
+                                    
+                                {
+                                    "name": "Master Form",
+                                    "chest_unopened_img": "/images/Items/close.png",
+                                    "chest_opened_img": "/images/Items/open.png",
+                                    "overlay_background": "#000000",
+                                    "access_rules": [" "],
+                                    "sections": [
+                                    
+                                        {
+                                            "name": "Master level 2", 
+											"ref": "Levels/Master level 2"                                            
+                                        },
+										
+										{
+                                            "name": "Master level 3", 
+											"ref": "Levels/Master level 3"                                            
+                                        },
+										
+										{
+                                            "name": "Master level 4", 
+											"ref": "Levels/Master level 4"                                            
+                                        },
+										
+										{
+                                            "name": "Master level 5", 
+											"ref": "Levels/Master level 5"                                            
+                                        },
+										
+										{
+                                            "name": "Master level 6", 
+											"ref": "Levels/Master level 6"                                            
+                                        },
+										
+										{
+                                            "name": "Master level 7", 
+											"ref": "Levels/Master level 7"                                            
+                                        },
+                                    
+                                    ],
+                                    "map_locations": [
+                                        {
+                                            "map": "Overworld",
+                                            "x": 283,
+                                            "y": 500,
+                                            "size": 20
+                                        }
+                                    ]
+                                    },
+                                    
+                                {
+                                    "name": "Final Form",
+                                    "chest_unopened_img": "/images/Items/close.png",
+                                    "chest_opened_img": "/images/Items/open.png",
+                                    "overlay_background": "#000000",
+                                    "access_rules": [" "],
+                                    "sections": [
+                                    
+                                        {
+                                            "name": "Final level 2", 
+											"ref": "Levels/Final level 2"                                            
+                                        },
+										
+										{
+                                            "name": "Final level 3", 
+											"ref": "Levels/Final level 3"                                            
+                                        },
+										
+										{
+                                            "name": "Final level 4", 
+											"ref": "Levels/Final level 4"                                            
+                                        },
+										
+										{
+                                            "name": "Final level 5", 
+											"ref": "Levels/Final level 5"                                            
+                                        },
+										
+										{
+                                            "name": "Final level 6", 
+											"ref": "Levels/Final level 6"                                            
+                                        },
+										
+										{
+                                            "name": "Final level 7", 
+											"ref": "Levels/Final level 7"                                            
+                                        },
+                                    
+                                    ],
+                                    "map_locations": [
+                                        {
+                                            "map": "Overworld",
+                                            "x": 323,
+                                            "y": 500,
+                                            "size": 20
+                                        }
+                                    ]
+                                    },
+                                    
+                                {
                                     "name": "(PL)",
                                     "chest_unopened_img": "/images/Items/close.png",
                                     "chest_opened_img": "/images/Items/open.png",
