@@ -52,6 +52,12 @@
                         "type": "toggle",
                         "img": "/images/items/invisible.png",
                         "codes": "missing_AtlanticaToggle"
+                    },
+                    {
+                        "name": "",
+                        "type": "toggle",
+                        "img": "/images/items/invisible.png",
+                        "codes": "missing_SummonLevelLocationToggle"
                     }
 
 ]

@@ -226,6 +226,26 @@
         ]
 	},	
     {
+        "name": "Summon Levels",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Summon Levels: No",
+                "img": "images/items/Summon.png",
+                "img_mods": "@disabled",
+                "codes": "opt_summon,opt_summon_no"
+            },
+            {
+                "name": "Summon Levels: Yes",
+                "img": "images/items/Summon.png",
+                "codes": "opt_summon,opt_summon_yes",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
         "name": "Atlantica",
         "type": "progressive",
         "loop": true,
