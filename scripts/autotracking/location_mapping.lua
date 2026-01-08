@@ -664,7 +664,7 @@ LOCATION_MAPPING = {
 	[1245904] = {"@Levels/Summon level 4"},
 	[1245905] = {"@Levels/Summon level 5"},
 	[1245906] = {"@Levels/Summon level 6"},
-	[1245907] = {"@Levels/Summon level 7"}
+	[1245907] = {"@Levels/Summon level 7"},
 	
 	-- These aren't tracked
 	[1245809] = {},
