@@ -1972,6 +1972,55 @@
                                     },
                                     
                                 {
+                                    "name": "Summon Levels",
+                                    "chest_unopened_img": "/images/Items/close.png",
+                                    "chest_opened_img": "/images/Items/open.png",
+                                    "overlay_background": "#000000",
+                                    "access_rules": [" "],
+                                    "sections": [
+                                    
+                                        {
+                                            "name": "Summon level 2", 
+											"ref": "Levels/Summon level 2"                                            
+                                        },
+										
+										{
+                                            "name": "Summon level 3", 
+											"ref": "Levels/Summon level 3"                                            
+                                        },
+										
+										{
+                                            "name": "Summon level 4", 
+											"ref": "Levels/Summon level 4"                                            
+                                        },
+										
+										{
+                                            "name": "Summon level 5", 
+											"ref": "Levels/Summon level 5"                                            
+                                        },
+										
+										{
+                                            "name": "Summon level 6", 
+											"ref": "Levels/Summon level 6"                                            
+                                        },
+										
+										{
+                                            "name": "Summon level 7", 
+											"ref": "Levels/Summon level 7"                                            
+                                        },
+                                    
+                                    ],
+                                    "map_locations": [
+                                        {
+                                            "map": "Overworld",
+                                            "x": 80,
+                                            "y": 500,
+                                            "size": 20
+                                        }
+                                    ]
+                                    },
+                                    
+                                {
                                     "name": "Master Form",
                                     "chest_unopened_img": "/images/Items/close.png",
                                     "chest_opened_img": "/images/Items/open.png",
