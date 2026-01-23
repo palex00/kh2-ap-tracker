@@ -207,7 +207,7 @@
                             {
                                 "name": "Sephiroth Bonus: Sora Slot 1",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes"],
+                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hidelocations_no", "opt_superbosses_no, opt_hidelocations_no"],
                                 "access_rules": ["^$dif|easy, Guard, @Levels/Limit level 5, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2, FinishingPlus, ReflectElement:3, SlideDash, FlashStep, GuardBreak, Explosion, DodgeRoll:3",
                                 "^$dif|normal, Guard, @Levels/Limit level 5, FinishingPlus, ReflectElement:2, FlashStep, SlideDash, GuardBreak, Explosion, DodgeRoll:3", 
                                 "^$dif|hard, Guard, FinishingPlus, ReflectElement, ^$any|SlideDash|FlashStep, ^$any|GuardBreak|Explosion, DodgeRoll:2"]
@@ -216,7 +216,7 @@
                             {
                                 "name": "Sephiroth Fenrir",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes"],
+                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hidelocations_no", "opt_superbosses_no, opt_hidelocations_no"],
                                 "access_rules": ["^$dif|easy, Guard, @Levels/Limit level 5, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2, FinishingPlus, ReflectElement:3, SlideDash, FlashStep, GuardBreak, Explosion, DodgeRoll:3",
                                 "^$dif|normal, Guard, @Levels/Limit level 5, FinishingPlus, ReflectElement:2, FlashStep, SlideDash, GuardBreak, Explosion, DodgeRoll:3", 
                                 "^$dif|hard, Guard, FinishingPlus, ReflectElement, ^$any|SlideDash|FlashStep, ^$any|GuardBreak|Explosion, DodgeRoll:2"]
@@ -241,7 +241,7 @@
                             {
                                 "name": "Data Demyx",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes"],
+                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hidelocations_no", "opt_superbosses_no, opt_hidelocations_no"],
                                 "access_rules": ["^$dif|easy, Guard, LimitForm, DonaldFlareForce, SecondChance, OnceMore, MagnetElement:2, FinishingPlus, @Levels/Wisdom level 7, ReflectElement:2, FireElement:3, FormBoost",
                                 "^$dif|normal, Guard, LimitForm, DonaldFlareForce, FinishingPlus, @Levels/Wisdom level 7, ReflectElement:2, FireElement:3", 
                                 "^$dif|hard, Guard, DonaldFlareForce, FinishingPlus, @Levels/Wisdom level 6, ReflectElement, FireElement:2"]

@@ -12,7 +12,7 @@
                     {
                         "type": "itemgrid",
                         "item_margin": "2, 2",
-                        "h_alignment": "left",
+                        "h_alignment": "center",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
                         "item_height": 36,
@@ -35,6 +35,9 @@
                                 "opt_corskip",
 								"opt_atlantica",
 								"opt_summon"
+                            ],
+                            [
+                                "opt_hide_locations"
                             ]
                         ]
                     }

@@ -268,7 +268,7 @@
                             {
                                 "name": "Protect Belt Pain and Panic Cup",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_cups_yes", "opt_cups_paradox"],
+                                "visibility_rules": ["opt_cups_yes", "opt_cups_no, opt_hidelocations_no", "opt_cups_paradox"],
                                 "access_rules": ["^$dif|easy, @(OC)/Hero's Crest, @(TR)/Monochrome, ^$multiple|2|DonaldFlareForce|DonaldFantasia|Teamwork|TornadoFusion, ReflectElement",
                                 "^$dif|easy, @(OC)/Hero's Crest, HadesCupTrophy, ^$multiple|2|DonaldFlareForce|DonaldFantasia|Teamwork|TornadoFusion, ReflectElement",
                                 "^$dif|normal, @(OC)/Hero's Crest, @(TR)/Monochrome, ^$any|DonaldFlareForce|DonaldFantasia|Teamwork|TornadoFusion, ReflectElement",
@@ -279,7 +279,7 @@
                             {
                                 "name": "Serenity Gem Pain and Panic Cup",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_cups_yes", "opt_cups_paradox"],
+                                "visibility_rules": ["opt_cups_yes", "opt_cups_no, opt_hidelocations_no", "opt_cups_paradox"],
                                 "access_rules": ["^$dif|easy, @(OC)/Hero's Crest, @(TR)/Monochrome, ^$multiple|2|DonaldFlareForce|DonaldFantasia|Teamwork|TornadoFusion, ReflectElement",
                                 "^$dif|easy, @(OC)/Hero's Crest, HadesCupTrophy, ^$multiple|2|DonaldFlareForce|DonaldFantasia|Teamwork|TornadoFusion, ReflectElement",
                                 "^$dif|normal, @(OC)/Hero's Crest, @(TR)/Monochrome, ^$any|DonaldFlareForce|DonaldFantasia|Teamwork|TornadoFusion, ReflectElement",
@@ -290,7 +290,7 @@
                             {
                                 "name": "Rising Dragon Cerberus Cup",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_cups_yes", "opt_cups_paradox"],
+                                "visibility_rules": ["opt_cups_yes", "opt_cups_no, opt_hidelocations_no", "opt_cups_paradox"],
                                 "access_rules": ["^$dif|easy, @(OC)/Hero's Crest, @(AG)/Lamp Charm, @(HT)/Oogie Boogie Magnet Element, @(PL)/Scar Fire Element, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement",
                                 "^$dif|easy, @(OC)/Hero's Crest, HadesCupTrophy, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement",
                                 "^$dif|normal, @(OC)/Hero's Crest, @(AG)/Lamp Charm, @(HT)/Oogie Boogie Magnet Element, @(PL)/Scar Fire Element, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement",
@@ -301,7 +301,7 @@
                             {
                                 "name": "Serenity Crystal Cerberus Cup",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_cups_yes", "opt_cups_paradox"],
+                                "visibility_rules": ["opt_cups_yes", "opt_cups_no, opt_hidelocations_no", "opt_cups_paradox"],
                                 "access_rules": ["^$dif|easy, @(OC)/Hero's Crest, @(AG)/Lamp Charm, @(HT)/Oogie Boogie Magnet Element, @(PL)/Scar Fire Element, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement",
                                 "^$dif|easy, @(OC)/Hero's Crest, HadesCupTrophy, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement",
                                 "^$dif|normal, @(OC)/Hero's Crest, @(AG)/Lamp Charm, @(HT)/Oogie Boogie Magnet Element, @(PL)/Scar Fire Element, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement",
@@ -312,7 +312,7 @@
                             {
                                 "name": "Genji Shield Titan Cup",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_cups_yes", "opt_cups_paradox"],
+                                "visibility_rules": ["opt_cups_yes", "opt_cups_no, opt_hidelocations_no", "opt_cups_paradox"],
                                 "access_rules": ["^$dif|easy, @(OC2)/Guardian Soul, PeterPan, Stitch, Genie, ChickenLittle, ReflectElement:2",
                                 "^$dif|easy, @(OC)/Hero's Crest, HadesCupTrophy, PeterPan, Stitch, Genie, ChickenLittle, ReflectElement:2",
                                 "^$dif|normal, @(OC2)/Guardian Soul, ^$multiple|3|PeterPan|Stitch|Genie|ChickenLittle, ReflectElement:2",
@@ -324,7 +324,7 @@
                             {
                                 "name": "Skillful Ring Titan Cup",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_cups_yes", "opt_cups_paradox"],
+                                "visibility_rules": ["opt_cups_yes", "opt_cups_no, opt_hidelocations_no", "opt_cups_paradox"],
                                 "access_rules": ["^$dif|easy, @(OC2)/Guardian Soul, PeterPan, Stitch, Genie, ChickenLittle, ReflectElement:2",
                                 "^$dif|easy, @(OC)/Hero's Crest, HadesCupTrophy, PeterPan, Stitch, Genie, ChickenLittle, ReflectElement:2",
                                 "^$dif|normal, @(OC2)/Guardian Soul, ^$multiple|3|PeterPan|Stitch|Genie|ChickenLittle, ReflectElement:2",
@@ -336,7 +336,7 @@
                             {
                                 "name": "Fatal Crest Goddess of Fate Cup",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_cups_yes", "opt_cups_paradox"],
+                                "visibility_rules": ["opt_cups_yes", "opt_cups_no, opt_hidelocations_no", "opt_cups_paradox"],
                                 "access_rules": ["^$dif|easy, @(OC)/Protect Belt Pain and Panic Cup, @(OC)/Rising Dragon Cerberus Cup, @(OC)/Genji Shield Titan Cup, @(TWTNW3)/Xemnas 1 Bonus: Sora Slot 1",
                                 "^$dif|easy, @(OC)/Hero's Crest, HadesCupTrophy, PeterPan, Stitch, Genie, ChickenLittle, ^$multiple|2|DonaldFlareForce|DonaldFantasia|TornadoFusion|Teamwork, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement:2",
                                 "^$dif|normal, @(OC)/Protect Belt Pain and Panic Cup, @(OC)/Rising Dragon Cerberus Cup, @(OC)/Genji Shield Titan Cup, @(TWTNW3)/Xemnas 1 Bonus: Sora Slot 1",
@@ -348,7 +348,7 @@
                             {
                                 "name": "Orichalcum+ Goddess of Fate Cup",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_cups_yes", "opt_cups_paradox"],
+                                "visibility_rules": ["opt_cups_yes", "opt_cups_no, opt_hidelocations_no", "opt_cups_paradox"],
                                 "access_rules": ["^$dif|easy, @(OC)/Protect Belt Pain and Panic Cup, @(OC)/Rising Dragon Cerberus Cup, @(OC)/Genji Shield Titan Cup, @(TWTNW3)/Xemnas 1 Bonus: Sora Slot 1",
                                 "^$dif|easy, @(OC)/Hero's Crest, HadesCupTrophy, PeterPan, Stitch, Genie, ChickenLittle, ^$multiple|2|DonaldFlareForce|DonaldFantasia|TornadoFusion|Teamwork, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement:2",
                                 "^$dif|normal, @(OC)/Protect Belt Pain and Panic Cup, @(OC)/Rising Dragon Cerberus Cup, @(OC)/Genji Shield Titan Cup, @(TWTNW3)/Xemnas 1 Bonus: Sora Slot 1",

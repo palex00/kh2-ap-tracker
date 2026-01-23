@@ -253,7 +253,7 @@
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Atlantica: No",
+                "name": "Atlantica: Excluded",
                 "img": "images/items/Atlantica.png",
                 "img_mods": "@disabled",
                 "codes": "opt_atlantica,opt_atlantica_no"
@@ -273,7 +273,7 @@
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Superbosses: No",
+                "name": "Superbosses: Excluded",
                 "img": "images/items/Data.png",
                 "img_mods": "@disabled",
                 "codes": "opt_superbosses,opt_superbosses_no"
@@ -293,7 +293,7 @@
         "allow_disabled": false,
         "stages": [
             {
-                "name": "Cups: No",
+                "name": "Cups: Excluded",
                 "img": "images/items/Cups.png",
                 "img_mods": "@disabled",
                 "codes": "opt_cups,opt_cups_no"
@@ -308,6 +308,26 @@
                 "name": "Cups: Paradox",
                 "img": "images/items/Cups.png",
                 "codes": "opt_cups,opt_cups_paradox",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Hide excluded locations",
+        "type": "progressive",
+        "loop": true,
+        "allow_disabled": false,
+        "stages": [
+            {
+                "name": "Hide excluded locations: Yes",
+                "img": "images/items/Cups.png", // TODO: Better Icon
+                "img_mods": "@disabled",
+                "codes": "opt_hide_locations, opt_hide_locations_yes"
+            },
+            {
+                "name": "Hide excluded locations: No",
+                "img": "images/items/Cups.png", // TODO: Better Icon
+                "codes": "opt_hide_locations, opt_hide_locations_no",
                 "inherit_codes": false
             }
         ]

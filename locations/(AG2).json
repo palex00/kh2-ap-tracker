@@ -52,7 +52,7 @@
                             {
                                 "name": "Lexaeus Bonus: Sora Slot 1",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes"],
+                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hidelocations_no", "opt_superbosses_no, opt_hidelocations_no"],
                                 "access_rules": ["^$dif|easy, @Levels/Final level 7, Guard, ReflectElement:2, FireElement:3, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, SlideDash, FlashStep",
                                 "^$dif|normal, @Levels/Final level 5, Guard, ReflectElement, FireElement:2, BlizzardElement, ThunderElement, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, ^$any|SlideDash|FlashStep, ^$any|DonaldFantasia|DonaldFlareForce",
                                 "^$dif|hard, FireElement, BlizzardElement, ThunderElement, ^$any|Guard|ReflectElement, FinishingPlus, ^$any|SlideDash|FlashStep"]
@@ -61,7 +61,7 @@
                             {
                                 "name": "AS Lexaeus",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes"],
+                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hidelocations_no", "opt_superbosses_no, opt_hidelocations_no"],
                                 "access_rules": ["^$dif|easy, @Levels/Final level 7, Guard, ReflectElement:2, FireElement:3, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, SlideDash, FlashStep",
                                 "^$dif|normal, @Levels/Final level 5, Guard, ReflectElement, FireElement:2, BlizzardElement, ThunderElement, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, ^$any|SlideDash|FlashStep, ^$any|DonaldFantasia|DonaldFlareForce",
                                 "^$dif|hard, FireElement, BlizzardElement, ThunderElement, ^$any|Guard|ReflectElement, FinishingPlus, ^$any|SlideDash|FlashStep"]
@@ -70,7 +70,7 @@
                             {
                                 "name": "Data Lexaeus",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes"],
+                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hidelocations_no", "opt_superbosses_no, opt_hidelocations_no"],
                                 "access_rules": ["^$dif|easy, @Levels/Final level 7, Guard, ReflectElement:2, FireElement:3, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, SlideDash, FlashStep",
                                 "^$dif|normal, @Levels/Final level 5, Guard, ReflectElement, FireElement:2, BlizzardElement, ThunderElement, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, ^$any|SlideDash|FlashStep, ^$any|DonaldFantasia|DonaldFlareForce",
                                 "^$dif|hard, FireElement, BlizzardElement, ThunderElement, ^$any|Guard|ReflectElement, FinishingPlus, ^$any|SlideDash|FlashStep"]
