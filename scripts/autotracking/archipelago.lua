@@ -37,19 +37,11 @@ function dump_table(o, depth)
 end
 
 function onClear(slot_data)
+    
+    print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
 
-    --SLOT_DATA = slot_data
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print("Contents of slot_data:")
-        for key, value in pairs(slot_data) do
-            print(key, value)
-        end
-    end
-
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onClear, slot_data:\n%s", dump_table(slot_data)))
-    end
     CUR_INDEX = -1
+    
     -- reset locations
     for _, location_array in pairs(LOCATION_MAPPING) do
         for _, location in pairs(location_array) do
@@ -65,6 +57,7 @@ function onClear(slot_data)
             end
         end
     end
+    
     -- reset items
     for _, v in pairs(ITEM_MAPPING) do
         if v[1] and v[2] then
@@ -88,6 +81,7 @@ function onClear(slot_data)
             end
         end
     end
+    
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
@@ -106,44 +100,20 @@ function onItem(index, item_id, item_name, player_number)
         --print(string.format("onItem: could not find item mapping for id %s", item_id))
         return
     end
---    for _, item_code in pairs(item[1]) do
-        -- print(item[1], item[2])
+
     item_code = item[1]
     item_type = item[2]
+    
     local item_obj = Tracker:FindObjectForCode(item_code)
---    if item_obj then
---        if item_type == "toggle" then
---            -- print("toggle")
---            item_obj.Active = true
---        elseif item_type == "progressive" then
---            -- print("progressive")
---            item_obj.Active = true
---        elseif item_type == "consumable" then
---            -- print("consumable")
---            item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment
---        elseif item_type == "progressive_toggle" then
---            -- print("progressive_toggle")
---            if item_obj.Active then
---                item_obj.CurrentStage = item_obj.CurrentStage + 1
---            else
---                item_obj.Active = true
---            end
---        end
---    else
---        print(string.format("onItem: could not find object for code %s", item_code[1]))
---    end
+
     if item_obj then
         if item_obj.Type == "toggle" then
-            -- print("toggle")
             item_obj.Active = true
         elseif item_obj.Type == "progressive" then
-            -- print("progressive")
             item_obj.Active = true
         elseif item_obj.Type == "consumable" then
-            -- print("consumable")
             item_obj.AcquiredCount = item_obj.AcquiredCount + item_obj.Increment
         elseif item_obj.Type == "progressive_toggle" then
-            -- print("progressive_toggle")
             if item_obj.Active then
                 item_obj.CurrentStage = item_obj.CurrentStage + 1
             else
@@ -153,7 +123,6 @@ function onItem(index, item_id, item_name, player_number)
     else
         print(string.format("onItem: could not find object for code %s", item_code[1]))
     end
---    end
 end
 
 --called when a location gets cleared
@@ -166,7 +135,7 @@ function onLocation(location_id, location_name)
 
     for _, location in pairs(location_array) do
         local location_obj = Tracker:FindObjectForCode(location)
-         -- print(location, location_obj)
+        
         if location_obj then
             if location:sub(1, 1) == "@" then
                 location_obj.AvailableChestCount = location_obj.AvailableChestCount - 1
@@ -199,17 +168,11 @@ end
 function onChangedRegion(key, current_region, old_region)
 	regioninfo = current_region
     if (current_region ~= old_region) then
-		-- print("Key: " .. key)
-		-- print("Current: " .. current_region)
-		-- print("Old: " .. old_region)
         if TABS_MAPPING[current_region] then
             CURRENT_ROOM = TABS_MAPPING[current_region]
-			print("First Option")
         else
             CURRENT_ROOM = CURRENT_ROOM_ADDRESS
-			print("Second Option")
         end
-            print("Switching tab to " .. CURRENT_ROOM)
         Tracker:UiHint("ActivateTab", CURRENT_ROOM)
     end
 end
