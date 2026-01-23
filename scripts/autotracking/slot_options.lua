@@ -45,9 +45,6 @@ function get_slot_options(slot_data)
 		if obj then
 			obj.CurrentStage = stage
 		end
-	else
-		print("The apworld this was generated with did not include slot data neccessary to fill certain options. Double check options please.")
-		Tracker:FindObjectForCode("missing_FightLogic").Active = true
 	end
 	
 	if slot_data["FinalFormLogic"] ~= nil then
@@ -59,10 +56,6 @@ function get_slot_options(slot_data)
 		if obj then
 			obj.CurrentStage = stage
 		end
-	else
-		print("The apworld this was generated with did not include slot data neccessary to fill certain options. Double check options please.")
-		Tracker:FindObjectForCode("missing_FinalFormLogic").Active = true
-
 	end
 	
 	if slot_data["AutoFormLogic"] ~= nil then
@@ -74,9 +67,6 @@ function get_slot_options(slot_data)
 		if obj then
 			obj.CurrentStage = stage
 		end
-	else
-		print("The apworld this was generated with did not include slot data neccessary to fill certain options. Double check options please.")
-		Tracker:FindObjectForCode("missing_AutoFormLogic").Active = true
 	end
 	
 	if slot_data["LevelDepth"] ~= nil then
@@ -88,9 +78,6 @@ function get_slot_options(slot_data)
 		if obj then
 			obj.CurrentStage = stage
 		end
-	else
-		print("The apworld this was generated with did not include slot data neccessary to fill certain options. Double check options please.")
-		Tracker:FindObjectForCode("missing_LevelDepth").Active = true
 	end
 	
 	if slot_data["DonaldGoofyStatsanity"] ~= nil then
@@ -102,9 +89,6 @@ function get_slot_options(slot_data)
 		if obj then
 			obj.CurrentStage = stage
 		end
-	else
-		print("The apworld this was generated with did not include slot data neccessary to fill certain options. Double check options please.")
-		Tracker:FindObjectForCode("missing_DonaldGoofyStatsanity").Active = true
 	end
 	
 	if slot_data["CorSkipToggle"] ~= nil then
@@ -116,9 +100,6 @@ function get_slot_options(slot_data)
 		if obj then
 			obj.CurrentStage = stage
 		end
-	else
-		print("The apworld this was generated with did not include slot data neccessary to fill certain options. Double check options please.")
-		Tracker:FindObjectForCode("missing_CorSkipToggle").Active = true
 	end
 	
 	if slot_data["SuperBosses"] ~= nil then

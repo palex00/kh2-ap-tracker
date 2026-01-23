@@ -5,7 +5,7 @@
         "chest_opened_img": "/images/items/invisible.png",
         "overlay_background": "#000000",
         "visibility_rules": [
-            "missing_FightLogic", "missing_FinalFormLogic", "missing_AutoFormLogic", "missing_LevelDepth", "missing_DonaldGoofyStatsanity", "missing_CorSkipToggle", "missing_Superbosses", "missing_Cups", "missing_AtlanticaToggle"
+            "missing_Superbosses", "missing_Cups", "missing_AtlanticaToggle"
         ],
         "children": [
             {
@@ -18,31 +18,11 @@
                 ],
                 "sections": [
                             {
-                                "name": "If you are reading this, this game was generated with a KH2 apworld which does not have slot data for the settings listed below.\nYou'll need to set those settings manually.\nIf you want the slot data to be present, you can grab an apworld off github's main.\n0.6.7 will have the proper slot data.",
+                                "name": "If you are reading this, this game was generated with a KH2 apworld\nwhich does not have slot data for the settings listed below.\nYou'll need to set those settings manually.\nIf you want the slot data to be present, you can grab an apworld off github's main.\n0.6.7 will have the proper slot data.",
                                 "item_count": 1,
                                 "visibility_rules": [],
                                 "access_rules": []
                             },
-							{
-								"name": "Fight Logic",
-								"visibility_rules": ["missing_FightLogic"]
-							},
-							{
-								"name": "Final Form Logic",
-								"visibility_rules": ["missing_FinalFormLogic"]
-							},
-							{
-								"name": "Auto Form Logic",
-								"visibility_rules": ["missing_AutoFormLogic"]
-							},
-							{
-								"name": "Level Depth Logic",
-								"visibility_rules": ["missing_LevelDepth"]
-							},
-							{
-								"name": "Donald & Goofy Statsanity",
-								"visibility_rules": ["missing_DonaldGoofyStatsanity"]
-							},
 							{
 								"name": "CorSkip Toggle",
 								"visibility_rules": ["missing_CorSkipToggle"]
