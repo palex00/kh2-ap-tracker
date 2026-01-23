@@ -12,7 +12,7 @@
                     {
                         "type": "itemgrid",
                         "item_margin": "2, 2",
-                        "h_alignment": "left",
+                        "h_alignment": "center",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",
                         "item_height": 36,
@@ -23,14 +23,21 @@
                                 "opt_bounty",
                                 "opt_goal",
                                 "opt_xemnas",
-                                "opt_fightlogic"
+                                "opt_fightlogic",
+								"opt_superbosses",
+								"opt_cups"
                             ],
                             [
                                 "opt_finalform",
                                 "opt_autoform",
                                 "opt_leveldepth",
                                 "opt_dgstats",
-                                "opt_corskip"
+                                "opt_corskip",
+								"opt_atlantica",
+								"opt_summon"
+                            ],
+                            [
+                                "opt_hide_locations"
                             ]
                         ]
                     }

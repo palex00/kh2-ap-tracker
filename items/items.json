@@ -1,645 +1,602 @@
 [
-                    {
-                        "name": "Proof of Connection",
-                        "type": "toggle",
-                        "img": "/images/Items/ProofofConnection.png",
-                        "codes": "ProofofConnection"
-                    },
-                    
-                    {
-                        "name": "Proof of Nonexistence",
-                        "type": "toggle",
-                        "img": "/images/Items/ProofofNonexistence.png",
-                        "codes": "ProofofNonexistence"
-                    },
-                    
-                    {
-                        "name": "Proof of Peace",
-                        "type": "toggle",
-                        "img": "/images/Items/ProofofPeace.png",
-                        "codes": "ProofofPeace"
-                    },
-                    
-                    {
-                        "name": "Promise Charm",
-                        "type": "toggle",
-                        "img": "/images/Items/PromiseCharm.png",
-                        "codes": "PromiseCharm"
-                    },
-                    
-                    {
-                        "name": "Namine Sketches",
-                        "type": "toggle",
-                        "img": "/images/Items/NamineSketches.png",
-                        "codes": "NamineSketches"
-                    },
-                    
-                    {
-                        "name": "Disney Castle Key",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 2,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/DisneyCastleKey.png",
-                        "overlay_background": "#000000",
-                        "codes": "DisneyCastleKey"
-                    },
-                    {
-                        "name": "Battlefields of War",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 2,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/BattlefieldsofWar.png",
-                        "overlay_background": "#000000",
-                        "codes": "BattlefieldsofWar"
-                    },
-                    {
-                        "name": "Sword of the Ancestor",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 2,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/SwordoftheAncestor.png",
-                        "overlay_background": "#000000",
-                        "codes": "SwordoftheAncestor"
-                    },
-                    {
-                        "name": "Beasts Claw",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 2,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/BeastsClaw.png",
-                        "overlay_background": "#000000",
-                        "codes": "BeastsClaw"
-                    },
-                    {
-                        "name": "Bone Fist",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 2,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/BoneFist.png",
-                        "overlay_background": "#000000",
-                        "codes": "BoneFist"
-                    },
-                    {
-                        "name": "Proud Fang",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 2,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/ProudFang.png",
-                        "overlay_background": "#000000",
-                        "codes": "ProudFang"
-                    },
-                    {
-                        "name": "Skill and Crossbones",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 2,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/SkillandCrossbones.png",
-                        "overlay_background": "#000000",
-                        "codes": "SkillandCrossbones"
-                    },
-                    {
-                        "name": "Scimitar",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 2,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/Scimitar.png",
-                        "overlay_background": "#000000",
-                        "codes": "Scimitar"
-                    },
-                    {
-                        "name": "Membership Card",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 2,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/MembershipCard.png",
-                        "overlay_background": "#000000",
-                        "codes": "MembershipCard"
-                    },
-                    {
-                        "name": "Ice Cream",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 3,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/IceCream.png",
-                        "overlay_background": "#000000",
-                        "codes": "IceCream"
-                    },
-                    {
-                        "name": "Way to the Dawn",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 2,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/WaytotheDawn.png",
-                        "overlay_background": "#000000",
-                        "codes": "WaytotheDawn"
-                    },
-                    {
-                        "name": "Identity Disk",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 2,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/IdentityDisk.png",
-                        "overlay_background": "#000000",
-                        "codes": "IdentityDisk"
-                    },
-                    {
-                        "name": "Torn Page",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 5,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/TornPage.png",
-                        "overlay_background": "#000000",
-                        "codes": "TornPage"
-                    },
-                    {
-                        "name": "Valor Form",
-                        "type": "toggle",
-                        "img": "/images/Items/ValorForm.png",
-                        "codes": "ValorForm"
-                    },
-                    
-                    {
-                        "name": "Wisdom Form",
-                        "type": "toggle",
-                        "img": "/images/Items/WisdomForm.png",
-                        "codes": "WisdomForm"
-                    },
-                    
-                    {
-                        "name": "Limit Form",
-                        "type": "toggle",
-                        "img": "/images/Items/LimitForm.png",
-                        "codes": "LimitForm"
-                    },
-                    
-                    {
-                        "name": "Master Form",
-                        "type": "toggle",
-                        "img": "/images/Items/MasterForm.png",
-                        "codes": "MasterForm"
-                    },
-                    
-                    {
-                        "name": "Final Form",
-                        "type": "toggle",
-                        "img": "/images/Items/FinalForm.png",
-                        "codes": "FinalForm"
-                    },
-                    
-                    {
-                        "name": "Fire Element",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 3,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/FireElement.png",
-                        "overlay_background": "#000000",
-                        "codes": "FireElement"
-                    },
-                    {
-                        "name": "Blizzard Element",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 3,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/BlizzardElement.png",
-                        "overlay_background": "#000000",
-                        "codes": "BlizzardElement"
-                    },
-                    {
-                        "name": "Thunder Element",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 3,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/ThunderElement.png",
-                        "overlay_background": "#000000",
-                        "codes": "ThunderElement"
-                    },
-                    {
-                        "name": "Cure Element",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 3,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/CureElement.png",
-                        "overlay_background": "#000000",
-                        "codes": "CureElement"
-                    },
-                    {
-                        "name": "Magnet Element",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 3,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/MagnetElement.png",
-                        "overlay_background": "#000000",
-                        "codes": "MagnetElement"
-                    },
-                    {
-                        "name": "Reflect Element",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 3,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/ReflectElement.png",
-                        "overlay_background": "#000000",
-                        "codes": "ReflectElement"
-                    },
-                    {
-                        "name": "Genie",
-                        "type": "toggle",
-                        "img": "/images/Items/Genie.png",
-                        "codes": "Genie"
-                    },
-                    
-                    {
-                        "name": "Peter Pan",
-                        "type": "toggle",
-                        "img": "/images/Items/PeterPan.png",
-                        "codes": "PeterPan"
-                    },
-                    
-                    {
-                        "name": "Stitch",
-                        "type": "toggle",
-                        "img": "/images/Items/Stitch.png",
-                        "codes": "Stitch"
-                    },
-                    
-                    {
-                        "name": "Chicken Little",
-                        "type": "toggle",
-                        "img": "/images/Items/ChickenLittle.png",
-                        "codes": "ChickenLittle"
-                    },
-                    
-                    {
-                        "name": "High Jump",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 4,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/HighJump.png",
-                        "overlay_background": "#000000",
-                        "codes": "HighJump"
-                    },
-                    {
-                        "name": "Quick Run",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 4,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/QuickRun.png",
-                        "overlay_background": "#000000",
-                        "codes": "QuickRun"
-                    },
-                    {
-                        "name": "Dodge Roll",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 4,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/DodgeRoll.png",
-                        "overlay_background": "#000000",
-                        "codes": "DodgeRoll"
-                    },
-                    {
-                        "name": "Aerial Dodge",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 4,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/AerialDodge.png",
-                        "overlay_background": "#000000",
-                        "codes": "AerialDodge"
-                    },
-                    {
-                        "name": "Glide",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 4,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/Glide.png",
-                        "overlay_background": "#000000",
-                        "codes": "Glide"
-                    },
-                    {
-                        "name": "Hades Cup Trophy",
-                        "type": "toggle",
-                        "img": "/images/Items/HadesCupTrophy.png",
-                        "codes": "HadesCupTrophy"
-                    },
-                    
-                    {
-                        "name": "Combo Master",
-                        "type": "toggle",
-                        "img": "/images/Items/ComboMaster.png",
-                        "codes": "ComboMaster"
-                    },
-                    
-                    {
-                        "name": "Combo Plus",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 2,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/ComboPlus.png",
-                        "overlay_background": "#000000",
-                        "codes": "ComboPlus"
-                    },
-                    {
-                        "name": "Air Combo Plus",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 2,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/AirComboPlus.png",
-                        "overlay_background": "#000000",
-                        "codes": "AirComboPlus"
-                    },
-                    {
-                        "name": "Finishing Plus",
-                        "type": "toggle",
-                        "img": "/images/Items/FinishingPlus.png",
-                        "codes": "FinishingPlus"
-                    },
-                    
-                    {
-                        "name": "Berserk Charge",
-                        "type": "toggle",
-                        "img": "/images/Items/BerserkCharge.png",
-                        "codes": "BerserkCharge"
-                    },
-                    
-                    {
-                        "name": "Form Boost",
-                        "type": "toggle",
-                        "img": "/images/Items/FormBoost.png",
-                        "codes": "FormBoost"
-                    },
-                    
-                    {
-                        "name": "Light & Darkness",
-                        "type": "toggle",
-                        "img": "/images/Items/LightandDarkness.png",
-                        "codes": "LightandDarkness"
-                    },
-                    
-                    {
-                        "name": "Once More",
-                        "type": "toggle",
-                        "img": "/images/Items/OnceMore.png",
-                        "codes": "OnceMore"
-                    },
-                    
-                    {
-                        "name": "Second Chance",
-                        "type": "toggle",
-                        "img": "/images/Items/SecondChance.png",
-                        "codes": "SecondChance"
-                    },
-                    
-                    {
-                        "name": "Guard",
-                        "type": "toggle",
-                        "img": "/images/Items/Guard.png",
-                        "codes": "Guard"
-                    },
-                    
-                    {
-                        "name": "Horizontal Slash",
-                        "type": "toggle",
-                        "img": "/images/Items/HorizontalSlash.png",
-                        "codes": "HorizontalSlash"
-                    },
-                    
-                    {
-                        "name": "Finishing Leap",
-                        "type": "toggle",
-                        "img": "/images/Items/FinishingLeap.png",
-                        "codes": "FinishingLeap"
-                    },
-                    
-                    {
-                        "name": "Slapshot",
-                        "type": "toggle",
-                        "img": "/images/Items/Slapshot.png",
-                        "codes": "Slapshot"
-                    },
-                    
-                    {
-                        "name": "Flash Step",
-                        "type": "toggle",
-                        "img": "/images/Items/FlashStep.png",
-                        "codes": "FlashStep"
-                    },
-                    
-                    {
-                        "name": "Slide Dash",
-                        "type": "toggle",
-                        "img": "/images/Items/SlideDash.png",
-                        "codes": "SlideDash"
-                    },
-                    
-                    {
-                        "name": "Guard Break",
-                        "type": "toggle",
-                        "img": "/images/Items/GuardBreak.png",
-                        "codes": "GuardBreak"
-                    },
-                    
-                    {
-                        "name": "Explosion",
-                        "type": "toggle",
-                        "img": "/images/Items/Explosion.png",
-                        "codes": "Explosion"
-                    },
-                    
-                    {
-                        "name": "Aerial Sweep",
-                        "type": "toggle",
-                        "img": "/images/Items/AerialSweep.png",
-                        "codes": "AerialSweep"
-                    },
-                    
-                    {
-                        "name": "Aerial Dive",
-                        "type": "toggle",
-                        "img": "/images/Items/AerialDive.png",
-                        "codes": "AerialDive"
-                    },
-                    
-                    {
-                        "name": "Aerial Spiral",
-                        "type": "toggle",
-                        "img": "/images/Items/AerialSpiral.png",
-                        "codes": "AerialSpiral"
-                    },
-                    
-                    {
-                        "name": "Aerial Finish",
-                        "type": "toggle",
-                        "img": "/images/Items/AerialFinish.png",
-                        "codes": "AerialFinish"
-                    },
-                    
-                    {
-                        "name": "Auto Valor",
-                        "type": "toggle",
-                        "img": "/images/Items/AutoValor.png",
-                        "codes": "AutoValor"
-                    },
-                    
-                    {
-                        "name": "Auto Wisdom",
-                        "type": "toggle",
-                        "img": "/images/Items/AutoWisdom.png",
-                        "codes": "AutoWisdom"
-                    },
-                    
-                    {
-                        "name": "Auto Limit",
-                        "type": "toggle",
-                        "img": "/images/Items/AutoLimit.png",
-                        "codes": "AutoLimit"
-                    },
-                    
-                    {
-                        "name": "Auto Master",
-                        "type": "toggle",
-                        "img": "/images/Items/AutoMaster.png",
-                        "codes": "AutoMaster"
-                    },
-                    
-                    {
-                        "name": "Auto Final",
-                        "type": "toggle",
-                        "img": "/images/Items/AutoFinal.png",
-                        "codes": "AutoFinal"
-                    },
-                    
-                    {
-                        "name": "Trinity Limit",
-                        "type": "toggle",
-                        "img": "/images/Items/TrinityLimit.png",
-                        "codes": "TrinityLimit"
-                    },
-                    
-                    {
-                        "name": "Lucky Emblem",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 60,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/LuckyEmblem.png",
-                        "overlay_background": "#000000",
-                        "codes": "LuckyEmblem"
-                    },
-                    {
-                        "name": "Bounty",
-                        "type": "consumable",
-                        "allow_disabled": true,
-                        "min_quantity": 0,
-                        "max_quantity": 26,
-                        "increment": 1,
-                        "initial_quantity": 0,
-                        "img": "/images/Items/Bounty.png",
-                        "overlay_background": "#000000",
-                        "codes": "Bounty"
-                    },
-                    {
-                        "name": "Fantasia",
-                        "type": "toggle",
-                        "img": "/images/Items/DonaldFantasia.png",
-                        "codes": "DonaldFantasia"
-                    },
-                    
-                    {
-                        "name": "Flare Force",
-                        "type": "toggle",
-                        "img": "/images/Items/DonaldFlareForce.png",
-                        "codes": "DonaldFlareForce"
-                    },
-                    
-                    {
-                        "name": "Tornado Fusion",
-                        "type": "toggle",
-                        "img": "/images/Items/TornadoFusion.png",
-                        "codes": "TornadoFusion"
-                    },
-                    
-                    {
-                        "name": "Teamwork",
-                        "type": "toggle",
-                        "img": "/images/Items/Teamwork.png",
-                        "codes": "Teamwork"
-                    }
-        ]
+  {
+		"name": "Proof of Connection",
+		"type": "toggle",
+		"img": "/images/Items/ProofofConnection.png",
+		"codes": "ProofofConnection"
+	},
+	{
+		"name": "Proof of Nonexistence",
+		"type": "toggle",
+		"img": "/images/Items/ProofofNonexistence.png",
+		"codes": "ProofofNonexistence"
+	},
+	{
+		"name": "Proof of Peace",
+		"type": "toggle",
+		"img": "/images/Items/ProofofPeace.png",
+		"codes": "ProofofPeace"
+	},
+	{
+		"name": "Promise Charm",
+		"type": "toggle",
+		"img": "/images/Items/PromiseCharm.png",
+		"codes": "PromiseCharm"
+	},
+	{
+		"name": "Namine's Sketches",
+		"type": "toggle",
+		"img": "/images/Items/NamineSketches.png",
+		"codes": "NamineSketches"
+	},
+	{
+		"name": "Disney Castle Key",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 2,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/DisneyCastleKey.png",
+		"overlay_background": "#000000",
+		"codes": "DisneyCastleKey"
+	},
+	{
+		"name": "Battlefields of War",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 2,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/BattlefieldsofWar.png",
+		"overlay_background": "#000000",
+		"codes": "BattlefieldsofWar"
+	},
+	{
+		"name": "Sword of the Ancestor",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 2,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/SwordoftheAncestor.png",
+		"overlay_background": "#000000",
+		"codes": "SwordoftheAncestor"
+	},
+	{
+		"name": "Beasts Claw",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 2,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/BeastsClaw.png",
+		"overlay_background": "#000000",
+		"codes": "BeastsClaw"
+	},
+	{
+		"name": "Bone Fist",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 2,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/BoneFist.png",
+		"overlay_background": "#000000",
+		"codes": "BoneFist"
+	},
+	{
+		"name": "Proud Fang",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 2,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/ProudFang.png",
+		"overlay_background": "#000000",
+		"codes": "ProudFang"
+	},
+	{
+		"name": "Skill and Crossbones",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 2,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/SkillandCrossbones.png",
+		"overlay_background": "#000000",
+		"codes": "SkillandCrossbones"
+	},
+	{
+		"name": "Scimitar",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 2,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/Scimitar.png",
+		"overlay_background": "#000000",
+		"codes": "Scimitar"
+	},
+	{
+		"name": "Membership Card",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 2,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/MembershipCard.png",
+		"overlay_background": "#000000",
+		"codes": "MembershipCard"
+	},
+	{
+		"name": "Ice Cream",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 3,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/IceCream.png",
+		"overlay_background": "#000000",
+		"codes": "IceCream"
+	},
+	{
+		"name": "Way to the Dawn",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 2,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/WaytotheDawn.png",
+		"overlay_background": "#000000",
+		"codes": "WaytotheDawn"
+	},
+	{
+		"name": "Identity Disk",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 2,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/IdentityDisk.png",
+		"overlay_background": "#000000",
+		"codes": "IdentityDisk"
+	},
+	{
+		"name": "Torn Page",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 5,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/TornPage.png",
+		"overlay_background": "#000000",
+		"codes": "TornPage"
+	},
+	{
+		"name": "Valor Form",
+		"type": "toggle",
+		"img": "/images/Items/ValorForm.png",
+		"codes": "ValorForm"
+	},
+	{
+		"name": "Wisdom Form",
+		"type": "toggle",
+		"img": "/images/Items/WisdomForm.png",
+		"codes": "WisdomForm"
+	},
+	{
+		"name": "Limit Form",
+		"type": "toggle",
+		"img": "/images/Items/LimitForm.png",
+		"codes": "LimitForm"
+	},
+	{
+		"name": "Master Form",
+		"type": "toggle",
+		"img": "/images/Items/MasterForm.png",
+		"codes": "MasterForm"
+	},
+	{
+		"name": "Final Form",
+		"type": "toggle",
+		"img": "/images/Items/FinalForm.png",
+		"codes": "FinalForm"
+	},
+	{
+		"name": "Fire Element",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 3,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/FireElement.png",
+		"overlay_background": "#000000",
+		"codes": "FireElement"
+	},
+	{
+		"name": "Blizzard Element",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 3,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/BlizzardElement.png",
+		"overlay_background": "#000000",
+		"codes": "BlizzardElement"
+	},
+	{
+		"name": "Thunder Element",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 3,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/ThunderElement.png",
+		"overlay_background": "#000000",
+		"codes": "ThunderElement"
+	},
+	{
+		"name": "Cure Element",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 3,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/CureElement.png",
+		"overlay_background": "#000000",
+		"codes": "CureElement"
+	},
+	{
+		"name": "Magnet Element",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 3,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/MagnetElement.png",
+		"overlay_background": "#000000",
+		"codes": "MagnetElement"
+	},
+	{
+		"name": "Reflect Element",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 3,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/ReflectElement.png",
+		"overlay_background": "#000000",
+		"codes": "ReflectElement"
+	},
+	{
+		"name": "Genie",
+		"type": "toggle",
+		"img": "/images/Items/Genie.png",
+		"codes": "Genie"
+	},
+	{
+		"name": "Peter Pan",
+		"type": "toggle",
+		"img": "/images/Items/PeterPan.png",
+		"codes": "PeterPan"
+	},
+	{
+		"name": "Stitch",
+		"type": "toggle",
+		"img": "/images/Items/Stitch.png",
+		"codes": "Stitch"
+	},
+	{
+		"name": "Chicken Little",
+		"type": "toggle",
+		"img": "/images/Items/ChickenLittle.png",
+		"codes": "ChickenLittle"
+	},
+	{
+		"name": "High Jump",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 4,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/HighJump.png",
+		"overlay_background": "#000000",
+		"codes": "HighJump"
+	},
+	{
+		"name": "Quick Run",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 4,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/QuickRun.png",
+		"overlay_background": "#000000",
+		"codes": "QuickRun"
+	},
+	{
+		"name": "Dodge Roll",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 4,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/DodgeRoll.png",
+		"overlay_background": "#000000",
+		"codes": "DodgeRoll"
+	},
+	{
+		"name": "Aerial Dodge",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 4,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/AerialDodge.png",
+		"overlay_background": "#000000",
+		"codes": "AerialDodge"
+	},
+	{
+		"name": "Glide",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 4,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/Glide.png",
+		"overlay_background": "#000000",
+		"codes": "Glide"
+	},
+	{
+		"name": "Hades Cup Trophy",
+		"type": "toggle",
+		"img": "/images/Items/HadesCupTrophy.png",
+		"codes": "HadesCupTrophy"
+	},
+	{
+		"name": "Combo Master",
+		"type": "toggle",
+		"img": "/images/Items/ComboMaster.png",
+		"codes": "ComboMaster"
+	},
+	{
+		"name": "Combo Plus",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 2,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/ComboPlus.png",
+		"overlay_background": "#000000",
+		"codes": "ComboPlus"
+	},
+	{
+		"name": "Air Combo Plus",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 2,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/AirComboPlus.png",
+		"overlay_background": "#000000",
+		"codes": "AirComboPlus"
+	},
+	{
+		"name": "Finishing Plus",
+		"type": "toggle",
+		"img": "/images/Items/FinishingPlus.png",
+		"codes": "FinishingPlus"
+	},
+	{
+		"name": "Berserk Charge",
+		"type": "toggle",
+		"img": "/images/Items/BerserkCharge.png",
+		"codes": "BerserkCharge"
+	},
+	{
+		"name": "Form Boost",
+		"type": "toggle",
+		"img": "/images/Items/FormBoost.png",
+		"codes": "FormBoost"
+	},
+	{
+		"name": "Light & Darkness",
+		"type": "toggle",
+		"img": "/images/Items/LightandDarkness.png",
+		"codes": "LightandDarkness"
+	},
+	{
+		"name": "Once More",
+		"type": "toggle",
+		"img": "/images/Items/OnceMore.png",
+		"codes": "OnceMore"
+	},
+	{
+		"name": "Second Chance",
+		"type": "toggle",
+		"img": "/images/Items/SecondChance.png",
+		"codes": "SecondChance"
+	},
+	{
+		"name": "Guard",
+		"type": "toggle",
+		"img": "/images/Items/Guard.png",
+		"codes": "Guard"
+	},
+	{
+		"name": "Horizontal Slash",
+		"type": "toggle",
+		"img": "/images/Items/HorizontalSlash.png",
+		"codes": "HorizontalSlash"
+	},
+	{
+		"name": "Finishing Leap",
+		"type": "toggle",
+		"img": "/images/Items/FinishingLeap.png",
+		"codes": "FinishingLeap"
+	},
+	{
+		"name": "Slapshot",
+		"type": "toggle",
+		"img": "/images/Items/Slapshot.png",
+		"codes": "Slapshot"
+	},
+	{
+		"name": "Flash Step",
+		"type": "toggle",
+		"img": "/images/Items/FlashStep.png",
+		"codes": "FlashStep"
+	},
+	{
+		"name": "Slide Dash",
+		"type": "toggle",
+		"img": "/images/Items/SlideDash.png",
+		"codes": "SlideDash"
+	},
+	{
+		"name": "Guard Break",
+		"type": "toggle",
+		"img": "/images/Items/GuardBreak.png",
+		"codes": "GuardBreak"
+	},
+	{
+		"name": "Explosion",
+		"type": "toggle",
+		"img": "/images/Items/Explosion.png",
+		"codes": "Explosion"
+	},
+	{
+		"name": "Aerial Sweep",
+		"type": "toggle",
+		"img": "/images/Items/AerialSweep.png",
+		"codes": "AerialSweep"
+	},
+	{
+		"name": "Aerial Dive",
+		"type": "toggle",
+		"img": "/images/Items/AerialDive.png",
+		"codes": "AerialDive"
+	},
+	{
+		"name": "Aerial Spiral",
+		"type": "toggle",
+		"img": "/images/Items/AerialSpiral.png",
+		"codes": "AerialSpiral"
+	},
+	{
+		"name": "Aerial Finish",
+		"type": "toggle",
+		"img": "/images/Items/AerialFinish.png",
+		"codes": "AerialFinish"
+	},
+	{
+		"name": "Auto Valor",
+		"type": "toggle",
+		"img": "/images/Items/AutoValor.png",
+		"codes": "AutoValor"
+	},
+	{
+		"name": "Auto Wisdom",
+		"type": "toggle",
+		"img": "/images/Items/AutoWisdom.png",
+		"codes": "AutoWisdom"
+	},
+	{
+		"name": "Auto Limit",
+		"type": "toggle",
+		"img": "/images/Items/AutoLimit.png",
+		"codes": "AutoLimit"
+	},
+	{
+		"name": "Auto Master",
+		"type": "toggle",
+		"img": "/images/Items/AutoMaster.png",
+		"codes": "AutoMaster"
+	},
+	{
+		"name": "Auto Final",
+		"type": "toggle",
+		"img": "/images/Items/AutoFinal.png",
+		"codes": "AutoFinal"
+	},
+	{
+		"name": "Trinity Limit",
+		"type": "toggle",
+		"img": "/images/Items/TrinityLimit.png",
+		"codes": "TrinityLimit"
+	},
+	{
+		"name": "Lucky Emblem",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 60,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/LuckyEmblem.png",
+		"overlay_background": "#000000",
+		"codes": "LuckyEmblem"
+	},
+	{
+		"name": "Bounty",
+		"type": "consumable",
+		"allow_disabled": true,
+		"min_quantity": 0,
+		"max_quantity": 26,
+		"increment": 1,
+		"initial_quantity": 0,
+		"img": "/images/Items/Bounty.png",
+		"overlay_background": "#000000",
+		"codes": "Bounty"
+	},
+	{
+		"name": "Fantasia",
+		"type": "toggle",
+		"img": "/images/Items/DonaldFantasia.png",
+		"codes": "DonaldFantasia"
+	},
+	{
+		"name": "Flare Force",
+		"type": "toggle",
+		"img": "/images/Items/DonaldFlareForce.png",
+		"codes": "DonaldFlareForce"
+	},
+	{
+		"name": "Tornado Fusion",
+		"type": "toggle",
+		"img": "/images/Items/TornadoFusion.png",
+		"codes": "TornadoFusion"
+	},
+	{
+		"name": "Teamwork",
+		"type": "toggle",
+		"img": "/images/Items/Teamwork.png",
+		"codes": "Teamwork"
+	}
+]

@@ -12,7 +12,8 @@ Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/settings.json")
 
 -- Maps
-Tracker:AddMaps("maps/maps.json")  
+Tracker:AddMaps("maps/maps.json") 
+Tracker:AddMaps("maps/overworld.json") 
 
 -- Logic
 ScriptHost:LoadScript("scripts/logic/logic_helpers.lua")
@@ -60,3 +61,6 @@ Tracker:AddItems("items/missing_slotdata.json")
 
 -- AutoTracking for Poptracker
 ScriptHost:LoadScript("scripts/autotracking.lua")
+
+-- Watch for the changing of the Overworld Map Image used
+ScriptHost:AddWatchForCode("opt_summon", "opt_summon", toggle_overworldmap)
