@@ -61,3 +61,11 @@ function dif(level)
 		end
 	end
 end
+
+function toggle_overworldmap()
+    if Tracker:FindObjectForCode('opt_summon').CurrentStage == 1 then
+        Tracker:AddMaps("maps/overworld.json")
+    else
+        Tracker:AddMaps("maps/overworld_without_summons.json")
+    end
+end
