@@ -8110,7 +8110,7 @@
         ],
         "visibility_rules": [
           "opt_atlantica_yes",
-          "opt_atlantica_no, opt_hidelocations_no"
+          "opt_atlantica_no, opt_hide_locations_no"
         ]
       }
     ]

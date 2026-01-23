@@ -12,28 +12,28 @@
                             {
                                 "name": "Undersea Kingdom Map",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_atlantica_yes", "opt_atlantica_no, opt_hidelocations_no"],
+                                "visibility_rules": ["opt_atlantica_yes", "opt_atlantica_no, opt_hide_locations_no"],
                                 "access_rules": []
                             },
                         
                             {
                                 "name": "Mysterious Abyss",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_atlantica_yes", "opt_atlantica_no, opt_hidelocations_no"],
+                                "visibility_rules": ["opt_atlantica_yes", "opt_atlantica_no, opt_hide_locations_no"],
                                 "access_rules": ["MagnetElement:2"]
                             },
                         
                             {
                                 "name": "Musical Blizzard Element",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_atlantica_yes", "opt_atlantica_no, opt_hidelocations_no"],
+                                "visibility_rules": ["opt_atlantica_yes", "opt_atlantica_no, opt_hide_locations_no"],
                                 "access_rules": ["MagnetElement:2, ThunderElement:3"]
                             },
                         
                             {
                                 "name": "Musical Orichalcum+",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_atlantica_yes", "opt_atlantica_no, opt_hidelocations_no"],
+                                "visibility_rules": ["opt_atlantica_yes", "opt_atlantica_no, opt_hide_locations_no"],
                                 "access_rules": ["MagnetElement:2, ThunderElement:3"]
                             }
                         

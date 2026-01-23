@@ -84,7 +84,7 @@
                             {
                                 "name": "Data Xemnas",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hidelocations_no", "opt_superbosses_no, opt_hidelocations_no"],
+                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
                                 "access_rules": ["^$dif|easy, ThunderElement, ReflectElement:3, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, LimitForm, AerialDodge:2, Glide:2, QuickRun:2, HorizontalSlash, FireElement:2, Guard, @Levels/Final level 4, @Levels/Limit level 5, ComboMaster, Slapshot, ^$any|Explosion|FinishingLeap, SecondChance, OnceMore, TrinityLimit",
                                 "^$dif|normal, ThunderElement, ReflectElement:3, GuardBreak, FlashStep, SlideDash, FinishingPlus, BlizzardElement, Guard, FireElement:2, Glide:2, AerialDodge:2, QuickRun:2, @Levels/Final level 4, ComboMaster, Slapshot, ^$any|Explosion|FinishingLeap, @Levels/Limit level 5",
                                 "^$dif|hard, Guard, FinishingPlus, QuickRun, ComboMaster, Slapshot, ReflectElement:2, @Levels/Limit level 3, ^$any|GuardBreak|Explosion|FInishingLeap, ^$any|SlideDash|FlashStep"]

@@ -108,7 +108,7 @@
                             {
                                 "name": "Data Luxord",
                                 "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hidelocations_no", "opt_superbosses_no, opt_hidelocations_no"],
+                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
                                 "access_rules": ["^$dif|easy, ThunderElement:2, Guard, ReflectElement:3, MasterForm, AerialDodge:2, Glide:2, SlideDash, FlashStep", 
                                 "^$dif|easy, BlizzardElement, ThunderElement, ReflectElement:3, Guard, MasterForm, AerialDodge:2, Glide:2, SlideDash, FlashStep",
                                 "^$dif|normal, ThunderElement, Guard, ReflectElement, ^$any|MasterForm|Stitch, AerialDodge, Glide, ^$any|SlideDash|FlashStep", "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|FireElement|ThunderElement|BlizzardElement, QuickRun"]
