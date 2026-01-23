@@ -58,6 +58,10 @@ Tracker:AddLocations("locations/Submaps.json")
 -- Missing Slot Data Helpers
 Tracker:AddLocations("locations/missing_setting_slotdata.json")
 Tracker:AddItems("items/missing_slotdata.json")
+Tracker:FindObjectForCode("missing_Superbosses").Active = false
+Tracker:FindObjectForCode("missing_Cups").Active = false
+Tracker:FindObjectForCode("missing_AtlanticaToggle").Active = false
+Tracker:FindObjectForCode("missing_SummonLevelLocationToggle").Active = false
 
 -- AutoTracking for Poptracker
 ScriptHost:LoadScript("scripts/autotracking.lua")
