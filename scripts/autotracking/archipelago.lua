@@ -4,10 +4,20 @@ ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/slot_options.lua")
 ScriptHost:LoadScript("scripts/autotracking/map_swapping.lua")
 
-CUR_INDEX = -1
---SLOT_DATA = nil
+-- used for hint tracking to quickly map hint status to a value from the Highlight enum
+if Highlight then
+    HIGHTLIGHT_LEVEL = {
+        [0] = Highlight.Unspecified,
+        [10] = Highlight.NoPriority,
+        [20] = Highlight.Avoid,
+        [30] = Highlight.Priority,
+        [40] = Highlight.None
+    }
+end
 
+CUR_INDEX = -1
 SLOT_DATA = {}
+HINT_ID = {}
 
 function has_value (t, val)
     for i, v in ipairs(t) do
@@ -50,6 +60,7 @@ function onClear(slot_data)
                 if location_obj then
                     if location:sub(1, 1) == "@" then
                         location_obj.AvailableChestCount = location_obj.ChestCount
+                        location_obj.Highlight = 0
                     else
                         location_obj.Active = false
                     end
@@ -86,7 +97,13 @@ function onClear(slot_data)
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     SLOT_DATA = slot_data
     get_slot_options(slot_data)
-	Archipelago:SetNotify({"Slot: " .. Archipelago.PlayerNumber .. " :CurrentWorld"})
+    
+    WORLD_ID = "Slot: " .. PLAYER_ID .. " :CurrentWorld"
+	HINT_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
+    
+    Archipelago:SetNotify({WORLD_ID})
+    Archipelago:SetNotify({HINT_ID})
+    Archipelago:Get({HINT_ID})
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -165,7 +182,26 @@ function onLocation(location_id, location_name)
 	end
 end
 
-function onChangedRegion(key, current_region, old_region)
+function onNotify(key, value, old_value)
+    if value ~= nil and value ~= 0 then
+        if key == WORLD_ID then
+            onChangedRegion(value, old_value)
+        elseif key == HINT_ID then
+            updateHints(value)
+        end
+    end
+end
+
+
+function onNotifyLaunch(key, value)
+    if value ~= nil and value ~= 0 then
+        if key == HINT_ID then
+            updateHints(value)
+        end
+    end
+end
+
+function onChangedRegion(current_region, old_region)
 	regioninfo = current_region
     if (current_region ~= old_region) then
         if TABS_MAPPING[current_region] then
@@ -177,6 +213,29 @@ function onChangedRegion(key, current_region, old_region)
     end
 end
 
+
+function updateHints(value)
+    if not Highlight then
+        return
+    end
+    
+    for _, hint in ipairs(value) do
+        if hint.finding_player == PLAYER_ID then
+            local mapped = LOCATION_MAPPING[hint.location]
+            local locations = (type(mapped) == "table") and mapped or { mapped }
+    
+            
+            for _, location in ipairs(locations) do
+                -- Only sections (items don't support Highlight)
+                if type(location) == "string" and location:sub(1, 1) == "@" then
+                    Tracker:FindObjectForCode(location).Highlight = HIGHTLIGHT_LEVEL[hint.status]
+                end
+            end
+        end        
+    end
+end
+
+
 function scoutable()
 	return AccessibilityLevel.Inspect
 end
@@ -185,3 +244,6 @@ Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddSetReplyHandler("CurrentWorld", onChangedRegion)
+
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
