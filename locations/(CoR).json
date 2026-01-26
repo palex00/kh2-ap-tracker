@@ -353,7 +353,7 @@
                 "item_count": 1,
                 "visibility_rules": [],
                 "access_rules": [
-                    "^$dif|easy, QuickRun:3, AerialDodge:3, HighJump:3, Glide:3 ^$multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
+                    "^$dif|easy, QuickRun:3, AerialDodge:3, HighJump:3, Glide:3, ^$multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
                     "^$dif|easy, @Levels/Wisdom level 5, QuickRun:2, AerialDodge:3, HighJump:3, Glide:3, ^$multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
                     "^$dif|easy, @Levels/Wisdom level 5, @Levels/Master level 5, AerialDodge:3, HighJump:3, Glide:3, ^$multiple|5|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
                     "^$dif|normal, QuickRun:2, AerialDodge:2, HighJump:2, Glide:3, ^$multiple|3|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:2|FinishingLeap",
