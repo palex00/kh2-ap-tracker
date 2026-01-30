@@ -116,27 +116,27 @@
                                 "name": "Marluxia Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce",
-                                "^$dif|normal, ReflectElement, Guard, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:2, ^$any|DonaldFantasia|DonaldFlareForce", 
-                                "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep"]
+                                "access_rules": ["^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery",
+                                "^$dif|normal, ReflectElement, Guard, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery", 
+                                "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, AerialRecovery"]
                             },
                         
                             {
                                 "name": "AS Marluxia",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce",
-                                "^$dif|normal, ReflectElement, Guard, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:2, ^$any|DonaldFantasia|DonaldFlareForce", 
-                                "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep"]
+                                "access_rules": ["^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery",
+                                "^$dif|normal, ReflectElement, Guard, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery", 
+                                "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, AerialRecovery"]
                             },
                         
                             {
                                 "name": "Data Marluxia",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce",
-                                "^$dif|normal, ReflectElement, Guard, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:2, ^$any|DonaldFantasia|DonaldFlareForce", 
-                                "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep"]
+                                "access_rules": ["^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery",
+                                "^$dif|normal, ReflectElement, Guard, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery", 
+                                "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, AerialRecovery"]
                             },
                         
                             {

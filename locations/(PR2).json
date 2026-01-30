@@ -93,7 +93,7 @@
                                 "name": "Grim Reaper 2 Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ThunderElement:2, ^$any|ReflectElement|Guard, MasterForm", "^$dif|easy, BlizzardElement, ThunderElement, ^$any|ReflectElement|Guard, MasterForm",
+                                "access_rules": ["^$dif|easy, ThunderElement:2, ^$any|ReflectElement|Guard", "^$dif|easy, BlizzardElement, ThunderElement, ^$any|ReflectElement|Guard", "^$dif|easy, BlizzardElement:2, ^$any|ReflectElement|Guard, MasterForm"
                                 "^$dif|normal, ThunderElement, ^$any|Guard|ReflectElement, ^$any|MasterForm|Stitch", "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|FireElement|ThunderElement|BlizzardElement"]
                             },
                         

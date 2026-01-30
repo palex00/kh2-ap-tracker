@@ -67,7 +67,7 @@
                     "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3",
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, ^$final, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ThunderElement|ReflectElement|ComboMaster"
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElement|ComboMaster"
                 ]
             },
             {
@@ -86,7 +86,7 @@
                     "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3",
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, ^$final, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ThunderElement|ReflectElement|ComboMaster"
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElement|ComboMaster"
                 ]
             },
             {
@@ -105,7 +105,7 @@
                     "^$dif|hard, opt_corskip_yes, AerialDodge, QuickRun:3",
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, ^$final, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ThunderElement|ReflectElement|ComboMaster"
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElement|ComboMaster"
                 ]
             },
             {
@@ -126,7 +126,7 @@
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ThunderElement|ReflectElement|ComboMaster"
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElement|ComboMaster"
                 ]
             },
             {
@@ -147,7 +147,7 @@
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ThunderElement|ReflectElement|ComboMaster"
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElement|ComboMaster"
                 ]
             },
             {
@@ -168,7 +168,7 @@
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ThunderElement|ReflectElement|ComboMaster"
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElement|ComboMaster"
                 ]
             },
             {
@@ -189,7 +189,7 @@
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ThunderElement|ReflectElement|ComboMaster"
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElement|ComboMaster"
                 ]
             },
             {
@@ -210,7 +210,7 @@
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ThunderElement|ReflectElement|ComboMaster"
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElement|ComboMaster"
                 ]
             },
             {
@@ -236,8 +236,8 @@
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ThunderElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ReflectElement, BlizzardElement"
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElemen|ComboMaster, AerialDodge, @Levels/Final level 3",
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElemen|ComboMaster, AerialDodge, Glide: 2"
                 ]
             },
             {
@@ -263,8 +263,8 @@
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ThunderElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ReflectElement, BlizzardElement"
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElemen|ComboMaster, AerialDodge, @Levels/Final level 3",
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElemen|ComboMaster, AerialDodge, Glide: 2"
                 ]
             },
             {
@@ -290,8 +290,8 @@
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ThunderElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ReflectElement, BlizzardElement"
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElemen|ComboMaster, AerialDodge, @Levels/Final level 3",
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElemen|ComboMaster, AerialDodge, Glide: 2"
                 ]
             },
             {
@@ -317,8 +317,8 @@
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ThunderElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ReflectElement, BlizzardElement"
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElemen|ComboMaster, AerialDodge, @Levels/Final level 3",
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElemen|ComboMaster, AerialDodge, Glide: 2"
                 ]
             },
             {
@@ -344,8 +344,8 @@
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, Glide:2, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, QuickRun:2, AerialDodge:2, @Levels/Final level 3, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement",
                     "^$dif|hard, opt_corskip_yes, ^$final, AerialDodge, ^$any|FireElement|ThunderElement|BlizzardElement|CureElement|MagnetElement|ReflectElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ThunderElement|ComboMaster",
-                    "^$dif|hard, opt_corskip_yes, MasterForm, ReflectElement, BlizzardElement"
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElemen|ComboMaster, AerialDodge, @Levels/Final level 3",
+                    "^$dif|hard, opt_corskip_yes, MasterForm, ^$any|FireElement|ReflectElemen|ComboMaster, AerialDodge, Glide: 2"
                 ]
             },
             {
@@ -374,9 +374,9 @@
                 "item_count": 1,
                 "visibility_rules": [],
                 "access_rules": [
-                    "^$dif|easy, QuickRun:3, AerialDodge:3, HighJump:3, Glide:3, ReflectElement:3, ChickenLittle, Stitch, ^$final, MagnetElement:2, Explosion, ThunderElement:3, FinishingLeap, DonaldFlareForce, DonaldFantasia",
-                    "^$dif|easy, @Levels/Wisdom level 5, QuickRun:2, AerialDodge:3, HighJump:3, Glide:3, ReflectElement:3, ChickenLittle, Stitch, ^$final, MagnetElement:2, Explosion, ThunderElement:3, FinishingLeap, DonaldFlareForce, DonaldFantasia",
-                    "^$dif|easy, @Levels/Wisdom level 5, @Levels/Master level 5, AerialDodge:3, HighJump:3, Glide:3, ReflectElement:3, ChickenLittle, Stitch, ^$final, MagnetElement:2, Explosion, ThunderElement:3, FinishingLeap, DonaldFlareForce, DonaldFantasia",
+                    "^$dif|easy, QuickRun:3, AerialDodge:3, HighJump:3, Glide:3, ReflectElement:3, ChickenLittle, Stitch, Genie, MagnetElement:2, Explosion, ThunderElement:3, FinishingLeap, DonaldFlareForce, DonaldFantasia",
+                    "^$dif|easy, @Levels/Wisdom level 5, QuickRun:2, AerialDodge:3, HighJump:3, Glide:3, ReflectElement:3, ChickenLittle, Stitch, Genie, MagnetElement:2, Explosion, ThunderElement:3, FinishingLeap, DonaldFlareForce, DonaldFantasia",
+                    "^$dif|easy, @Levels/Wisdom level 5, @Levels/Master level 5, AerialDodge:3, HighJump:3, Glide:3, ReflectElement:3, ChickenLittle, Stitch, Genie, MagnetElement:2, Explosion, ThunderElement:3, FinishingLeap, DonaldFlareForce, DonaldFantasia",
                     "^$dif|normal, QuickRun:2, AerialDodge:2, HighJump:2, Glide:3, ^$multiple|7|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
                     "^$dif|normal, @Levels/Wisdom level 5, @Levels/Master level 5, AerialDodge:2, HighJump:2, Glide:3, ^$multiple|7|ReflectElement:3|ChickenLittle|Stitch|final|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",
                     "^$dif|hard, HighJump:2, QuickRun, AerialDodge, Glide:2, ReflectElement, ^$final, ^$multiple|4|ReflectElement:3|ChickenLittle|Stitch|MagnetElement:2|Explosion|ThunderElement:3|FinishingLeap|DonaldFlareForce|DonaldFantasia",

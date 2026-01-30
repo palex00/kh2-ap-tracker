@@ -115,7 +115,7 @@
                                 "name": "Data Xigbar",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ^$any|SlideDash|FlashStep, Guard, ReflectElement:3, @Levels/Final level 7, ^$any|DonaldFantasia|DonaldFlareForce, AerialDive, HorizontalSlash, FireElement:3, FinishingPlus, AirComboPlus",
+                                "access_rules": ["^$dif|easy, ^$any|SlideDash|FlashStep, Guard, ReflectElement:3, @Levels/Final level 7, ^$any|DonaldFantasia|DonaldFlareForce, AerialDive, HorizontalSlash, FireElement:3, FinishingPlus, AirComboPlus:2",
                                 "^$dif|normal, ^$any|SlideDash|FlashStep, Guard, ReflectElement, ^$any|DonaldFantasia|DonaldFlareForce, HorizontalSlash, @Levels/Final level 7, FireElement:3, FinishingPlus", 
                                 "^$dif|normal, Guard, ReflectElement, ^$any|DonaldFantasia|DonaldFlareForce, HorizontalSlash, @Levels/Final level 7, FireElement:3, FinishingPlus",
                                 "^$dif|hard, ^$any|Guard|ReflectElement, FinishingPlus, FireElement:2, @Levels/Final level 5", "^$dif|hard, ^$any|Guard|ReflectElement, ^$any|DonaldFantasia|DonaldFlareForce"]

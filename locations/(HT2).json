@@ -65,27 +65,27 @@
                                 "name": "Vexen Bonus: Sora Slot 1",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ^$any|ChickenLittle|Genie|PeterPan|Stitch, @Levels/Final level 7, FireElement:3, DonaldFlareForce, DonaldFantasia, ReflectElement:3, Guard, FlashStep, SlideDash, ^$multiple|2|GuardBreak|Explosion|FinishingLeap, QuickRun:3, DodgeRoll:3, AerialDodge:3, Glide:3, SecondChance, OnceMore",
+                                "access_rules": ["^$dif|easy, ^$any|ChickenLittle|Genie|PeterPan|Stitch, @Levels/Final level 7, FireElement:3, DonaldFlareForce, DonaldFantasia, ReflectElement:3, Guard, FlashStep, SlideDash, GuardBreak, Explosion, QuickRun:3, DodgeRoll:3, AerialDodge:3, Glide:3, SecondChance, OnceMore",
                                 "^$dif|normal, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement:3, Guard, ^$any|SlideDash|FlashStep, ^$any|GuardBreak|Explosion|FinishingLeap, QuickRun:3, DodgeRoll:3, AerialDodge:3, Glide:3" , 
-                                "^$dif|hard, @Levels/Final level 5, FireElement:2, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, ^$any|SlideDash|FlashStep, QuickRun:2, DodgeRoll:2, AerialDodge:2, Glide:2"]
+                                "^$dif|hard, Guard, @Levels/Final level 5, FireElement:2, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, ^$any|SlideDash|FlashStep, QuickRun:3, DodgeRoll:3, AerialDodge:2, Glide:2"]
                             },
                         
                             {
                                 "name": "AS Vexen",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ^$any|ChickenLittle|Genie|PeterPan|Stitch, @Levels/Final level 7, FireElement:3, DonaldFlareForce, DonaldFantasia, ReflectElement:3, Guard, FlashStep, SlideDash, ^$multiple|2|GuardBreak|Explosion|FinishingLeap, QuickRun:3, DodgeRoll:3, AerialDodge:3, Glide:3, SecondChance, OnceMore",
+                                "access_rules": ["^$dif|easy, ^$any|ChickenLittle|Genie|PeterPan|Stitch, @Levels/Final level 7, FireElement:3, DonaldFlareForce, DonaldFantasia, ReflectElement:3, Guard, FlashStep, SlideDash, GuardBreak, Explosion, QuickRun:3, DodgeRoll:3, AerialDodge:3, Glide:3, SecondChance, OnceMore",
                                 "^$dif|normal, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement:3, Guard, ^$any|SlideDash|FlashStep, ^$any|GuardBreak|Explosion|FinishingLeap, QuickRun:3, DodgeRoll:3, AerialDodge:3, Glide:3" , 
-                                "^$dif|hard, @Levels/Final level 5, FireElement:2, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, ^$any|SlideDash|FlashStep, QuickRun:2, DodgeRoll:2, AerialDodge:2, Glide:2"]
+                                "^$dif|hard, Guard, @Levels/Final level 5, FireElement:2, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, ^$any|SlideDash|FlashStep, QuickRun:3, DodgeRoll:3, AerialDodge:2, Glide:2"]
                             },
                         
                             {
                                 "name": "Data Vexen",
                                 "item_count": 1,
                                 "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ^$any|ChickenLittle|Genie|PeterPan|Stitch, @Levels/Final level 7, FireElement:3, DonaldFlareForce, DonaldFantasia, ReflectElement:3, Guard, FlashStep, SlideDash, ^$multiple|2|GuardBreak|Explosion|FinishingLeap, QuickRun:3, DodgeRoll:3, AerialDodge:3, Glide:3, SecondChance, OnceMore",
+                                "access_rules": ["^$dif|easy, ^$any|ChickenLittle|Genie|PeterPan|Stitch, @Levels/Final level 7, FireElement:3, DonaldFlareForce, DonaldFantasia, ReflectElement:3, Guard, FlashStep, SlideDash, GuardBreak, Explosion, QuickRun:3, DodgeRoll:3, AerialDodge:3, Glide:3, SecondChance, OnceMore",
                                 "^$dif|normal, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement:3, Guard, ^$any|SlideDash|FlashStep, ^$any|GuardBreak|Explosion|FinishingLeap, QuickRun:3, DodgeRoll:3, AerialDodge:3, Glide:3" , 
-                                "^$dif|hard, @Levels/Final level 5, FireElement:2, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, ^$any|SlideDash|FlashStep, QuickRun:2, DodgeRoll:2, AerialDodge:2, Glide:2"]
+                                "^$dif|hard, Guard, @Levels/Final level 5, FireElement:2, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, ^$any|SlideDash|FlashStep, QuickRun:3, DodgeRoll:3, AerialDodge:2, Glide:2"]
                             },
                         
                             {

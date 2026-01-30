@@ -82,25 +82,25 @@
                 "name": "Larxene Bonus: Sora Slot 1",
                 "item_count": 1,
                 "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                "access_rules": ["^$dif|easy, DonaldFantasia, DonaldFlareForce, ReflectElement:3, ^$any|Stitch|ChickenLittle|PeterPan|Genie, @Levels/Final level 7, FireElement:3, Guard, FlashStep, SlideDash, ^$multiple|2|GuardBreak|Explosion|FinishingLeap, AerialDodge:3, Glide:3, SecondChance, OnceMore",
+                "access_rules": ["^$dif|easy, DonaldFantasia, DonaldFlareForce, ReflectElement:3, ^$any|Stitch|ChickenLittle|PeterPan|Genie, @Levels/Final level 7, FireElement:3, Guard, FlashStep, SlideDash, GuardBreak, Explosion, AerialDodge:3, Glide:3, SecondChance, OnceMore",
                 "^$dif|normal, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement:3, @Levels/Final level 7, FireElement:3, Guard, ^$any|SlideDash|FlashStep, ^$any|Explosion|FinishingLeap|GuardBreak, AerialDodge:3, Glide:3",
-                "^$dif|hard, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, FireElement:2, @Levels/Final level 5, ^$any|SlideDash|FlashStep, AerialDodge:2, Glide:2"]
+                "^$dif|hard, Guard, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, FireElement:2, @Levels/Final level 5, ^$any|SlideDash|FlashStep, AerialDodge:2, Glide:2"]
             },
             {
                 "name": "AS Larxene",
                 "item_count": 1,
                 "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                "access_rules": ["^$dif|easy, DonaldFantasia, DonaldFlareForce, ReflectElement:3, ^$any|Stitch|ChickenLittle|PeterPan|Genie, @Levels/Final level 7, FireElement:3, Guard, FlashStep, SlideDash, ^$multiple|2|GuardBreak|Explosion|FinishingLeap, AerialDodge:3, Glide:3, SecondChance, OnceMore",
+                "access_rules": ["^$dif|easy, DonaldFantasia, DonaldFlareForce, ReflectElement:3, ^$any|Stitch|ChickenLittle|PeterPan|Genie, @Levels/Final level 7, FireElement:3, Guard, FlashStep, SlideDash, GuardBreak, Explosion, AerialDodge:3, Glide:3, SecondChance, OnceMore",
                 "^$dif|normal, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement:3, @Levels/Final level 7, FireElement:3, Guard, ^$any|SlideDash|FlashStep, ^$any|Explosion|FinishingLeap|GuardBreak, AerialDodge:3, Glide:3",
-                "^$dif|hard, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, FireElement:2, @Levels/Final level 5, ^$any|SlideDash|FlashStep, AerialDodge:2, Glide:2"]
+                "^$dif|hard, Guard, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, FireElement:2, @Levels/Final level 5, ^$any|SlideDash|FlashStep, AerialDodge:2, Glide:2"]
             },
             {
                 "name": "Data Larxene",
                 "item_count": 1,
                 "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                "access_rules": ["^$dif|easy, DonaldFantasia, DonaldFlareForce, ReflectElement:3, ^$any|Stitch|ChickenLittle|PeterPan|Genie, @Levels/Final level 7, FireElement:3, Guard, FlashStep, SlideDash, ^$multiple|2|GuardBreak|Explosion|FinishingLeap, AerialDodge:3, Glide:3, SecondChance, OnceMore",
+                "access_rules": ["^$dif|easy, DonaldFantasia, DonaldFlareForce, ReflectElement:3, ^$any|Stitch|ChickenLittle|PeterPan|Genie, @Levels/Final level 7, FireElement:3, Guard, FlashStep, SlideDash, GuardBreak, Explosion, AerialDodge:3, Glide:3, SecondChance, OnceMore",
                 "^$dif|normal, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement:3, @Levels/Final level 7, FireElement:3, Guard, ^$any|SlideDash|FlashStep, ^$any|Explosion|FinishingLeap|GuardBreak, AerialDodge:3, Glide:3",
-                "^$dif|hard, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, FireElement:2, @Levels/Final level 5, ^$any|SlideDash|FlashStep, AerialDodge:2, Glide:2"]
+                "^$dif|hard, Guard, ^$any|DonaldFantasia|DonaldFlareForce, ReflectElement, FireElement:2, @Levels/Final level 5, ^$any|SlideDash|FlashStep, AerialDodge:2, Glide:2"]
             },
             {
                 "name": "Solar Sailer Bonus: Donald Slot 1",
