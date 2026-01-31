@@ -516,6 +516,12 @@
 		"codes": "AerialFinish"
 	},
 	{
+		"name": "Aerial Recovery",
+		"type": "toggle",
+		"img": "/images/Items/AerialRecovery.png",
+		"codes": "AerialRecovery"
+	},
+	{
 		"name": "Auto Valor",
 		"type": "toggle",
 		"img": "/images/Items/AutoValor.png",
