@@ -71,4 +71,5 @@ ITEM_MAPPING = {
 	[1245429] = {"DonaldFlareForce", "toggle"},
 	[1245448] = {"TornadoFusion", "toggle"},
 	[1245449] = {"Teamwork", "toggle"},
+	[1245357] = {"AerialRecovery", "consumable"},
 }
