@@ -1,60 +1,84 @@
 {
-	"versions": [
-		{
-			"package_version": "0.3.0",
-			"download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.3.0.zip",
-			"sha256": "1801a518ea9b24d008cd3033a99ec052adb64dc9f30860c9df8ccc499eac68b2",
-			"changelog": ["See Changelog"]
-		},
-		{
-			"package_version": "0.2.6",
-			"download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.2.6.zip",
-			"sha256": "d35fd8d39a3e7a20a0c52f5a12b246d9356addf63f0bb8c1f242d50e561a98ce",
-			"changelog": ["Minor fixes"]
-		},
-		{
-			"package_version": "0.2.5",
-			"download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.2.5.zip",
-			"sha256": "ABE1674433E7369ECA66ADCD4D9625F1529D447CFD88822897F00FA846EECD9C",
-			"changelog": ["More Logic Fixes"]
-		},
-		{
-			"package_version": "0.2.4",
-			"download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.2.4.zip",
-			"sha256": "178F731C877B5FC6A9159230ADDD46FBE668765806AF997CE828B211050C4227",
-			"changelog": ["More Logic Fixes"]
-		},
-		{
-			"package_version": "0.2.3",
-			"download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.2.3.zip",
-			"sha256": "0C156D807A3517DB77B69D74A869F1531A9637B8AA745285651BF68A1ADA6E38",
-			"changelog": ["Huge Bugfixes"]
-		},
-		{
-			"package_version": "0.2.2",
-			"download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.2.2.zip",
-			"sha256": "FC0FB2F9C3AA5EEFDCD6A63DC18BAEED4C0073892A195CACB56461FD08BAFE12",
-			"changelog": ["Slot Data Fallback"]
-		},
-		{
-			"package_version": "0.2.1",
-			"download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.2.1.zip",
-			"sha256": "DB6A5D942398882E72C3BC51FC8D347A7605C2232D82257DE2A09E953E0ECAB1",
-			"changelog": ["Bugfixes + Layout Update"]
-		},
-		{
-			"package_version": "0.2.0",
-			"download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.1.1.zip",
-			"sha256": "A5D54111A008BBB69DB710EEAC8FD4424BD7D717D111483B80EA26E2433BB481",
-			"changelog": ["Layout Update + Bugfixes"]
-		},
-		{
-			"package_version": "0.1.0",
-			"download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.1.0.zip",
-			"sha256": "569E33DB12A3A5EC5DEB47243E27D579A97E461D48340DF6E688A58E72DC19F4",
-			"changelog": ["Initial Release"]
-		}
-	]
+  "versions": [
+    {
+      "package_version": "0.3.0",
+      "download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.3.0.zip",
+      "sha256": "1801a518ea9b24d008cd3033a99ec052adb64dc9f30860c9df8ccc499eac68b2",
+      "changelog": [
+        "See Changelog"
+      ]
+    },
+    {
+      "package_version": "0.2.6",
+      "download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.2.6.zip",
+      "sha256": "d35fd8d39a3e7a20a0c52f5a12b246d9356addf63f0bb8c1f242d50e561a98ce",
+      "changelog": [
+        "Minor fixes"
+      ]
+    },
+    {
+      "package_version": "0.2.5",
+      "download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.2.5.zip",
+      "sha256": "ABE1674433E7369ECA66ADCD4D9625F1529D447CFD88822897F00FA846EECD9C",
+      "changelog": [
+        "More Logic Fixes"
+      ]
+    },
+    {
+      "package_version": "0.2.4",
+      "download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.2.4.zip",
+      "sha256": "178F731C877B5FC6A9159230ADDD46FBE668765806AF997CE828B211050C4227",
+      "changelog": [
+        "More Logic Fixes"
+      ]
+    },
+    {
+      "package_version": "0.2.3",
+      "download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.2.3.zip",
+      "sha256": "0C156D807A3517DB77B69D74A869F1531A9637B8AA745285651BF68A1ADA6E38",
+      "changelog": [
+        "Huge Bugfixes"
+      ]
+    },
+    {
+      "package_version": "0.2.2",
+      "download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.2.2.zip",
+      "sha256": "FC0FB2F9C3AA5EEFDCD6A63DC18BAEED4C0073892A195CACB56461FD08BAFE12",
+      "changelog": [
+        "Slot Data Fallback"
+      ]
+    },
+    {
+      "package_version": "0.2.1",
+      "download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.2.1.zip",
+      "sha256": "DB6A5D942398882E72C3BC51FC8D347A7605C2232D82257DE2A09E953E0ECAB1",
+      "changelog": [
+        "Bugfixes + Layout Update"
+      ]
+    },
+    {
+      "package_version": "0.2.0",
+      "download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.1.1.zip",
+      "sha256": "A5D54111A008BBB69DB710EEAC8FD4424BD7D717D111483B80EA26E2433BB481",
+      "changelog": [
+        "Layout Update + Bugfixes"
+      ]
+    },
+    {
+      "package_version": "0.1.0",
+      "download_url": "https://github.com/palex00/kh2-ap-tracker/archive/refs/tags/0.1.0.zip",
+      "sha256": "569E33DB12A3A5EC5DEB47243E27D579A97E461D48340DF6E688A58E72DC19F4",
+      "changelog": [
+        "Initial Release"
+      ]
+    },
+    {
+      "package_version": "0.3.1",
+      "download_url": "https://github.com/palex00/kh2-ap-tracker/releases/download/0.3.1/poptracker.zip",
+      "sha256": "2f1bffb065fb0a7601dd022dad10502d9408b5be61879664823c7e5620d94462",
+      "changelog": [
+        "Check release notes"
+      ]
+    }
+  ]
 }
-
-
