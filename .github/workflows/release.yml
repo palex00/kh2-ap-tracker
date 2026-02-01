@@ -1,0 +1,52 @@
+name: Release a poptracker pack
+on:
+  push:
+    tags:
+      - '[0-9]+.[0-9]+.[0-9]+'
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - name: Prepare release
+        run: cd ${GITHUB_WORKSPACE} && zip -r poptracker.zip .
+      - name: Get checksum
+        run: echo "sha256sum=$(sha256sum poptracker.zip | awk '{print $1}')" >> $GITHUB_OUTPUT
+        id: checksum
+      - uses: ncipollo/release-action@v1
+        with:
+          artifacts: poptracker.zip
+          allowUpdates: true
+          prerelease: false
+          immutableCreate: true
+          omitBodyDuringUpdate: true
+          omitNameDuringUpdate: true
+    outputs:
+      sha256sum: ${{ steps.checksum.outputs.sha256sum }}
+  autoupdate:
+    needs: [publish]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: versions
+      - name: Git config
+        run: git config user.name "Automation" && git config user.email "automation@localhost"
+      - name: Add to json
+        run: |-
+          jq '.versions |= . + [{
+            "package_version": "${{ github.ref_name }}",
+            "download_url": "https://github.com/${{ github.repository }}/releases/download/${{ github.ref_name }}/poptracker.zip",
+            "sha256": "${{ needs.publish.outputs.sha256sum }}",
+            "changelog": ["Check release notes"]
+          }]' versions.json > new_versions.json
+      - name: Move new versions in
+        run: mv new_versions.json versions.json
+      - name: Commit
+        run: git commit -am "Release new version"
+      - name: Push
+        run: git push origin HEAD:versions
