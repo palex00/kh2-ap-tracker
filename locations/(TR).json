@@ -164,7 +164,7 @@
                     "^$dif|easy, ProofofConnection, ReflectElement, Guard, SlideDash, FlashStep, Explosion, ComboPlus:2, DodgeRoll:3, AerialDodge:3, Glide:3, DonaldFlareForce, DonaldFantasia, @Levels/Final level 7, FireElement:3, SecondChance, OnceMore",
                     "^$dif|normal, ProofofConnection, Guard, Explosion, ComboPlus:2, SlideDash, FlashStep, DodgeRoll:2, AerialDodge:2, Glide:2, ^$any|DonaldFlareForce|DonaldFantasia",
                     "^$dif|hard, ProofofConnection, Guard, ^$any|SlideDash|FlashStep, Explosion, ComboPlus:2, DodgeRoll:2, AerialDodge:2, Glide:2",
-                    "^$dif_override"
+                    "^$dif_override, ProofofConnection"
                 ]
             },
             {
@@ -178,7 +178,7 @@
                     "^$dif|easy, ProofofConnection, ReflectElement, Guard, SlideDash, FlashStep, Explosion, ComboPlus:2, DodgeRoll:3, AerialDodge:3, Glide:3, DonaldFlareForce, DonaldFantasia, @Levels/Final level 7, FireElement:3, SecondChance, OnceMore",
                     "^$dif|normal, ProofofConnection, Guard, Explosion, ComboPlus:2, SlideDash, FlashStep, DodgeRoll:2, AerialDodge:2, Glide:2, ^$any|DonaldFlareForce|DonaldFantasia",
                     "^$dif|hard, ProofofConnection, Guard, ^$any|SlideDash|FlashStep, Explosion, ComboPlus:2, DodgeRoll:2, AerialDodge:2, Glide:2",
-                    "^$dif_override"
+                    "^$dif_override, ProofofConnection"
                 ]
             },
             {
@@ -192,7 +192,7 @@
                     "^$dif|easy, ProofofConnection, ReflectElement, Guard, SlideDash, FlashStep, Explosion, ComboPlus:2, DodgeRoll:3, AerialDodge:3, Glide:3, DonaldFlareForce, DonaldFantasia, @Levels/Final level 7, FireElement:3, SecondChance, OnceMore",
                     "^$dif|normal, ProofofConnection, Guard, Explosion, ComboPlus:2, SlideDash, FlashStep, DodgeRoll:2, AerialDodge:2, Glide:2, ^$any|DonaldFlareForce|DonaldFantasia",
                     "^$dif|hard, ProofofConnection, Guard, ^$any|SlideDash|FlashStep, Explosion, ComboPlus:2, DodgeRoll:2, AerialDodge:2, Glide:2",
-                    "^$dif_override"
+                    "^$dif_override, ProofofConnection"
                 ]
             },
             {

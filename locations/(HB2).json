@@ -266,7 +266,7 @@
                     "^$dif|easy, ProofofPeace, Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
                     "^$dif|normal, ProofofPeace, Guard, LimitForm",
                     "^$dif|hard, ProofofPeace, Guard",
-                    "^$dif_override"
+                    "^$dif_override, ProofofPeace"
                 ]
             },
             {
@@ -277,7 +277,7 @@
                     "^$dif|easy, ProofofPeace, Guard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|DonaldFantasia|DonaldFlareForce|TornadoFusion|Teamwork, SecondChance, OnceMore, MagnetElement:2",
                     "^$dif|normal, ProofofPeace, Guard, LimitForm",
                     "^$dif|hard, ProofofPeace, Guard",
-                    "^$dif_override"
+                    "^$dif_override, ProofofPeace"
                 ]
             },
             {
