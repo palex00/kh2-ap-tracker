@@ -1,55 +1,77 @@
 [
-                    {
-                        "name": "(PL2)",
-                        "chest_unopened_img": "/images/Items/close.png",
-                        "chest_opened_img": "/images/Items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": ["ProudFang:2","opt_visit_off"],
-                        
-
-                                        "sections": [
-                                    
-                            {
-                                "name": "Hyenas 2 Bonus: Sora Slot 1",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ReflectElement, FireElement, ThunderElement", "^$dif|normal, ReflectElement, FireElement", "^$dif|hard, ReflectElement"]
-                            },
-                        
-                            {
-                                "name": "Groundshaker Bonus: Sora Slot 1",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ReflectElement, FireElement, ThunderElement, BerserkCharge, CureElement, AirComboPlus:2", 
-                                "^$dif|normal, ReflectElement, FireElement, BerserkCharge, CureElement", 
-                                "^$dif|hard, ReflectElement, BerserkCharge", "^$dif|hard, ReflectElement, AirComboPlus:2"]
-                            },
-                        
-                            {
-                                "name": "Groundshaker Bonus: Sora Slot 2",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ReflectElement, FireElement, ThunderElement, BerserkCharge, CureElement, AirComboPlus:2", 
-                                "^$dif|normal, ReflectElement, FireElement, BerserkCharge, CureElement", 
-                                "^$dif|hard, ReflectElement, BerserkCharge", "^$dif|hard, ReflectElement, AirComboPlus:2"]
-                            },
-                        
-                            {
-                                "name": "Data Saix",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ReflectElement:3, FireElement:3, ThunderElement, BerserkCharge, CureElement, AirComboPlus:2, Guard, BlizzardElement, AerialDodge:3, Glide:3, SlideDash, FlashStep, DonaldFantasia, DonaldFlareForce, @Levels/Final level 7, SecondChance, OnceMore, GuardBreak, Explosion", 
-                                "^$dif|normal, ReflectElement:3, FireElement:3, BerserkCharge, CureElement, Guard, BlizzardElement, AerialDodge:3, Glide:3, ^$any|SlideDash|FlashStep, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce, ^$any|Explosion|GuardBreak|FinishingLeap, @Levels/Final level 7", 
-                                "^$dif|hard, ReflectElement, BerserkCharge, Guard, BlizzardElement, AerialDodge:3, Glide:3, ^$any|SlideDash|FlashStep, ^$any|Explosion|FinishingLeap|GuardBreak", "^$dif|hard, ReflectElement, AirComboPlus:2, Guard, BlizzardElement, AerialDodge:3, Glide:3, ^$any|SlideDash|FlashStep, ^$any|Explosion|FinishingLeap|GuardBreak"]
-                            },
-                        
-                            {
-                                "name": "Hyenas 2 Bonus: Goofy Slot 1",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": ["^$dif|easy, ReflectElement, FireElement, ThunderElement", "^$dif|normal, ReflectElement, FireElement", "^$dif|hard, ReflectElement"]
-                            }
-                        
-                            ]
-                            }
-                            ]
+    {
+        "name": "(PL2)",
+        "chest_unopened_img": "/images/Items/close.png",
+        "chest_opened_img": "/images/Items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "ProudFang:2",
+            "opt_visit_off"
+        ],
+        "sections": [
+            {
+                "name": "Hyenas 2 Bonus: Sora Slot 1",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": [
+                    "^$dif|easy, ReflectElement, FireElement, ThunderElement",
+                    "^$dif|normal, ReflectElement, FireElement",
+                    "^$dif|hard, ReflectElement",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Groundshaker Bonus: Sora Slot 1",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": [
+                    "^$dif|easy, ReflectElement, FireElement, ThunderElement, BerserkCharge, CureElement, AirComboPlus:2",
+                    "^$dif|normal, ReflectElement, FireElement, BerserkCharge, CureElement",
+                    "^$dif|hard, ReflectElement, BerserkCharge",
+                    "^$dif|hard, ReflectElement, AirComboPlus:2",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Groundshaker Bonus: Sora Slot 2",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": [
+                    "^$dif|easy, ReflectElement, FireElement, ThunderElement, BerserkCharge, CureElement, AirComboPlus:2",
+                    "^$dif|normal, ReflectElement, FireElement, BerserkCharge, CureElement",
+                    "^$dif|hard, ReflectElement, BerserkCharge",
+                    "^$dif|hard, ReflectElement, AirComboPlus:2",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Data Saix",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_superbosses_yes",
+                    "opt_superbosses_no, opt_hide_locations_no"
+                ],
+                "access_rules": [
+                    "^$dif|easy, ReflectElement:3, FireElement:3, ThunderElement, BerserkCharge, CureElement, AirComboPlus:2, Guard, BlizzardElement, AerialDodge:3, Glide:3, SlideDash, FlashStep, DonaldFantasia, DonaldFlareForce, @Levels/Final level 7, SecondChance, OnceMore, GuardBreak, Explosion",
+                    "^$dif|normal, ReflectElement:3, FireElement:3, BerserkCharge, CureElement, Guard, BlizzardElement, AerialDodge:3, Glide:3, ^$any|SlideDash|FlashStep, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce, ^$any|Explosion|GuardBreak|FinishingLeap, @Levels/Final level 7",
+                    "^$dif|hard, ReflectElement, BerserkCharge, Guard, BlizzardElement, AerialDodge:3, Glide:3, ^$any|SlideDash|FlashStep, ^$any|Explosion|FinishingLeap|GuardBreak",
+                    "^$dif|hard, ReflectElement, AirComboPlus:2, Guard, BlizzardElement, AerialDodge:3, Glide:3, ^$any|SlideDash|FlashStep, ^$any|Explosion|FinishingLeap|GuardBreak",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Hyenas 2 Bonus: Goofy Slot 1",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_dgstats_yes"
+                ],
+                "access_rules": [
+                    "^$dif|easy, ReflectElement, FireElement, ThunderElement",
+                    "^$dif|normal, ReflectElement, FireElement",
+                    "^$dif|hard, ReflectElement",
+                    "^$dif_override"
+                ]
+            }
+        ]
+    }
+]

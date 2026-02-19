@@ -42,7 +42,7 @@
 							{
 								"name": "Summon levels",
 								"visibility_rules": ["missing_SummonLevelLocationToggle"]
-							},
+							}
 				],
                 "map_locations": [
                     {

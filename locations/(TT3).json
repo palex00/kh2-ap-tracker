@@ -5,148 +5,157 @@
         "chest_opened_img": "/images/Items/open.png",
         "overlay_background": "#000000",
         "access_rules": [
-            "IceCream:3","opt_visit_off"
+            "IceCream:3",
+            "opt_visit_off"
         ],
         "sections": [
             {
                 "name": "Underground Concourse Mythril Gem",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Underground Concourse AP Boost",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Underground Concourse Orichalcum",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Underground Concourse Mythril Crystal",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Tunnelway Orichalcum",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Tunnelway Mythril Crystal",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Sunset Terrace Orichalcum+",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Sunset Terrace Mythril Shard",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Sunset Terrace Mythril Crystal",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Sunset Terrace AP Boost",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Mansion Nobodies Bonus: Sora Slot 1",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Mansion Foyer Mythril Crystal",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Mansion Foyer Mythril Stone",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Mansion Foyer Serenity Crystal",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Mansion Dining Room Mythril Crystal",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Mansion Dining Room Mythril Stone",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Mansion Library Orichalcum",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Beam Secret Ansem Report 10",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Mansion Basement Corridor Ultimate Recipe",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Betwixt and Between",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Betwixt and Between Bond of Flame",
                 "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
+                "visibility_rules": [],
+                "access_rules": []
             },
             {
                 "name": "Data Axel",
                 "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, Guard, FinishingPlus, ReflectElement:3, BlizzardElement:3, @Levels/Limit level 5, FlashStep, SlideDash, GuardBreak, Explosion, DodgeRoll:3, SecondChance, OnceMore",
-                            "^$dif|normal, Guard, FinishingPlus, ReflectElement:2, BlizzardElement:3, @Levels/Limit level 5, FlashStep, SlideDash, GuardBreak, Explosion, DodgeRoll:3",
-                        "^$dif|hard, Guard, FinishingPlus, ReflectElement, BlizzardElement:2, ^$any|FlashStep|SlideDash$, ^$any|GuardBreak|Explosion|FinishingLeap, DodgeRoll:2"]
+                "visibility_rules": [
+                    "opt_superbosses_yes",
+                    "opt_superbosses_no, opt_hide_locations_no"
+                ],
+                "access_rules": [
+                    "^$dif|easy, Guard, FinishingPlus, ReflectElement:3, BlizzardElement:3, @Levels/Limit level 5, FlashStep, SlideDash, GuardBreak, Explosion, DodgeRoll:3, SecondChance, OnceMore",
+                    "^$dif|normal, Guard, FinishingPlus, ReflectElement:2, BlizzardElement:3, @Levels/Limit level 5, FlashStep, SlideDash, GuardBreak, Explosion, DodgeRoll:3",
+                    "^$dif|hard, Guard, FinishingPlus, ReflectElement, BlizzardElement:2, ^$any|FlashStep|SlideDash$, ^$any|GuardBreak|Explosion|FinishingLeap, DodgeRoll:2",
+                    "^$dif_override"
+                ]
             },
             {
                 "name": "Mansion Nobodies Bonus: Donald Slot 1",
                 "item_count": 1,
-                                "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": []
+                "visibility_rules": [
+                    "opt_dgstats_yes"
+                ],
+                "access_rules": []
             }
         ]
     }

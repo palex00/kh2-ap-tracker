@@ -1,195 +1,230 @@
 [
-                    {
-                        "name": "(TR)",
-                        "chest_unopened_img": "/images/Items/close.png",
-                        "chest_opened_img": "/images/Items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": ["DisneyCastleKey:2","opt_visit_off"],
-                        
-
-                                        "sections": [
-                                    
-                            {
-                                "name": "Cornerstone Hill Map",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Cornerstone Hill Frost Shard",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Pier Mythril Shard",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Pier Hi-Potion",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Waterway Mythril Stone",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Waterway AP Boost",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Waterway Frost Stone",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Window of Time Map",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Boat Pete Bonus: Sora Slot 1",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Future Pete Bonus: Sora Slot 1",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
-                                "^$dif|normal, ^$any|ReflectElement|Guard|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
-                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep",
-                                "^$dif|hard, ^$any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final"]
-                            },
-                        
-                            {
-                                "name": "Future Pete Bonus: Sora Slot 2",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
-                                "^$dif|normal, ^$any|ReflectElement|Guard|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
-                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep",
-                                "^$dif|hard, ^$any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final"]
-                            },
-                        
-                            {
-                                "name": "Monochrome",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
-                                "^$dif|normal, ^$any|ReflectElement|Guard|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
-                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep",
-                                "^$dif|hard, ^$any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final"]
-                            },
-                        
-                            {
-                                "name": "Wisdom Form",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
-                                "^$dif|normal, ^$any|ReflectElement|Guard|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
-                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep",
-                                "^$dif|hard, ^$any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final"]
-                            },
-                        
-                            {
-                                "name": "Marluxia Bonus: Sora Slot 1",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery",
-                                "^$dif|normal, ReflectElement, Guard, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery", 
-                                "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, AerialRecovery"]
-                            },
-                        
-                            {
-                                "name": "AS Marluxia",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery",
-                                "^$dif|normal, ReflectElement, Guard, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery", 
-                                "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, AerialRecovery"]
-                            },
-                        
-                            {
-                                "name": "Data Marluxia",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery",
-                                "^$dif|normal, ReflectElement, Guard, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery", 
-                                "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, AerialRecovery"]
-                            },
-                        
-                            {
-                                "name": "Lingering Will Bonus: Sora Slot 1",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ProofofConnection, ReflectElement, Guard, SlideDash, FlashStep, Explosion, ComboPlus:2, DodgeRoll:3, AerialDodge:3, Glide:3, DonaldFlareForce, DonaldFantasia, @Levels/Final level 7, FireElement:3, SecondChance, OnceMore",
-                                "^$dif|normal, ProofofConnection, Guard, Explosion, ComboPlus:2, SlideDash, FlashStep, DodgeRoll:2, AerialDodge:2, Glide:2, ^$any|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, ProofofConnection, Guard, ^$any|SlideDash|FlashStep, Explosion, ComboPlus:2, DodgeRoll:2, AerialDodge:2, Glide:2"]
-                            },
-                        
-                            {
-                                "name": "Lingering Will Proof of Connection",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ProofofConnection, ReflectElement, Guard, SlideDash, FlashStep, Explosion, ComboPlus:2, DodgeRoll:3, AerialDodge:3, Glide:3, DonaldFlareForce, DonaldFantasia, @Levels/Final level 7, FireElement:3, SecondChance, OnceMore",
-                                "^$dif|normal, ProofofConnection, Guard, Explosion, ComboPlus:2, SlideDash, FlashStep, DodgeRoll:2, AerialDodge:2, Glide:2, ^$any|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, ProofofConnection, Guard, ^$any|SlideDash|FlashStep, Explosion, ComboPlus:2, DodgeRoll:2, AerialDodge:2, Glide:2"]
-                            },
-                        
-                            {
-                                "name": "Lingering Will Manifest Illusion",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ProofofConnection, ReflectElement, Guard, SlideDash, FlashStep, Explosion, ComboPlus:2, DodgeRoll:3, AerialDodge:3, Glide:3, DonaldFlareForce, DonaldFantasia, @Levels/Final level 7, FireElement:3, SecondChance, OnceMore",
-                                "^$dif|normal, ProofofConnection, Guard, Explosion, ComboPlus:2, SlideDash, FlashStep, DodgeRoll:2, AerialDodge:2, Glide:2, ^$any|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, ProofofConnection, Guard, ^$any|SlideDash|FlashStep, Explosion, ComboPlus:2, DodgeRoll:2, AerialDodge:2, Glide:2"]
-                            },
-                        
-                            {
-                                "name": "Boat Pete Bonus: Donald Slot 1",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Boat Pete Bonus: Donald Slot 2",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Future Pete Bonus: Goofy Slot 1",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
-                                "^$dif|normal, ^$any|ReflectElement|Guard|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final", 
-                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep",
-                                "^$dif|hard, ^$any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final"]
-                            }
-                        
-                            ]
-                            }
-                            ]
+    {
+        "name": "(TR)",
+        "chest_unopened_img": "/images/Items/close.png",
+        "chest_opened_img": "/images/Items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "DisneyCastleKey:2",
+            "opt_visit_off"
+        ],
+        "sections": [
+            {
+                "name": "Cornerstone Hill Map",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Cornerstone Hill Frost Shard",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Pier Mythril Shard",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Pier Hi-Potion",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Waterway Mythril Stone",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Waterway AP Boost",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Waterway Frost Stone",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Window of Time Map",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Boat Pete Bonus: Sora Slot 1",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Future Pete Bonus: Sora Slot 1",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": [
+                    "^$dif|easy, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif|normal, ^$any|ReflectElement|Guard|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep",
+                    "^$dif|hard, ^$any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Future Pete Bonus: Sora Slot 2",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": [
+                    "^$dif|easy, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif|normal, ^$any|ReflectElement|Guard|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep",
+                    "^$dif|hard, ^$any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Monochrome",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": [
+                    "^$dif|easy, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif|normal, ^$any|ReflectElement|Guard|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep",
+                    "^$dif|hard, ^$any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Wisdom Form",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": [
+                    "^$dif|easy, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif|normal, ^$any|ReflectElement|Guard|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep",
+                    "^$dif|hard, ^$any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Marluxia Bonus: Sora Slot 1",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_superbosses_yes",
+                    "opt_superbosses_no, opt_hide_locations_no"
+                ],
+                "access_rules": [
+                    "^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery",
+                    "^$dif|normal, ReflectElement, Guard, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery",
+                    "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, AerialRecovery",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "AS Marluxia",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_superbosses_yes",
+                    "opt_superbosses_no, opt_hide_locations_no"
+                ],
+                "access_rules": [
+                    "^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery",
+                    "^$dif|normal, ReflectElement, Guard, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery",
+                    "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, AerialRecovery",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Data Marluxia",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_superbosses_yes",
+                    "opt_superbosses_no, opt_hide_locations_no"
+                ],
+                "access_rules": [
+                    "^$dif|easy, ReflectElement:2, Guard, SlideDash, FlashStep, @Levels/Final level 7, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery",
+                    "^$dif|normal, ReflectElement, Guard, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FireElement:3, ^$any|DonaldFantasia|DonaldFlareForce, AerialRecovery",
+                    "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, AerialRecovery",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Lingering Will Bonus: Sora Slot 1",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_superbosses_yes",
+                    "opt_superbosses_no, opt_hide_locations_no"
+                ],
+                "access_rules": [
+                    "^$dif|easy, ProofofConnection, ReflectElement, Guard, SlideDash, FlashStep, Explosion, ComboPlus:2, DodgeRoll:3, AerialDodge:3, Glide:3, DonaldFlareForce, DonaldFantasia, @Levels/Final level 7, FireElement:3, SecondChance, OnceMore",
+                    "^$dif|normal, ProofofConnection, Guard, Explosion, ComboPlus:2, SlideDash, FlashStep, DodgeRoll:2, AerialDodge:2, Glide:2, ^$any|DonaldFlareForce|DonaldFantasia",
+                    "^$dif|hard, ProofofConnection, Guard, ^$any|SlideDash|FlashStep, Explosion, ComboPlus:2, DodgeRoll:2, AerialDodge:2, Glide:2",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Lingering Will Proof of Connection",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_superbosses_yes",
+                    "opt_superbosses_no, opt_hide_locations_no"
+                ],
+                "access_rules": [
+                    "^$dif|easy, ProofofConnection, ReflectElement, Guard, SlideDash, FlashStep, Explosion, ComboPlus:2, DodgeRoll:3, AerialDodge:3, Glide:3, DonaldFlareForce, DonaldFantasia, @Levels/Final level 7, FireElement:3, SecondChance, OnceMore",
+                    "^$dif|normal, ProofofConnection, Guard, Explosion, ComboPlus:2, SlideDash, FlashStep, DodgeRoll:2, AerialDodge:2, Glide:2, ^$any|DonaldFlareForce|DonaldFantasia",
+                    "^$dif|hard, ProofofConnection, Guard, ^$any|SlideDash|FlashStep, Explosion, ComboPlus:2, DodgeRoll:2, AerialDodge:2, Glide:2",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Lingering Will Manifest Illusion",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_superbosses_yes",
+                    "opt_superbosses_no, opt_hide_locations_no"
+                ],
+                "access_rules": [
+                    "^$dif|easy, ProofofConnection, ReflectElement, Guard, SlideDash, FlashStep, Explosion, ComboPlus:2, DodgeRoll:3, AerialDodge:3, Glide:3, DonaldFlareForce, DonaldFantasia, @Levels/Final level 7, FireElement:3, SecondChance, OnceMore",
+                    "^$dif|normal, ProofofConnection, Guard, Explosion, ComboPlus:2, SlideDash, FlashStep, DodgeRoll:2, AerialDodge:2, Glide:2, ^$any|DonaldFlareForce|DonaldFantasia",
+                    "^$dif|hard, ProofofConnection, Guard, ^$any|SlideDash|FlashStep, Explosion, ComboPlus:2, DodgeRoll:2, AerialDodge:2, Glide:2",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Boat Pete Bonus: Donald Slot 1",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_dgstats_yes"
+                ],
+                "access_rules": []
+            },
+            {
+                "name": "Boat Pete Bonus: Donald Slot 2",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_dgstats_yes"
+                ],
+                "access_rules": []
+            },
+            {
+                "name": "Future Pete Bonus: Goofy Slot 1",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_dgstats_yes"
+                ],
+                "access_rules": [
+                    "^$dif|easy, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif|normal, ^$any|ReflectElement|Guard|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep",
+                    "^$dif|hard, ^$any|ReflectElement|Guard|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif_override"
+                ]
+            }
+        ]
+    }
+]

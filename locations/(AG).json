@@ -1,241 +1,220 @@
 [
-                    {
-                        "name": "(AG)",
-                        "chest_unopened_img": "/images/Items/close.png",
-                        "chest_opened_img": "/images/Items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": ["Scimitar","opt_visit_off"],
-                        
-
-                                        "sections": [
-                                    
-                            {
-                                "name": "Agrabah Map",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Agrabah Dark Shard",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Agrabah Mythril Shard",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Agrabah Hi-Potion",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Agrabah AP Boost",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Agrabah Mythril Stone",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Agrabah Mythril Shard 2",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Agrabah Serenity Shard",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Bazaar Mythril Gem",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Bazaar Power Shard",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Bazaar Hi-Potion",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Bazaar AP Boost",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Bazaar Mythril Shard",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Palace Walls Skill Ring",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Palace Walls Mythril Stone",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Cave Entrance Power Stone",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Cave Entrance Mythril Shard",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Valley of Stone Mythril Stone",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Valley of Stone AP Boost",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Valley of Stone Mythril Shard",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Valley of Stone Hi-Potion",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Abu Escort Bonus: Sora Slot 1",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Chasm of Challenges Cave of Wonders Map",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Chasm of Challenges AP Boost",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Treasure Room",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Treasure Room AP Boost",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Treasure Room Serenity Gem",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Elemental Lords Bonus: Sora Slot 1",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|hard, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|hard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
-                            },
-                        
-                            {
-                                "name": "Lamp Charm",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|hard, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|hard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
-                            },
-                        
-                            {
-                                "name": "Abu Escort Bonus: Donald Slot 1",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": []
-                            },
-                        
-                            {
-                                "name": "Treasure Room Heartless Bonus: Goofy Slot 1",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_dgstats_yes"],
-                                "access_rules": []
-                            }
-                        
-                            ]
-                            }
-                            ]
+    {
+        "name": "(AG)",
+        "chest_unopened_img": "/images/Items/close.png",
+        "chest_opened_img": "/images/Items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "Scimitar",
+            "opt_visit_off"
+        ],
+        "sections": [
+            {
+                "name": "Agrabah Map",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Agrabah Dark Shard",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Agrabah Mythril Shard",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Agrabah Hi-Potion",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Agrabah AP Boost",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Agrabah Mythril Stone",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Agrabah Mythril Shard 2",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Agrabah Serenity Shard",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Bazaar Mythril Gem",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Bazaar Power Shard",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Bazaar Hi-Potion",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Bazaar AP Boost",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Bazaar Mythril Shard",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Palace Walls Skill Ring",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Palace Walls Mythril Stone",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Cave Entrance Power Stone",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Cave Entrance Mythril Shard",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Valley of Stone Mythril Stone",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Valley of Stone AP Boost",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Valley of Stone Mythril Shard",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Valley of Stone Hi-Potion",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Abu Escort Bonus: Sora Slot 1",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Chasm of Challenges Cave of Wonders Map",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Chasm of Challenges AP Boost",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Treasure Room",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Treasure Room AP Boost",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Treasure Room Serenity Gem",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": []
+            },
+            {
+                "name": "Elemental Lords Bonus: Sora Slot 1",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": [
+                    "^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif|hard, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif|hard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Lamp Charm",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": [
+                    "^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif|hard, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif|hard, ^$any|Guard|ReflectElement, ^$any|FireElement|BlizzardElement|ThunderElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif|hard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Abu Escort Bonus: Donald Slot 1",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_dgstats_yes"
+                ],
+                "access_rules": []
+            },
+            {
+                "name": "Treasure Room Heartless Bonus: Goofy Slot 1",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_dgstats_yes"
+                ],
+                "access_rules": []
+            }
+        ]
+    }
+]
