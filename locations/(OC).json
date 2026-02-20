@@ -466,7 +466,7 @@
                     "^$dif|easy, @(OC)/Fatal Crest Goddess of Fate Cup",
                     "^$dif|easy, @(OC)/Hero's Crest, HadesCupTrophy, PeterPan, Stitch, Genie, ChickenLittle, ^$multiple|2|DonaldFlareForce|DonaldFantasia|TornadoFusion|Teamwork, ^$multiple|3|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement:2",
                     "^$dif|normal, @(OC)/Fatal Crest Goddess of Fate Cup",
-                    "^$dif|normal, @(OC)/Hero's Crest, HadesCupTrophy, ^$mutliple|3|PeterPan|Stitch|Genie|ChickenLittle, ^$any|DonaldFlareForce|DonaldFantasia|TornadoFusion|Teamwork, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement:2",
+                    "^$dif|normal, @(OC)/Hero's Crest, HadesCupTrophy, ^$multiple|3|PeterPan|Stitch|Genie|ChickenLittle, ^$any|DonaldFlareForce|DonaldFantasia|TornadoFusion|Teamwork, ^$multiple|2|ValorForm|WisdomForm|LimitForm|MasterForm|final, ReflectElement:2",
                     "^$dif|hard, @(OC)/Fatal Crest Goddess of Fate Cup",
                     "^$dif|hard, @(OC)/Hero's Crest, ^$multiple|2|PeterPan|Stitch|Genie|ChickenLittle, HadesCupTrophy, ReflectElement:2",
                     "^$dif_override, @(OC)/Fatal Crest Goddess of Fate Cup",

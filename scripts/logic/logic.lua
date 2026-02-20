@@ -46,7 +46,7 @@ end
 function dif(level)
 	local difficulty = Tracker:FindObjectForCode('opt_fightlogic')
     if difficulty.CurrentStage == 2 then
-        return true
+        return AccessibilityLevel.Normal
     elseif difficulty.CurrentStage == 1 then
 		if level == "normal" or level == "easy" then
 			return AccessibilityLevel.Normal
@@ -68,4 +68,8 @@ function toggle_overworldmap()
     else
         Tracker:AddMaps("maps/overworld_without_summons.json")
     end
+end
+
+function dif_override()
+    return AccessibilityLevel.SequenceBreak
 end
