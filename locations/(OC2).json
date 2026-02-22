@@ -1,90 +1,117 @@
 [
-                    {
-                        "name": "(OC2)",
-                        "chest_unopened_img": "/images/Items/close.png",
-                        "chest_opened_img": "/images/Items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": ["BattlefieldsofWar:2","opt_visit_off"],
-                        
-
-                                        "sections": [
-                                    
-                            {
-                                "name": "Auron's Statue",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
-                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final",
-                                "^$dif|hard, ^$any|ReflectElement|Guard"]
-                            },
-                        
-                            {
-                                "name": "Hades Bonus: Sora Slot 1",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Stitch|Genie|ChickenLittle|PeterPan",
-                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
-                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ChickenLittle|Stitch|Genie|PeterPan",
-                                "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final|Stitch|Genie|PeterPan|ChickenLittle"]
-                            },
-                        
-                            {
-                                "name": "Hades Bonus: Sora Slot 2",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Stitch|Genie|ChickenLittle|PeterPan",
-                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
-                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ChickenLittle|Stitch|Genie|PeterPan",
-                                "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final|Stitch|Genie|PeterPan|ChickenLittle"]
-                            },
-                        
-                            {
-                                "name": "Guardian Soul",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Stitch|Genie|ChickenLittle|PeterPan",
-                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
-                                "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ChickenLittle|Stitch|Genie|PeterPan",
-                                "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final|Stitch|Genie|PeterPan|ChickenLittle"]
-                            },
-                        
-                            {
-                                "name": "Zexion Bonus: Sora Slot 1",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ReflectElement:3, Guard, FireElement:3, SlideDash, FlashStep, @Levels/Final level 7, ^$any|Stitch|Genie|ChickenLittle|PeterPan, DonaldFlareForce, DonaldFantasia, QuickRun:3, SecondChance, OnceMore",
-                                "^$dif|normal, ReflectElement:3, Guard, FireElement:3, ^$any|SlideDash|FlashStep, @Levels/Final level 7, QuickRun:3, ^$any|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, ReflectElement, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FIreElement:2, ^$any|DonaldFlareForce|DonaldFantasia, QuickRun:2"]
-                            },
-                        
-                            {
-                                "name": "AS Zexion",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ReflectElement:3, Guard, FireElement:3, SlideDash, FlashStep, @Levels/Final level 7, ^$any|Stitch|Genie|ChickenLittle|PeterPan, DonaldFlareForce, DonaldFantasia, QuickRun:3, SecondChance, OnceMore",
-                                "^$dif|normal, ReflectElement:3, Guard, FireElement:3, ^$any|SlideDash|FlashStep, @Levels/Final level 7, QuickRun:3, ^$any|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, ReflectElement, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FIreElement:2, ^$any|DonaldFlareForce|DonaldFantasia, QuickRun:2"]
-                            },
-                        
-                            {
-                                "name": "Data Zexion",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ReflectElement:3, Guard, FireElement:3, SlideDash, FlashStep, @Levels/Final level 7, ^$any|Stitch|Genie|ChickenLittle|PeterPan, DonaldFlareForce, DonaldFantasia, QuickRun:3, SecondChance, OnceMore",
-                                "^$dif|normal, ReflectElement:3, Guard, FireElement:3, ^$any|SlideDash|FlashStep, @Levels/Final level 7, QuickRun:3, ^$any|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, ReflectElement, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FIreElement:2, ^$any|DonaldFlareForce|DonaldFantasia, QuickRun:2"]
-                            },
-                        
-                            {
-                                "name": "Zexion Bonus: Goofy Slot 1",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_dgstats_yes, opt_superbosses_yes", "opt_dgstats_yes, opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, ReflectElement:3, Guard, FireElement:3, SlideDash, FlashStep, @Levels/Final level 7, ^$any|Stitch|Genie|ChickenLittle|PeterPan, DonaldFlareForce, DonaldFantasia, QuickRun:3, SecondChance, OnceMore",
-                                "^$dif|normal, ReflectElement:3, Guard, FireElement:3, ^$any|SlideDash|FlashStep, @Levels/Final level 7, QuickRun:3, ^$any|DonaldFlareForce|DonaldFantasia",
-                                "^$dif|hard, ReflectElement, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FIreElement:2, ^$any|DonaldFlareForce|DonaldFantasia, QuickRun:2"]
-                            }
-                        
-                            ]
-                            }
-
-                            ]
+    {
+        "name": "(OC2)",
+        "chest_unopened_img": "/images/Items/close.png",
+        "chest_opened_img": "/images/Items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "BattlefieldsofWar:2",
+            "opt_visit_off"
+        ],
+        "sections": [
+            {
+                "name": "Auron's Statue",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": [
+                    "^$dif|easy, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif|hard, ^$any|ReflectElement|Guard",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Hades Bonus: Sora Slot 1",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": [
+                    "^$dif|easy, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Stitch|Genie|ChickenLittle|PeterPan",
+                    "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ChickenLittle|Stitch|Genie|PeterPan",
+                    "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final|Stitch|Genie|PeterPan|ChickenLittle",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Hades Bonus: Sora Slot 2",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": [
+                    "^$dif|easy, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Stitch|Genie|ChickenLittle|PeterPan",
+                    "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ChickenLittle|Stitch|Genie|PeterPan",
+                    "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final|Stitch|Genie|PeterPan|ChickenLittle",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Guardian Soul",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": [
+                    "^$dif|easy, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Stitch|Genie|ChickenLittle|PeterPan",
+                    "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final",
+                    "^$dif|normal, ^$any|ReflectElement|Guard, ^$any|FireElement|BlizzardElement|ThunderElement, ^$any|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|ChickenLittle|Stitch|Genie|PeterPan",
+                    "^$dif|hard, ^$any|ReflectElement|Guard, ^$any|SlideDash|FlashStep|ValorForm|WisdomForm|LimitForm|MasterForm|final|Stitch|Genie|PeterPan|ChickenLittle",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Zexion Bonus: Sora Slot 1",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_superbosses_yes",
+                    "opt_superbosses_no, opt_hide_locations_no"
+                ],
+                "access_rules": [
+                    "^$dif|easy, ReflectElement:3, Guard, FireElement:3, SlideDash, FlashStep, @Levels/Final level 7, ^$any|Stitch|Genie|ChickenLittle|PeterPan, DonaldFlareForce, DonaldFantasia, QuickRun:3, SecondChance, OnceMore",
+                    "^$dif|normal, ReflectElement:3, Guard, FireElement:3, ^$any|SlideDash|FlashStep, @Levels/Final level 7, QuickRun:3, ^$any|DonaldFlareForce|DonaldFantasia",
+                    "^$dif|hard, ReflectElement, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FIreElement:2, ^$any|DonaldFlareForce|DonaldFantasia, QuickRun:2",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "AS Zexion",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_superbosses_yes",
+                    "opt_superbosses_no, opt_hide_locations_no"
+                ],
+                "access_rules": [
+                    "^$dif|easy, ReflectElement:3, Guard, FireElement:3, SlideDash, FlashStep, @Levels/Final level 7, ^$any|Stitch|Genie|ChickenLittle|PeterPan, DonaldFlareForce, DonaldFantasia, QuickRun:3, SecondChance, OnceMore",
+                    "^$dif|normal, ReflectElement:3, Guard, FireElement:3, ^$any|SlideDash|FlashStep, @Levels/Final level 7, QuickRun:3, ^$any|DonaldFlareForce|DonaldFantasia",
+                    "^$dif|hard, ReflectElement, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FIreElement:2, ^$any|DonaldFlareForce|DonaldFantasia, QuickRun:2",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Data Zexion",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_superbosses_yes",
+                    "opt_superbosses_no, opt_hide_locations_no"
+                ],
+                "access_rules": [
+                    "^$dif|easy, ReflectElement:3, Guard, FireElement:3, SlideDash, FlashStep, @Levels/Final level 7, ^$any|Stitch|Genie|ChickenLittle|PeterPan, DonaldFlareForce, DonaldFantasia, QuickRun:3, SecondChance, OnceMore",
+                    "^$dif|normal, ReflectElement:3, Guard, FireElement:3, ^$any|SlideDash|FlashStep, @Levels/Final level 7, QuickRun:3, ^$any|DonaldFlareForce|DonaldFantasia",
+                    "^$dif|hard, ReflectElement, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FIreElement:2, ^$any|DonaldFlareForce|DonaldFantasia, QuickRun:2",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Zexion Bonus: Goofy Slot 1",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_dgstats_yes, opt_superbosses_yes",
+                    "opt_dgstats_yes, opt_superbosses_no, opt_hide_locations_no"
+                ],
+                "access_rules": [
+                    "^$dif|easy, ReflectElement:3, Guard, FireElement:3, SlideDash, FlashStep, @Levels/Final level 7, ^$any|Stitch|Genie|ChickenLittle|PeterPan, DonaldFlareForce, DonaldFantasia, QuickRun:3, SecondChance, OnceMore",
+                    "^$dif|normal, ReflectElement:3, Guard, FireElement:3, ^$any|SlideDash|FlashStep, @Levels/Final level 7, QuickRun:3, ^$any|DonaldFlareForce|DonaldFantasia",
+                    "^$dif|hard, ReflectElement, ^$any|SlideDash|FlashStep, @Levels/Final level 5, FIreElement:2, ^$any|DonaldFlareForce|DonaldFantasia, QuickRun:2",
+                    "^$dif_override"
+                ]
+            }
+        ]
+    }
+]

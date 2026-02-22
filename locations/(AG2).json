@@ -1,81 +1,104 @@
 [
-                    {
-                        "name": "(AG2)",
-                        "chest_unopened_img": "/images/Items/close.png",
-                        "chest_opened_img": "/images/Items/open.png",
-                        "overlay_background": "#000000",
-                        "access_rules": ["scimitar:2, FireElement, BlizzardElement, ThunderElement","opt_visit_off, FireElement, BlizzardElement, ThunderElement"],
-                        
-
-                                        "sections": [
-                                    
-                            {
-                                "name": "Ruined Chamber Torn Pages",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement",
-                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|hard, FireElement, BlizzardElement, ThunderElement, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
-                            },
-                        
-                            {
-                                "name": "Ruined Chamber Ruins Map",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement",
-                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
-                                "^$dif|hard, FireElement, BlizzardElement, ThunderElement, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion"]
-                            },
-                        
-                            {
-                                "name": "Genie Jafar",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap",
-                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap",
-                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap",
-                                "^$dif|hard, FireElement, BlizzardElement, ThunderElement, ^$any|Guard|ReflectElement, FinishingPlus"]
-                            },
-                        
-                            {
-                                "name": "Wishing Lamp",
-                                "item_count": 1,
-                                "visibility_rules": [],
-                                "access_rules": ["^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap",
-                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap",
-                                "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap",
-                                "^$dif|hard, FireElement, BlizzardElement, ThunderElement, ^$any|Guard|ReflectElement, FinishingPlus"]
-                            },
-                        
-                            {
-                                "name": "Lexaeus Bonus: Sora Slot 1",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, @Levels/Final level 7, Guard, ReflectElement:2, FireElement:3, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, SlideDash, FlashStep",
-                                "^$dif|normal, @Levels/Final level 5, Guard, ReflectElement, FireElement:2, BlizzardElement, ThunderElement, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, ^$any|SlideDash|FlashStep, ^$any|DonaldFantasia|DonaldFlareForce",
-                                "^$dif|hard, FireElement, BlizzardElement, ThunderElement, ^$any|Guard|ReflectElement, FinishingPlus, ^$any|SlideDash|FlashStep"]
-                            },
-                        
-                            {
-                                "name": "AS Lexaeus",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, @Levels/Final level 7, Guard, ReflectElement:2, FireElement:3, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, SlideDash, FlashStep",
-                                "^$dif|normal, @Levels/Final level 5, Guard, ReflectElement, FireElement:2, BlizzardElement, ThunderElement, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, ^$any|SlideDash|FlashStep, ^$any|DonaldFantasia|DonaldFlareForce",
-                                "^$dif|hard, FireElement, BlizzardElement, ThunderElement, ^$any|Guard|ReflectElement, FinishingPlus, ^$any|SlideDash|FlashStep"]
-                            },
-                        
-                            {
-                                "name": "Data Lexaeus",
-                                "item_count": 1,
-                                "visibility_rules": ["opt_superbosses_yes", "opt_superbosses_no, opt_hide_locations_no"],
-                                "access_rules": ["^$dif|easy, @Levels/Final level 7, Guard, ReflectElement:2, FireElement:3, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, SlideDash, FlashStep",
-                                "^$dif|normal, @Levels/Final level 5, Guard, ReflectElement, FireElement:2, BlizzardElement, ThunderElement, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, ^$any|SlideDash|FlashStep, ^$any|DonaldFantasia|DonaldFlareForce",
-                                "^$dif|hard, FireElement, BlizzardElement, ThunderElement, ^$any|Guard|ReflectElement, FinishingPlus, ^$any|SlideDash|FlashStep"]
-                            }
-                        
-                            ]
-                            }
-                            ]
+    {
+        "name": "(AG2)",
+        "chest_unopened_img": "/images/Items/close.png",
+        "chest_opened_img": "/images/Items/open.png",
+        "overlay_background": "#000000",
+        "access_rules": [
+            "scimitar:2, FireElement, BlizzardElement, ThunderElement",
+            "opt_visit_off, FireElement, BlizzardElement, ThunderElement"
+        ],
+        "sections": [
+            {
+                "name": "Ruined Chamber Torn Pages",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": [
+                    "^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement",
+                    "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif|hard, FireElement, BlizzardElement, ThunderElement, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Ruined Chamber Ruins Map",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": [
+                    "^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement",
+                    "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif|hard, FireElement, BlizzardElement, ThunderElement, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Genie Jafar",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": [
+                    "^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap",
+                    "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap",
+                    "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap",
+                    "^$dif|hard, FireElement, BlizzardElement, ThunderElement, ^$any|Guard|ReflectElement, FinishingPlus",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Wishing Lamp",
+                "item_count": 1,
+                "visibility_rules": [],
+                "access_rules": [
+                    "^$dif|easy, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap",
+                    "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final, ^$any|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap",
+                    "^$dif|normal, ^$any|ValorForm|WisdomForm|LimitForm|MasterForm|final|Guard|ReflectElement, FireElement, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce|Teamwork|TornadoFusion, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap",
+                    "^$dif|hard, FireElement, BlizzardElement, ThunderElement, ^$any|Guard|ReflectElement, FinishingPlus",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Lexaeus Bonus: Sora Slot 1",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_superbosses_yes",
+                    "opt_superbosses_no, opt_hide_locations_no"
+                ],
+                "access_rules": [
+                    "^$dif|easy, @Levels/Final level 7, Guard, ReflectElement:2, FireElement:3, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, SlideDash, FlashStep",
+                    "^$dif|normal, @Levels/Final level 5, Guard, ReflectElement, FireElement:3, BlizzardElement, ThunderElement, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, ^$any|SlideDash|FlashStep, ^$any|DonaldFantasia|DonaldFlareForce",
+                    "^$dif|hard, FireElement, BlizzardElement, ThunderElement, ^$any|Guard|ReflectElement, FinishingPlus, ^$any|SlideDash|FlashStep",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "AS Lexaeus",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_superbosses_yes",
+                    "opt_superbosses_no, opt_hide_locations_no"
+                ],
+                "access_rules": [
+                    "^$dif|easy, @Levels/Final level 7, Guard, ReflectElement:2, FireElement:3, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, SlideDash, FlashStep",
+                    "^$dif|normal, @Levels/Final level 5, Guard, ReflectElement, FireElement:3, BlizzardElement, ThunderElement, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, ^$any|SlideDash|FlashStep, ^$any|DonaldFantasia|DonaldFlareForce",
+                    "^$dif|hard, FireElement, BlizzardElement, ThunderElement, ^$any|Guard|ReflectElement, FinishingPlus, ^$any|SlideDash|FlashStep",
+                    "^$dif_override"
+                ]
+            },
+            {
+                "name": "Data Lexaeus",
+                "item_count": 1,
+                "visibility_rules": [
+                    "opt_superbosses_yes",
+                    "opt_superbosses_no, opt_hide_locations_no"
+                ],
+                "access_rules": [
+                    "^$dif|easy, @Levels/Final level 7, Guard, ReflectElement:2, FireElement:3, BlizzardElement, ThunderElement, ^$any|DonaldFantasia|DonaldFlareForce, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, SlideDash, FlashStep",
+                    "^$dif|normal, @Levels/Final level 5, Guard, ReflectElement, FireElement:3, BlizzardElement, ThunderElement, FinishingPlus, ^$any|Explosion|GuardBreak|FinishingLeap, ^$any|SlideDash|FlashStep, ^$any|DonaldFantasia|DonaldFlareForce",
+                    "^$dif|hard, FireElement, BlizzardElement, ThunderElement, ^$any|Guard|ReflectElement, FinishingPlus, ^$any|SlideDash|FlashStep",
+                    "^$dif_override"
+                ]
+            }
+        ]
+    }
+]

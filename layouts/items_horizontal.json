@@ -121,19 +121,21 @@
                             
                                 "AerialSpiral",
                                 "AerialFinish",
+                                "LightandDarkness",
+                                "TrinityLimit",
+								"AerialRecovery"
+							],
+							[
                                 "AutoValor",
                                 "AutoWisdom",
                                 "AutoLimit",
                                 "AutoMaster",
                                 "AutoFinal",
-                                "LightandDarkness",
-                                "TrinityLimit"
-							],
-							[
-                                "DonaldFantasia",
+								"DonaldFantasia",
                                 "DonaldFlareForce",
                                 "TornadoFusion",
                                 "Teamwork"
+								
                             ]
                         ]
                     }
