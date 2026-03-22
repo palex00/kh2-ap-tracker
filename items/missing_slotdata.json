@@ -1,24 +1,24 @@
 [
     {
-        "name": "",
+        "name": "Missing Superbosses Slotdata",
         "type": "toggle",
         "img": "/images/items/invisible.png",
         "codes": "missing_Superbosses"
     },
     {
-        "name": "",
+        "name": "Missing Cups Slotdata",
         "type": "toggle",
         "img": "/images/items/invisible.png",
         "codes": "missing_Cups"
     },
     {
-        "name": "",
+        "name": "Missing Atlantica Toggle Slotdata",
         "type": "toggle",
         "img": "/images/items/invisible.png",
         "codes": "missing_AtlanticaToggle"
     },
     {
-        "name": "",
+        "name": "Missing Summon Level Slotdata",
         "type": "toggle",
         "img": "/images/items/invisible.png",
         "codes": "missing_SummonLevelLocationToggle"
