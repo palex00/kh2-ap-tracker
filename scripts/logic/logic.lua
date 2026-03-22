@@ -40,7 +40,7 @@ function final()
         if finalform then
 			-- print("Final: You have FinalForm")
             return normal
-        elseif lightanddarkness then
+        elseif lightanddarkness and forms then
 			-- print("Final: You have LAD so it's OOL")
             return ool
         end
