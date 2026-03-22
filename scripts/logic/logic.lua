@@ -16,25 +16,31 @@ function final()
     local ool = AccessibilityLevel.SequenceBreak
     local normal = AccessibilityLevel.Normal
     local stage = Tracker:FindObjectForCode('opt_finalform').CurrentStage
+    local forms = (has_bool("ValorForm") or has_bool("WisdomForm") or has_bool("LimitForm") or has_bool("MasterForm"))
+    local finalform = has_bool("FinalForm")
+    local lightanddarkness = has_bool("LightandDarkness")
 
     if stage == 2 then
 		-- print("Final: Forced")
-		if Tracker:FindObjectForCode('ValorForm').Active or Tracker:FindObjectForCode('WisdomForm').Active or Tracker:FindObjectForCode('LimitForm').Active or Tracker:FindObjectForCode('MasterForm').Active or Tracker:FindObjectForCode('FinalForm').Active then
+		if forms or finalform then
 			return normal
 		end
     elseif stage == 1 then
-		if Tracker:FindObjectForCode('LightandDarkness').Active or Tracker:FindObjectForCode('FinalForm').Active then
-			-- print("Final: LAD & You have it or you have Final Form itself")
+		if finalform then
+			-- print("Final: LAD & You have Final Form itself")
 			return normal
+        elseif lightanddarkness and forms then
+			-- print("Final: LAD & You LAD and Forms")
+            return normal
 		else
 			-- print("Final: LAD & but you don't have it")
 			return ool
 		end
     elseif stage == 0 then
-        if Tracker:FindObjectForCode('FinalForm').Active then
+        if finalform then
 			-- print("Final: You have FinalForm")
             return normal
-        elseif Tracker:FindObjectForCode('LightandDarkness').Active then
+        elseif lightanddarkness then
 			-- print("Final: You have LAD so it's OOL")
             return ool
         end
