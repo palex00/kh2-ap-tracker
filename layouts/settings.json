@@ -37,7 +37,8 @@
 								"opt_summon"
                             ],
                             [
-                                "opt_hide_locations"
+                                "opt_hide_locations",
+                                "hint_tracking"
                             ]
                         ]
                     }
