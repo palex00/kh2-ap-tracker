@@ -1,4 +1,3 @@
-
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/slot_options.lua")
@@ -6,24 +5,30 @@ ScriptHost:LoadScript("scripts/autotracking/map_swapping.lua")
 
 if Highlight then
     HIGHLIGHT_LEVEL= {
-        [0] = Highlight.Unspecified,
-        [1] = Highlight.Priority,
-        [2] = Highlight.NoPriority,
-        [3] = Highlight.Priority,
-        [4] = Highlight.Avoid,
-        [5] = Highlight.Priority,
-        [5] = Highlight.NoPriority
+        [10] = Highlight.Unspecified,
+        [20] = Highlight.Avoid,
+        [30] = Highlight.Priority,
+        [40] = Highlight.None,
+        [100] = Highlight.Unspecified,
+        [101] = Highlight.Priority,
+        [102] = Highlight.NoPriority,
+        [103] = Highlight.Priority,
+        [104] = Highlight.Avoid,
+        [105] = Highlight.Priority,
+        [106] = Highlight.NoPriority,
+        [107] = Highlight.Priority,
     }
 end
 
 HIGHLIGHT_PRIORITY =  {
-    [3] = 1,
-    [2] = 2,
-    [-1] = 3,
-    [1] = 4,
-    [0] = 5
+    [Highlight.Priority] = 1, -- priority
+    [Highlight.NoPriority] = 2, -- useful
+    [Highlight.Avoid] = 3, -- trap
+    [Highlight.Unspecified] = 4, -- filler
+    [Highlight.None] = 5 -- none
 }
 
+SAVED_HINTS = {}
 CUR_INDEX = -1
 SLOT_DATA = {}
 HINT_ID = {}
@@ -167,8 +172,8 @@ function onLocation(location_id, location_name)
         if location_obj then
             if location:sub(1, 1) == "@" then
                 location_obj.AvailableChestCount = location_obj.AvailableChestCount - 1
-                local current_total = CLEARED_LOCATIONS[v] or 0
-                CLEARED_LOCATIONS[v] = current_total + 1
+                local current_total = CLEARED_LOCATIONS[location_id] or 0
+                CLEARED_LOCATIONS[location_id] = current_total + 1
             else
                 location_obj.Active = true
             end
@@ -266,11 +271,30 @@ CLEARED_HINTS = {}
 function updateHints()
     if not Highlight then return end
     if has_bool("hint_tracking_off") then return end
+    
     CLEARED_HINTS = {}
     
+    for _, locations in pairs(LOCATION_MAPPING) do
+        for _, location in pairs(locations) do
+            if location:sub(1, 1) == "@" then
+                local obj = Tracker:FindObjectForCode(location)
+                obj.Highlight = 0
+            end
+        end
+    end
+    
+    local tracking_plus = has_bool("hint_tracking_on_plus")
     for _, hint in ipairs(SAVED_HINTS) do
         if hint.finding_player == PLAYER_ID then
             local mapped = LOCATION_MAPPING[hint.location]
+            local incoming_val = 0
+            
+            if hint.status == 0 then
+                incoming_val = HIGHLIGHT_LEVEL[100 + hint.item_flags]
+            else
+                incoming_val = HIGHLIGHT_LEVEL[hint.status]
+            end
+            
             local locations = (type(mapped) == "table") and mapped or { mapped }
     
             -- we loop over all hinted locations
@@ -278,30 +302,35 @@ function updateHints()
                 -- Only sections (items don't support Highlight)
                 if location:sub(1, 1) == "@" then
                     local obj = Tracker:FindObjectForCode(location)
-                    if has_bool("hint_tracking_on_plus") then
-                        if HIGHLIGHT_LEVEL[hint.item_flags] == 3 then
-                            obj.Highlight = HIGHLIGHT_LEVEL[hint.item_flags]
-                        else
-                            local current_total = CLEARED_HINTS[location] or 0
-                            CLEARED_HINTS[location] = current_total + 1
+                    if tracking_plus then
+                        if hint.found == false then
+                            if incoming_val == Highlight.Priority then
+                                obj.Highlight = incoming_val
+                            else
+                                local current_total = CLEARED_HINTS[location] or 0
+                                CLEARED_HINTS[location] = current_total + 1
+                            end
                         end
                     else
                         local current_val = obj.Highlight
-                        local incoming_val = HIGHLIGHT_LEVEL[hint.item_flags]
-
                         if current_val == nil or HIGHLIGHT_PRIORITY[incoming_val] < HIGHLIGHT_PRIORITY[current_val] then
                             obj.Highlight = incoming_val
                         end
                     end
                 end
             end
-            for location, count in pairs(CLEARED_HINTS) do
-                local obj = Tracker:FindObjectForCode(location)
-                local cleared = CLEARED_LOCATIONS[location] or 0
-                obj.AvailableChestCount = obj.ChestCount - count - cleared
-                if obj.AvailableChestCount == 0 then
-                    obj.Highlight = 0
-                end
+
+            ::continue_hint::
+        end
+    end
+
+    if tracking_plus then
+        for location, count in pairs(CLEARED_HINTS) do
+            local obj = Tracker:FindObjectForCode(location)
+            local cleared = CLEARED_LOCATIONS[location] or 0
+            obj.AvailableChestCount = obj.ChestCount - count - cleared
+            if obj.AvailableChestCount == 0 then
+                obj.Highlight = 0
             end
         end
     end
